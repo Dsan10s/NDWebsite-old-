@@ -25,25 +25,50 @@ ndapp.controller('homepageController', function($scope, navService) {
               $("#brotherhood").animate({"margin-top": "850px"}, 750, function(){
                 $(this).hide();
               });
-              $("body").animate({"background": "url(Images/Background.PNG) no-repeat center center fixed"}, 750)
-              $(".container-fluid").animate({"width": "97.916666666666666666666666666667%" /*"auto"*/, "height": "100%", "margin-left": "0px", "opacity": 1, "margin-top": 0}, 750, function(){
-                /*$(".container-fluid").css("width", $(".container-fluid").width());*/
-                $(".container-fluid").css("position", "relative").css("margin-left", "auto").css("margin-right", "auto").css("display", "block");
+              $("body").animate({"background": "url(Images/Background.PNG) no-repeat center center fixed"}, 750);
+
+              $(".container-fluid").animate({"width": "97.916666666666666666666666666667%" /*"auto"*/, 
+                                             "height": "100%", 
+                                             "margin-left": "0px", 
+                                             "opacity": 1, 
+                                             "margin-top": 0}, 750, function(){
+
+                $(".container-fluid").css("position", "relative")
+                                     .css("margin-left", "auto")
+                                     .css("margin-right", "auto")
+                                     .css("display", "block");
 
                  // Left Section
-                $(".eventsWell").height($(".section").height() - (parseInt($(".section").css("padding"))) - (parseInt($(".eventsWell").css("padding")) * 2))
-                $(".eventsContent").height($(".eventsWell").height() - $(".eventsWell legend").height() - parseInt($(".eventsWell legend").css("margin-bottom")) - $(".eventsWell .row").height());
+                $(".eventsWell").height($(".section").height()
+                                        - (parseInt($(".section").css("padding"))) 
+                                        - (parseInt($(".eventsWell").css("padding")) * 2));
+                $(".eventsContent").height($(".eventsWell").height() 
+                                           - $(".eventsWell legend").height() 
+                                           - parseInt($(".eventsWell legend").css("margin-bottom")) 
+                                           - $(".eventsWell .row").height());
 
                 // Middle Section
-                $(".wordPresWell").height($(".section").height() - (parseInt($(".section").css("padding")) * 2) - $(".wordPresSection legend").height() - parseInt($(".wordPresSection legend").css("margin-bottom")) - (parseInt($(".wordPresWell").css("padding")) * 2))
-                $(".wordPresTextContainer").height($(".wordPresWell").height() - (parseInt($(".wordPresWell").css("padding")) * 2) - $(".wordPresWell legend").height() - parseInt($(".wordPresWell legend").css("margin-bottom")) - $(".wordPresWell h3").height())
+                $(".wordPresWell").height($(".section").height() 
+                                          - (parseInt($(".section").css("padding")) * 2) 
+                                          - $(".wordPresSection legend").height() 
+                                          - parseInt($(".wordPresSection legend").css("margin-bottom")) 
+                                          - (parseInt($(".wordPresWell").css("padding")) * 2));
+                $(".wordPresTextContainer").height($(".wordPresWell").height() 
+                                                   - (parseInt($(".wordPresWell").css("padding")) * 2) 
+                                                   - $(".wordPresWell legend").height() 
+                                                   - parseInt($(".wordPresWell legend").css("margin-bottom")) 
+                                                   - $(".wordPresWell h3").height());
 
                 // Right Section
                 $(".leftWell").height($(".section").height() * 0.42);
-                $(".brosContent").height($(".leftWell").height() - (parseInt($(".leftWell").css("padding"))) - $(".leftWell legend").height() - parseInt($(".leftWell legend").css("margin-bottom")))
-                $(".aboutContent").height($(".leftWell").height() - (parseInt($(".leftWell").css("padding"))) - $(".leftWell legend").height() - parseInt($(".leftWell legend").css("margin-bottom")))
-               
-
+                $(".brosContent").height($(".leftWell").height() 
+                                         - (parseInt($(".leftWell").css("padding"))) 
+                                         - $(".leftWell legend").height() 
+                                         - parseInt($(".leftWell legend").css("margin-bottom")));
+                $(".aboutContent").height($(".leftWell").height() 
+                                          - (parseInt($(".leftWell").css("padding"))) 
+                                          - $(".leftWell legend").height() 
+                                          - parseInt($(".leftWell legend").css("margin-bottom")));
               });
               
               $(".presTitle").animate({"opacity": 1, "font-size": "38.5px"}, 750);
@@ -102,6 +127,7 @@ ndapp.controller('homepageController', function($scope, navService) {
       }
     }
 
+    /** TODO: Stop using functions for layout */
     function sizingJS() {
       if ($(window).width() < 1100){
         smallScreenLayout();
