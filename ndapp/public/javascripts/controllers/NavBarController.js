@@ -18,7 +18,7 @@ ndapp.controller('navbarController', function($scope, navService) {
 
   var helpers = (function() {
     function animateHeaderIntro() {
-      if (navService.getHeaderIntro()) {}
+      if (navService.getHeaderIntro()) {
         $(".header").css("margin-top", "0px");
         $('.header').animate({"margin-top": "0px"}, 3000).animate({"margin-top": "-140px"}, 750, function(){
           navService.setHeaderIntro(false);
