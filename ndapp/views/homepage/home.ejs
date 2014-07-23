@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/homepage.css">
+<script type="text/javascript" src="javascripts/controllers/HomePageController.js"></script>
+<div  class="bgContainer">
+  <!-- <img class = "background" src="Images/Background.PNG"> --> 
+  <!-- <img class = "background" src = "Images/NDPattern2.PNG"> -->
+  <div id="trpDiv">
+    <h1 id="trust">Trust</h1>
+    <h1 id="respect">Respect</h1>
+    <h1 id="brotherhood">Brotherhood</h1>
+  </div>
+</div>
+<div ng-controller="homepageController" class="container-fluid" id = "mainContainer">
+
+  <div ng-if="viewModel.windowWidth < 1100"><%- partial('homepage/smallLayout') %></div>
+  <div ng-if="viewModel.windowWidth >= 1100"><%- partial('homepage/wideLayout') %></div>
+
+</div>
