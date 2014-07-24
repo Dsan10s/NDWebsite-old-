@@ -60,48 +60,48 @@ ndapp.controller('navbarController', function($scope, ndService) {
     // });
 
     var glow;
-    // (function d3Init() {
-    //   glow = d3.select(".glowContainer")
-    //            .append("svg")
-    //            .attr("class", "iconGlow")
-    //            .attr("width", "120px")
-    //            .attr("height", "120px")
-    //            .append("circle")
-    //            .attr("cx", 60)
-    //            .attr("cy", 60)
-    //            .attr("r", 39)
-    //            .attr("fill", "white");
-    // })();
+    (function d3Init() {
+      glow = d3.select(".glowContainer")
+               .append("svg")
+               .attr("class", "iconGlow")
+               .attr("width", "120px")
+               .attr("height", "120px")
+               .append("circle")
+               .attr("cx", 60)
+               .attr("cy", 60)
+               .attr("r", 39)
+               .attr("fill", "white");
+    })();
     
-    // $(".phoenixIcon").hover(function(){
-    //   $(this).animate({"opacity": "1"}, 150);
-    //   glow.transition()
-    //       .attr("r", 50)
-    //       .duration(500);/*.attr("opacity", 0).duration(1500)*/;
+    $(".phoenixIcon").hover(function(){
+      $(this).animate({"opacity": "1"}, 150);
+      glow.transition()
+          .attr("r", 50)
+          .duration(500);/*.attr("opacity", 0).duration(1500)*/;
 
-    //   $(".iconGlow").animate({"opacity": 1}, 100).animate({"opacity": 0}, 400); 
-    //   glow.transition()
-    //       .attr("r", 39)
-    //       .duration(1)
-    //       .delay(500);
+      $(".iconGlow").animate({"opacity": 1}, 100).animate({"opacity": 0}, 400); 
+      glow.transition()
+          .attr("r", 39)
+          .duration(1)
+          .delay(500);
 
-    //   $(".iconGlow").animate({"opacity": 1}, 1);
-    // }, function(){
-    //   $(this).animate({"opacity": "0"}, 150);
-    // });
+      $(".iconGlow").animate({"opacity": 1}, 1);
+    }, function(){
+      $(this).animate({"opacity": "0"}, 150);
+    });
 
-    // $(".phoenixIcon").on("click", function(){
-    //   glow.transition()
-    //       .attr("r", 50)
-    //       .duration(500);/*.attr("opacity", 0).duration(1500)*/;
+    $(".phoenixIcon").on("click", function(){
+      glow.transition()
+          .attr("r", 50)
+          .duration(500);/*.attr("opacity", 0).duration(1500)*/;
 
-    //   $(".iconGlow").animate({"opacity": 1}, 100).animate({"opacity": 0}, 400); 
-    //   glow.transition()
-    //       .attr("r", 40)
-    //       .duration(1)
-    //       .delay(500);
-    //   $(".iconGlow").animate({"opacity": 1}, 1);  
-    // });
+      $(".iconGlow").animate({"opacity": 1}, 100).animate({"opacity": 0}, 400); 
+      glow.transition()
+          .attr("r", 40)
+          .duration(1)
+          .delay(500);
+      $(".iconGlow").animate({"opacity": 1}, 1);  
+    });
   }
 
 });
