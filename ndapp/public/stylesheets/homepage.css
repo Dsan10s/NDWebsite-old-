@@ -189,7 +189,7 @@ h4, h5, h6, p{
 .monthText{
   border-color: black;
 }
-.monthEvents{
+.monthEvent{
   color: black;
   background-color: white;
   height: 90px;

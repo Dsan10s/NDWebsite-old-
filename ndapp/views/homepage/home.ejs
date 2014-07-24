@@ -11,7 +11,11 @@
 </div>
 <div ng-controller="homepageController" class="container-fluid" id = "mainContainer">
 
-  <div ng-if="viewModel.windowWidth < 1100"><%- partial('homepage/smallLayout') %></div>
-  <div ng-if="viewModel.windowWidth >= 1100"><%- partial('homepage/wideLayout') %></div>
+  <div ng-if="viewModel.windowWidth < 1100">
+    <%- partial('homepage/partials/smallLayout') %>
+  </div>
+  <div ng-if="viewModel.windowWidth >= 1100">
+    <%- partial('homepage/partials/wideLayout') %>
+  </div>
 
 </div>

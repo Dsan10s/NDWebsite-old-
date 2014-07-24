@@ -3,15 +3,33 @@ var ndapp = angular.module('ndapp');
 ndapp.controller('homepageController', function($scope, ndService) {
 
   $scope.viewModel = {
-    windowWidth: $(window).width()
+    windowWidth: $(window).width(), 
+    monthsWithEvents: [], 
+    futureEvents: {}
   }
 
   var setViewModel = function() {
     $scope.viewModel.windowWidth = $(window).width();
+    var futureEvents = getFutureEvents();
+    $scope.viewModel.monthsWithEvents = Object.keys(futureEvents);
+    $scope.viewModel.futureEvents = futureEvents;
+    $scope.$apply();
   }
 
   var private = (function() {
     return {
+      monthArray: ["January", 
+                   "February", 
+                   "March", 
+                   "April", 
+                   "May", 
+                   "June", 
+                   "July", 
+                   "August", 
+                   "September",  
+                   "October", 
+                   "November", 
+                   "December"], 
       monthsWithEvents: [], 
       animate: true, 
       brotherEvents: []
@@ -195,7 +213,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
   var init = (function() {
     ndService.ajax.brotherEventsDeferred().done(function(data) {
       ndService.headerIntroDeferred.resolve(true);
-      
+
       private.brotherEvents = data.events;
 
       setViewModel();
@@ -204,7 +222,6 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
       helpers.animateIntro();
 
-      addMonthsAndEventsInOrder();
       helpers.sizingJS();
       $(window).resize(function() {
         var windowWidth = $(window).width();
@@ -234,115 +251,33 @@ ndapp.controller('homepageController', function($scope, ndService) {
           $(this).animate({backgroundColor: "#d7ffc4"}, 150);
         }
       }
-    }, ".monthEvents");
+    }, ".monthEvent");
   }
 
-  function addMonthsAndEventsInOrder(){
-  
-    var monthArray =  ["January", "February", "March", "April", "May", "June", "July", "August", "September",  "October", "November", "December"];
-    var date = new Date();
-    var monthNum = date.getMonth();
-    var yearNum = date.getFullYear();
-
-    var eventMonthArray = [];
-
-    for (var i in private.brotherEvents){
-      eventMonthArray.push(private.brotherEvents[i].Month)
-    }
-    var monthEventIndex = eventMonthArray.indexOf(monthArray[monthNum]);
-    
-    for (var i = monthNum; i <= 11; i++){
-      var month = monthArray[i];
-      var newMonth = $('<div class = "' + month + '"></div>');
-      var newMonthHeader = $('<legend class = "monthText"></legend>');
-
-      private.monthsWithEvents.push(month);
-      newMonth.append(newMonthHeader);
+  function getFutureEvents() {
+    var futureEvents = {};
+    for (var i = 0; i < private.brotherEvents.length; i++) {
+      var thisEvent = private.brotherEvents[i];
+      var thisDate = thisEvent.dateString;
+      var month = moment(thisDate).format('MMMM');
       
-      $(".eventsContent").append(newMonth);
-      addEventsToMonths(month);
-      // console.log(newMonth.children().length);
-      if (newMonth.children().length !== 1){            
-        newMonthHeader.append(month);
-      }else{
-        newMonth.html("")
-      }      
-    }    
-    for (var i = 0; i < monthNum; i++){
-      var month = monthArray[i];
-      var newMonth = $('<div class = "' + month + '"></div>');
-      var newMonthHeader = $('<legend class = "monthText"></legend>');
 
-      private.monthsWithEvents.push(month);
-      newMonth.append(newMonthHeader);
-      
-      $(".eventsContent").append(newMonth);
-      addEventsToMonths(month);
-      
-      if (newMonth.children().length !== 1){      
-        newMonthHeader.append(month);
-      }else{
-        newMonth.html("")
-      }  
-    }
-  }
+      var now = new Date();
 
-  function addEventsToMonths(month){
-    var monthArray =  ["January", "February", "March", "April", "May", "June", "July", "August", "September",  "October", "November", "December"];
-    if (private.monthsWithEvents.indexOf(month) != -1){
-      private.monthsWithEvents.push(month);
-    }
+      var thisMoment = moment(thisDate);
+      var nowMoment = moment(now);
 
-    var date = new Date();
-    var monthNum = date.getMonth();
-    var yearNum = date.getFullYear();
-    // console.log("currentMonthNum: " + monthNum);
-    // console.log("currentMonth: " + monthArray[monthNum]);
+      var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);
 
-    var eventMonthArray = [];
-    for (var i in private.brotherEvents){
-      eventMonthArray.push(private.brotherEvents[i].Month)
-    }
-      
-      var monthEventIndex = eventMonthArray.indexOf(monthArray[monthNum])
-      for (var i = 0; i <= private.brotherEvents.length -1; i++){
-        // console.log("month: " + month + "_|_yearNum: " + yearNum + "_|_private.brotherEventsYear: " + private.brotherEvents[i].Year)
-        if (month == private.brotherEvents[i].Month && ( (yearNum == parseInt(private.brotherEvents[i].Year) && monthNum <= private.brotherEvents[i].MonthNum) || (yearNum < parseInt(private.brotherEvents[i].Year)) ) ){
-
-            var newEvent = $('<div class = "monthEvents"></div>');
-            var newEventTitle = $('<h4 class = "eventTitle"></h4>');
-            var newEventDate = $('<h6 class = "eventDate"></h6>');
-            var newEventTime = $('<h6 class = "eventTime"></h6>');
-            var newEventLocation = $("<h6 class = 'eventLocation'></h6>")
-            var newEventDescription = $('<p class = "eventDescription"></p>');
-            newEvent.append(newEventTitle, newEventDate, newEventTime);
-            if(private.brotherEvents[i].Location != ""){
-              newEvent.append(newEventLocation);
-            }
-            newEvent.append(newEventDescription);
-
-            newEventTitle.append(private.brotherEvents[i].Name);
-            newEventDate.append(private.brotherEvents[i].DayOfWeek + ", " + private.brotherEvents[i].Month + " " + private.brotherEvents[i].Day + " " + private.brotherEvents[i].Year);
-            newEventTime.append(private.brotherEvents[i].Time);
-            newEventLocation.append(private.brotherEvents[i].Location)
-            newEventDescription.append(private.brotherEvents[i].Description);
-
-            var newEventMonth = private.brotherEvents[i].Month;
-            $("." + month).append(newEvent);
-            if (private.brotherEvents[i].TypeOf == "Rush"){
-              newEvent.attr("id", private.brotherEvents[i].TypeOf)
-              newEvent.css("background-color", "#ffc4c4");
-            }else if(private.brotherEvents[i].TypeOf == "CPW"){
-              newEvent.attr("id", private.brotherEvents[i].TypeOf)
-              newEvent.css("background-color", "#cdccff");
-            }else if(private.brotherEvents[i].TypeOf == "Other Events"){
-              newEvent.attr("id", private.brotherEvents[i].TypeOf)
-              newEvent.css("background-color", "#d7ffc4");
-            }
-          
+      if (isFuture) {
+        if (!(month in futureEvents)) {
+          futureEvents[month] = [];
         }
+        thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
+        futureEvents[month].push(thisEvent);
       }
-    /*}*/
+    }
+    return futureEvents;
   }
 
   function enableNewCssAnimations() {
