@@ -38,7 +38,7 @@ h4, h5, h6, p{
 	margin-left: -40px;
 	position: absolute;
 }
-.iconGlow{
+.glowContainer{
 	width: 120px;
 	height: 120px;
 	margin-top: 15px;
