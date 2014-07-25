@@ -19,4 +19,9 @@ module.exports = function(app) {
   app.get('/brothers', function(req, res) {
     res.render('brothers/brotherHome', {title: "N&Delta; Brothers"})
   });
+
+  app.get('/brothers/:classYear', function(req, res) {
+    var classYear = req.params.classYear;
+    res.render('brothers/brotherClass', {title: "N&Delta; Class of " + classYear, classYear: classYear});
+  });
 }

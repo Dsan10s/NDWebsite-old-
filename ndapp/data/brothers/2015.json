@@ -1,0 +1,101 @@
+{
+  "Christian Mata": {
+    "id": 1,
+    "major": "6-2: Computer Science and Electrical Engineering",
+    "hometown": "Houston, Texas",
+    "highSchool": "Macarthur High School",
+    "bigBro": "Christian Londo&ntilde;o",
+    "littleBro": "<br> <b>Little Bro</b>: Calvin Li ('16)",
+    "officesHeld": "Steward (2012)",
+    "extraInfo": "<b>Internships</b>: Hewlett-Packard, Qualcomm",
+    "jumboSrc": "Images/2015/Mata/MataJumbo.png"
+  },
+  "Makai Cartman": {
+    "id": 2,
+    "major": "2: Mechanical Engineering",
+    "hometown": "Houston, Texas",
+    "highSchool": "Westside High School",
+    "bigBro": "Angel Batista ('14)",
+    "littleBro": "<br> <b>Little Bro</b>: Eric Shirley ('16)",
+    "officesHeld": "Social Chair (2012), Vice President (2013)",
+    "extraInfo": "<b>Internships</b>: NASA JPL <br> <b>Favorite Quote</b>: 'Don't ever let somebody tell you, you can't do something. You got a dream, you gotta protect it. People can't do something themselves, they wanna tell you, you can't do it. You want something? Go get it. Period.'",
+    "jumboSrc": "Images/2015/Makai/MakaiJumbo.png"
+  },
+  "Franscisco Pe&ntilde;a": {
+    "id": 3,
+    "major": "9: Brain & Cognitive Sciences",
+    "hometown": "McAllen, Texas",
+    "highSchool": "Memorial High School",
+    "bigBro": "Chris Kelly",
+    "littleBro": "<br> <b>Little Bro</b>: Aaron Okello ('16)",
+    "officesHeld": "Social Chair (2012), Pledge Trainer (2013)",
+    "extraInfo": "",
+    "jumboSrc": "Images/2015/Frank/FrankJumbo.png"
+  },
+  "Paul Dawson": {
+    "id": 4,
+    "major": "20: Biological Engineering",
+    "hometown": "Stone Mountain, Georgia",
+    "highSchool": "Greater Atlanta Christian School",
+    "bigBro": "Nahom Workie ('13)",
+    "littleBro": "",
+    "officesHeld": "",
+    "extraInfo": "<b>Interests</b>: Basketball",
+    "jumboSrc": "Images/2015/Paul/PaulJumbo.png"
+  },
+  "Ebenezer Sefah Jr.": {
+    "id": 5,
+    "major": "6-2: Electrical Engineering and Computer Science",
+    "hometown": "Koforidua, Ghana",
+    "highSchool": "United World College-USA",
+    "bigBro": "Kojo Welbeck",
+    "littleBro": "<br> <b>Little Bro</b>: Brian Wilcox ('16)",
+    "officesHeld": "",
+    "extraInfo": "<b>Favorite Quote</b>: 'God, grant me the serenity to accept the things I cannot change, Courage to change the things I can, And wisdom to know the difference.'",
+    "jumboSrc": "Images/2015/EJ/EJJumbo.png"
+  },
+  "Alexander Kendrick": {
+    "id": 6,
+    "major": "10: Chemical Engineering",
+    "hometown": "Newnan, Georgia",
+    "highSchool": "Newnan High School",
+    "bigBro": "Chris Davis ('14)",
+    "littleBro": "",
+    "officesHeld": "House Manager (2012)",
+    "extraInfo": "<b>Favorite Quotes</b>: 'It's not how hard you hit the ground.  It's how fast you get back up and go.'",
+    "jumboSrc": "Images/2015/Kendrick/KendrickJumbo.png"
+  },
+  "Saulo Mendoza": {
+    "id": 7,
+    "major": "20: Biological Engineering",
+    "hometown": "Los Angeles, California",
+    "highSchool": "John H. Francis Polytechnic High School",
+    "bigBro": "Peter Lee ('13)",
+    "littleBro": "",
+    "officesHeld": "",
+    "extraInfo": "<b>Interests</b>: Playing bass, playing guitar, creating music, tennis",
+    "jumboSrc": "Images/2015/Saulo/SauloJumbo.png"
+  },
+  "Fidelis Chimomobe": {
+    "id": 8,
+    "major": "6-2: Electrical Engineering and Computer Science",
+    "hometown": "Nyanga, Zimbabwe",
+    "highSchool": "Nyanga Boys High, Marist Brothers",
+    "bigBro": "Kwami Williams",
+    "littleBro": "",
+    "officesHeld": "",
+    "extraInfo": "<b>Interests</b>: Charity mission in Africa and Actuarial Science <br> <b>Favorite Quotes</b>: 'Tot Facienda Parum Fectum', 'Ad Majorem Dei Glorium'",
+    "jumboSrc": "Images/2015/Fidelis/FidelisJumbo.png"
+  },
+  "David McClelland": {
+    "id": 9,
+    "major": "2: Mechanical Engineering",
+    "hometown": "Waukegan, Illinois",
+    "highSchool": "Waukegan High School",
+    "bigBro": "Jonathan Thomas",
+    "littleBro": "<br> <b>Little Bro</b>: Anish Punjabi ('16)",
+    "officesHeld": "Rush Chair (2013), Athletic Chair (2012)",
+    "extraInfo": "<b>Internships</b>: Abbott Labs <br> <b>Favorite Quotes</b>: 'Never forget the moment you began to doubt, transition in from fitting in to standing out.'",
+    "jumboSrc": "Images/2015/David/DavidJumbo.png"
+  }
+}

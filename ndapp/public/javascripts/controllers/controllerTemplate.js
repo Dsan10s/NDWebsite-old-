@@ -32,17 +32,13 @@ ndapp.controller('Controller', function($scope, ndService) {
   })();
 
   var init = (function() {
-    ndService.ajax.brotherEventsDeferred().done(function(data) {
-      ndService.headerIntroDeferred.resolve(false);
+    ndService.headerIntroDeferred.resolve(false);
 
-      private.brotherEvents = data.events;
+    setViewModel();
 
-      setViewModel();
-
-      helpers.sizingJS();
-      $(window).resize(function() {
-        helpers.responsiveJS();
-      });
+    helpers.sizingJS();
+    $(window).resize(function() {
+      helpers.responsiveJS();
     });
   })();
 

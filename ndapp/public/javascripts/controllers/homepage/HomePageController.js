@@ -32,7 +32,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
                    "December"], 
       monthsWithEvents: [], 
       animate: true, 
-      brotherEvents: []
+      events: []
     }
   })();
 
@@ -211,10 +211,10 @@ ndapp.controller('homepageController', function($scope, ndService) {
   })();
 
   var init = (function() {
-    ndService.ajax.brotherEventsDeferred().done(function(data) {
+    ndService.ajax.eventsDeferred().done(function(data) {
       ndService.headerIntroDeferred.resolve(true);
 
-      private.brotherEvents = data.events;
+      private.events = data.events;
 
       setViewModel();
       eventHandlers();
@@ -256,8 +256,8 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
   function getFutureEvents() {
     var futureEvents = {};
-    for (var i = 0; i < private.brotherEvents.length; i++) {
-      var thisEvent = private.brotherEvents[i];
+    for (var i = 0; i < private.events.length; i++) {
+      var thisEvent = private.events[i];
       var thisDate = thisEvent.dateString;
       var month = moment(thisDate).format('MMMM');
       

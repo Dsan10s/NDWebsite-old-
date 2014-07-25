@@ -1,0 +1,85 @@
+{  
+  "Amin Manna": {
+    "id": 1,
+    "major": "6-3: Computer Science",
+    "hometown": "Jerusalem, Palestine",
+    "highSchool": "",
+    "bigBro": "Saul Lopez",
+    "littleBro": "",
+    "officesHeld": "Assistant Work Week Chair (2013)",
+    "extraInfo": "",
+    "jumboSrc": "Images/2017/Amin/AminHS.jpg"
+  },
+
+  "Moti Ogunsina": {
+    "id": 2,
+    "major": "2: Mechanical Engineering",
+    "hometown": "Texas",
+    "highSchool": "Garland High School",
+    "bigBro": "Ebenezer Sefah Jr. ('15)",
+    "littleBro": "",
+    "officesHeld": "Chaplain (2013)",
+    "extraInfo": "<b>Interests</b>: Singing, Video Games, Basketball, Anime, Superhero Shows, Public Speaking, Debate, Philospophy, Religion <br> <b>Activities</b>: CRU, MIT Logarhythms <br> <b>UROPs</b>: Laboratory for Biomechanics and Human Rehabilitation (Fall 2013)",
+    "jumboSrc": "Images/2017/Moti/MotiJumbo.jpg"
+  },
+
+  "Alan Samboy": {
+    "id": 4,
+    "major": "2: Mechanical Engineering",
+    "hometown": "Queretaro, Mexico",
+    "highSchool": "Tec de Monterrey",
+    "bigBro": "Peter Lee ('13)",
+    "littleBro": "",
+    "officesHeld": "Social Chair (2013)",
+    "extraInfo": "<b>Interests</b>: Traveling, Languages, Volleyball, People! <br> <b>Activites</b>: Rowing Crew, Associate Advisor, International Mentor <br> <b>Favorite Quote</b>: 'Be who you are and say what you feel because those who mind don't matter and those who matter don't mind.' <br>",
+    "jumboSrc": "Images/2017/Alan/AlanJumbo.jpg"
+  },
+
+  "Narindra Peaks": {
+    "id": 5,
+    "major": "6-3: Computer Science",
+    "hometown": "Thiells, New York",
+    "highSchool": "North Rockland High School",
+    "bigBro": "Sebastian Leon ('14)",
+    "littleBro": "",
+    "officesHeld": "Webmaster (2013), IFC Delegate (2013)",
+    "extraInfo": "<b>Interests</b>: Tennis, Music, Video Editing & Visual Effects, Graphic Design, Programming <br> <b>Activites</b>: MIT Symphony Orchestra, Dance Troupe <br> <b>UROPs</b>: MITx (edX)",
+    "jumboSrc": "Images/2017/Narindra/NarindraJumbo.jpg"
+  },
+
+  "James Rivera": {
+    "id": 6,
+    "major": "2: Mechanical Engineering",
+    "hometown": "Racine, Wisconson",
+    "highSchool": "William Horlick High School",
+    "bigBro": "Makai Cartman ('15)",
+    "littleBro": "",
+    "officesHeld": "Treasurer (2013), Assistant Work Week Chair (2013), Assistant Rush Chair (2013)",
+    "extraInfo": "<b>Interests</b>: Volleyball, DJing, Hip-hop dance <br> <b>Activites</b>: Dance Troupe, Club Volleyball <br> <b>UROPs</b>: Space Systems Lab (REXIS)",
+    "jumboSrc": "Images/2017/James/JamesJumbo.jpg"
+  },
+
+  "Carlos Henriquez": {
+    "id": 8,
+    "major": "6-3: Computer Science",
+    "hometown": "Oakland, California",
+    "highSchool": "Head-Royce School",
+    "bigBro": "Christian Mata ('15)",
+    "littleBro": "",
+    "officesHeld": "Steward (2013)",
+    "extraInfo": "<b>Interests</b>: Dancing, Basketball <br> <b>Activites</b>: Dance Troupe <br> <b>UROPs</b>: Space Systems Lab (Zero Robotics) <br> <b>Favorite Quote</b>: 'God grant me the serenity to accept the things I can't change, the course to change the things I can, and the wisdom to know the difference'",
+    "jumboSrc": "Images/2017/Carlos/CarlosJumbo.jpg"
+  },
+
+  "Fred Daso": {
+    "id": 9,
+    "major": "6-3: Computer Science",
+    "hometown": "Colorado",
+    "highSchool": "",
+    "bigBro": "",
+    "littleBro": "",
+    "officesHeld": "",
+    "extraInfo": "",
+    "jumboSrc": "Images/2017/Fred/FredJumbo.jpg"
+  }
+}

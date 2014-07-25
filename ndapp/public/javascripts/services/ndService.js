@@ -6,16 +6,25 @@ ndapp.service('ndService', function() {
 
   var ajax = (function() {
 
-    function brotherEventsDeferred() {
-      return $.getJSON('/data/brotherEvents', function (data) {
+    function eventsDeferred() {
+      return $.getJSON('/data/events', function (data) {
         return data;
       }).fail(function(e) {
-        console.log("ERROR: failed to retrieve brotherEvents:", e);
+        console.log("ERROR: failed to retrieve events:", e);
       });
     }
 
+    function brothersDeferred(classYear) {
+      return $.getJSON('/data/brothers/' + classYear, function(data) {
+        return data;
+      }).fail(function(e) {
+        console.log("ERROR: failed to retrieve brothers:", e);
+      })
+    }
+
     return {
-      brotherEventsDeferred: brotherEventsDeferred
+      eventsDeferred: eventsDeferred, 
+      brothersDeferred: brothersDeferred
     }
   })();
   

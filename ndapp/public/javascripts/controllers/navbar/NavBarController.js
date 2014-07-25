@@ -7,10 +7,10 @@ ndapp.controller('navbarController', function($scope, ndService) {
   };
 
   (function setViewModel() {
-    var links = [{"text": "Home", "href": "home"}, 
-                 {"text": "Brothers", "href": "brothers"}, 
-                 {"text": "House", "href": "house"}, 
-                 {"text": "About Us", "href": "about"}];
+    var links = [{"text": "Home", "href": "/home"}, 
+                 {"text": "Brothers", "href": "/brothers"}, 
+                 {"text": "House", "href": "/house"}, 
+                 {"text": "About Us", "href": "/about"}];
 
     $scope.viewModel.links = links;
   })();

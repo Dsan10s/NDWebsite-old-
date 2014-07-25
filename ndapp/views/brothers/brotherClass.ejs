@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="/stylesheets/brothers/brotherClass.css">
+<script type="text/javascript">
+  var brotherClassViewVars = {
+    classYear: <%- classYear %>
+  }
+</script>
+<script type="text/javascript" src="/javascripts/controllers/brothers/BrotherClassController.js"></script>
+
+<div ng-controller="brotherClassController" class = "container" id = "mainBody">
+  <!-- Person Info -->
+  <div class = "jumbotronNew">
+    <div class = "container" id = "initContainer">
+      <div class = "row">
+        <div class = "span4"><img class = "thumbnail" src = "http://www.barnardlevit.co.uk/themes/barnardlevit/img/staff-pic-placeholder.gif"></div>
+        <div class = "span8"><h3>Click on a person down below!</h3></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Individual People -->
+  <div class = "row">
+    <div class = "span1"></div>
+    <div class = "span2">
+      <div class = "panel" id = "1">
+        <div class = "thumbnail">
+          <div class = 'headShotPicContainer'>
+            <img class = 'headShotPic' src = "Images/2016/Anthony/AnthonyHS.png">
+          </div>
+        </div>
+        <div class = "panel-footer">Anthony Pennes</div>
+      </div>
+    </div>
+  </div>
+</div>
