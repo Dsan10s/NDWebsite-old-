@@ -20,8 +20,19 @@ module.exports = function(app) {
     res.render('brothers/brotherHome', {title: "N&Delta; Brothers"})
   });
 
-  app.get('/brothers/:classYear', function(req, res) {
+  app.get('/brothers/:classYear', function(req, res, next) {
     var classYear = req.params.classYear;
-    res.render('brothers/brotherClass', {title: "N&Delta; Class of " + classYear, classYear: classYear});
+    var brothers = require('../data/brothers/' + classYear);
+    if (brothers) {
+      res.render('brothers/brotherClass', {title: "N&Delta; Class of " + classYear, classYear: classYear});
+    } else {
+      next();
+    }
   });
+
+  ///////////////////////////////////////////////////////////////////
+  // House
+  ///////////////////////////////////////////////////////////////////
+
+  
 }

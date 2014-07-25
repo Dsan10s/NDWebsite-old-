@@ -19,16 +19,15 @@
 
   <!-- Individual People -->
   <div class = "row">
-    <div class = "span1"></div>
-    <div class = "span2">
-      <div class = "panel" id = "1">
-        <div class = "thumbnail">
-          <div class = 'headShotPicContainer'>
-            <img class = 'headShotPic' src = "Images/2016/Anthony/AnthonyHS.png">
-          </div>
+  <div ng-repeat="brother in viewModel.brotherNames" class = "span2">
+    <div class = "panel" id = "1">
+      <div class = "thumbnail">
+        <div class = 'headShotPicContainer'>
+          <img class = 'headShotPic' src = "{{brothers[brother]}}">
         </div>
-        <div class = "panel-footer">Anthony Pennes</div>
       </div>
+      <div class = "panel-footer">{{brother}}</div>
     </div>
+  </div>
   </div>
 </div>

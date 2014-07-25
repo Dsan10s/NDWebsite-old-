@@ -3,18 +3,21 @@ var ndapp = angular.module('ndapp');
 ndapp.controller('brotherClassController', function($scope, ndService) {
 
   $scope.viewModel = {
-
+    brothers: {},
+    brotherNames: []
   }
 
-  var setViewModel = function() {
+  var setViewModel = function(data) {
+    private.brothers = data.brothers;
+    $scope.viewModel.brotherNames = Object.keys(private.brothers);
 
+    $scope.$apply();
   }
 
   var private = (function() {
     return {
       classYear: brotherClassViewVars.classYear, // defined in view
       brothers: {}, 
-      brotherNames: []
     }
   })();
 
@@ -37,10 +40,7 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
     ndService.ajax.brothersDeferred(private.classYear).done(function(brothers) {
       ndService.headerIntroDeferred.resolve(false);
 
-      private.brothers = brothers;
-      private.brotherNames = Object.keys(brothers);
-
-      setViewModel();
+      setViewModel({brothers: brothers});
 
       helpers.sizingJS();
       $(window).resize(function() {

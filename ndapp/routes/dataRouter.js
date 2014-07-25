@@ -8,6 +8,10 @@ module.exports = function(app) {
   app.get('/data/brothers/:classYear', function(req, res, next) {
     var classYear = req.params.classYear;
     var brothersJSON = require('../data/brothers/' + classYear);
-    res.json(brothersJSON);
+    if (brothersJSON) {
+      res.json(brothersJSON);
+    } else {
+      next();
+    }
   });
 }
