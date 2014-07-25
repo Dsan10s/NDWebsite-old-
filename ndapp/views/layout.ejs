@@ -1,10 +1,9 @@
 <html>
   <head>
-    <title>N&Delta;</title>
+    <title><%- title %></title>
     <link rel="shortcut icon" href="images/PhoenixIcon.ico" type="image/x-icon">
     <link rel="icon" href="images/PhoenixIcon.ico" type="image/x-icon">
 
-    <link href = "stylesheets/navbar.css" rel = "stylesheet"></link>
     <link href="external/css/bootstrap.css" rel = "stylesheet"></link>
     <link href="external/css/bootstrap-responsive.css" rel = "stylesheet"></link>
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Roboto:400,700' rel='stylesheet' type='text/css'>
@@ -37,7 +36,7 @@
   </head>
   <body data-ng-app="ndapp">
 
-    <script type="text/javascript" src="javascripts/controllers/NavBarController.js"></script>
+    <script type="text/javascript" src="javascripts/controllers/navbar/NavBarController.js"></script>
     <div data-ng-controller="navbarController" class="header">
       <%- partial('navbar/navbar') %>
     </div>

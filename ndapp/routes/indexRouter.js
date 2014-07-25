@@ -1,5 +1,22 @@
 module.exports = function(app) {
+
+  ///////////////////////////////////////////////////////////////////
+  // Home page
+  ///////////////////////////////////////////////////////////////////
+
   app.get('/', function(req, res) {
-    res.render('homepage/home');
+    res.render('homepage/home', {title: "N&Delta;"});
+  });
+
+  app.get('/home', function(req, res) {
+    res.render('homepage/home', {title: "N&Delta;"});
+  });
+
+  ///////////////////////////////////////////////////////////////////
+  // Brothers
+  ///////////////////////////////////////////////////////////////////
+
+  app.get('/brothers', function(req, res) {
+    res.render('brothers/brotherHome', {title: "N&Delta; Brothers"})
   });
 }

@@ -1,0 +1,106 @@
+body{
+  overflow: auto;
+  /*background-image: url("Images/NDPattern2.PNG")*/
+  background: url(/images/brothers/NDPattern2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+legend{
+  text-align: center;
+  color: black;
+  border-color: black;
+}
+
+.background{
+  /*opacity: 0.5;*/
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.section{
+  height: 840px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #363636;
+  *background-color: #222222;
+  background-image: -moz-linear-gradient(top, #444444, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+  background-image: -webkit-linear-gradient(top, #444444, #222222);
+  background-image: -o-linear-gradient(top, #444444, #222222);
+  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-repeat: repeat-x;
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+}
+.classWell {
+  height: 43%;
+}
+.container-fluid{
+  width: 97.9166666666666666666666666666667%;
+  height: 100%;
+  margin-left: 0%;
+  margin-top: 0%;
+  position: absolute;
+}
+.brotherTitle{
+  font-size: 38.5px;
+}
+
+.well{
+  background-color: #EBEBEB;
+  border: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.wordPresWell{
+  height: 690px;
+}
+
+.content{
+  background-color: lightgrey;
+  width: 100%;
+  overflow: hidden;
+}
+
+.broHomeContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  overflow: auto;
+  height: 180px;
+  text-align: center;
+  color: black;
+}
+
+.carouselImg {
+  width: 100%;
+}
+.item{
+  height: 475px;
+  overflow: hidden;
+}
+
+.classImg {
+  /*border-radius: 5px;*/
+  opacity: .65;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.classImg:hover {
+  opacity: 1;
+}

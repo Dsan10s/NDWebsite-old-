@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/brothers/brotherHome.css">
+<script type="text/javascript" src="javascripts/controllers/brothers/BrotherHomeController.js"></script>
+<div ng-controller="brotherHomeController">
+
+  <div ng-if="viewModel.windowWidth < 1100">
+    <%- partial('brothers/partials/smallLayout') %>
+  </div>
+  <div ng-if="viewModel.windowWidth >= 1100">
+    <%- partial('brothers/partials/wideLayout') %>
+  </div>
+
+</div>
