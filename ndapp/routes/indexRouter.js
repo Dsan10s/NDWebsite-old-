@@ -34,5 +34,8 @@ module.exports = function(app) {
   // House
   ///////////////////////////////////////////////////////////////////
 
-  
+  app.get('/house', function(req, res) {
+    res.render('house/house', {title: "N&Delta; House"});
+  });
+
 }

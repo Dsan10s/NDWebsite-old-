@@ -1,0 +1,40 @@
+{  
+  "imgArray": [
+    {"src": "/images/house/houseImgs/Backlot.jpg", "name": "The Backlot", 
+    "description": ""},
+
+    {"src": "/images/house/houseImgs/ChapterRoom.jpg", "name": "The Chapter Room", 
+    "description": "This is the room where it all happens.  During the day it's a great place to watch tv or talk with friends.  At night, a number of our social events are hosted here"},
+
+    {"src": "/images/house/houseImgs/CharlesView.jpg", "name": "View of the Charles", 
+    "description": "From our roofdeck, you get one of the best views of the Charles you can find in Boston!  A great place for watching the 4th of July fireworks or just hanging out"},
+
+    {"src": "/images/house/houseImgs/DiningRoom.jpg", "name": "The Dining Room", 
+    "description": "During the semester, this is where the brothers sit down together for dinner.  This is also where eating happens for numerous social events."},
+
+    {"src": "/images/house/houseImgs/Kitchen.jpg", "name": "The Kitchen", 
+    "description": "Restaurant-Grade kitchen downstairs.  During the semester a chef cooks dinner, but the brothers are free to use to kitchen to make their own meals as well."},
+
+    {"src": "/images/house/houseImgs/PoolRoom.jpg", "name": "The Pool Room", 
+    "description": "There's nothing like a classic game of Billiards with friends"},
+
+    {"src": "/images/house/houseImgs/RoofBostonSide.jpg", "name": "Roofdeck facing Boston", 
+    "description": ""},
+
+    {"src": "/images/house/houseImgs/RoofSwing.jpg", "name": "Roofdeck facing Cambridge", 
+    "description": ""},
+
+    {"src": "/images/house/houseImgs/SecondDouble.jpg", "name": "Second floor Double", 
+    "description": ""},
+
+    {"src": "/images/house/houseImgs/SecondHallway.jpg", "name": "Second floor hallway", 
+    "description": ""},
+
+    {"src": "/images/house/houseImgs/SecondToFoyer.jpg", "name": "Stairs to Foyer", 
+    "description": ""},
+
+    {"src": "/images/house/houseImgs/VegPatch.jpg", "name": "The Veg Patch", 
+    "description": "Second floor triple with a great view of the Charles"}
+
+  ]
+}

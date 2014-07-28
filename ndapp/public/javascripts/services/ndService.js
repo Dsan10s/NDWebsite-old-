@@ -22,9 +22,18 @@ ndapp.service('ndService', function() {
       })
     }
 
+    function houseGalleryDeferred() {
+      return $.getJSON('/data/house/imgArray', function(data) {
+        return data;
+      }).fail(function(e) {
+        console.log("ERROR: failed to retrieve house gallery:", e);
+      });
+    }
+
     return {
       eventsDeferred: eventsDeferred, 
-      brothersDeferred: brothersDeferred
+      brothersDeferred: brothersDeferred, 
+      houseGalleryDeferred: houseGalleryDeferred
     }
   })();
   

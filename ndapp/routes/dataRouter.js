@@ -14,4 +14,9 @@ module.exports = function(app) {
       next();
     }
   });
+
+  app.get('/data/house/imgArray', function(req, res) {
+    var imgJSON = require('../data/house/imgArray');
+    res.json(imgJSON);
+  });
 }
