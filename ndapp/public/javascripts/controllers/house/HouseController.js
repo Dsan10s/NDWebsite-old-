@@ -9,14 +9,15 @@ ndapp.controller('HouseController', function($scope, ndService) {
   }
 
   var setViewModel = function(options) {
-    $scope.viewModel.houseImgs = options.imgArray;
+    $scope.$apply(function() {
+      $scope.viewModel.houseImgs = options.imgArray;
+    });
+    
 
     $scope.viewModel.setHouseImg = function(index) {
       $scope.viewModel.currentImg = $scope.viewModel.houseImgs[index];
       $scope.viewModel.houseImgIndex = index;
     }
-
-    $scope.$apply();
   }
 
   var private = (function() {

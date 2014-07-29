@@ -1,68 +1,73 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/house/house.css">
 <script type="text/javascript" src="javascripts/controllers/house/HouseController.js"></script>
 
-<div ng-controller="HouseController" class="container-fluid" id="mainContainer">
-  <legend style="border-color: black; width: 50%;">
-    <h1 style="margin-top: 120px; font-size: 60pt; padding-left: 30px; padding-bottom: 10px;">The House</h1>
-  </legend>
-  <div style="width: 50%; font-size: 16pt; padding: 10px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.5">
-    <p>The Brothers of Nu Delta have always taken pride in their house.  For many of us, this is where some of our fondest MIT memories are made.  </p>
-    <p>The house is cleaned on a weekly basis to ensure that it continues to be a desireable place to live for the brothers, and a great place to visit for friends</p>
-    <p>Click on the pictures below to see different parts of the house!</p>
-  </div>
-
-  <div class="greyMediaContainer">
-    <a href="imgViewerModal" data-toggle="modal">
-      <div class="gmcImgDiv" ng-repeat="img in viewModel.houseImgs">
-        <img class="gmcImg" ng-src="{{img.src}}">
-      </div>
-    </a>
-  </div>
-</div>
-
-<div id="imgViewerModal" 
-     class="modal hide fade" 
-     tabindex="-1" 
-     role="dialog" 
-     aria-labelledby="myModalLabel" 
-     aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" 
-            class="close" 
-            data-dismiss="modal" 
-            aria-hidden="true">&times;</button>
-    <h1 style='text-align: center' id="myModalLabel">
-      {{currentImg.name}}
-    </h1> 
-  </div>
-  <div class="modal-body" style="padding: 0">
-
-    <div style='position: absolute; width: 100%; height: 100%;'>
-      <div class='chevronDiv' id='chevronLeftDiv' 
-          style='opacity: 0.25; float: left; height: 100%; width: 50px; cursor: pointer'>
-        <img style='height: 50px; margin-top: 285px' src='images/house/ChevronLeftBlack.png'>
-      </div>
-      <div class='chevronDiv' id='chevronRightDiv' 
-           style='opacity: 0.25; float: right; height: 100%; width: 50px; cursor: pointer'>
-        <img style='height: 50px; margin-top: 285px' src='images/house/ChevronRightBlack.png'>
-      </div>
+<div ng-controller="HouseController">
+  <div class="container-fluid" id="mainContainer">
+    <legend style="border-color: black; width: 50%;">
+      <h1 style="margin-top: 120px; font-size: 60pt; padding-left: 30px; padding-bottom: 10px;">The House</h1>
+    </legend>
+    <div style="width: 50%; font-size: 16pt; padding: 10px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.5">
+      <p>The Brothers of Nu Delta have always taken pride in their house.  For many of us, this is where some of our fondest MIT memories are made.  </p>
+      <p>The house is cleaned on a weekly basis to ensure that it continues to be a desireable place to live for the brothers, and a great place to visit for friends</p>
+      <p>Click on the pictures below to see different parts of the house!</p>
     </div>
-    
-    <img style='height: 500px; 
-                display: block; 
-                margin: 15 auto 15 auto;
-                -webkit-box-shadow: 0 2px 26px rgba(0, 0, 0, 1), 0 0 0 1px rgba(0, 0, 0, 0);' 
-         ng-src="{{currentImg.src}}" >
-  </div>
-  <div class="modal-footer">
-    <!-- Description -->
-    <p style='text-align: center; 
-                margin-left: auto; 
-                margin-right: auto; 
-                max-width: 750px; 
-                font-size: 16pt'> 
-      {{currentImg.description }}
-    </p>"
 
+    <div class="greyMediaContainer">
+      <a ng-repeat="img in viewModel.houseImgs" 
+         ng-click="viewModel.setHouseImg($index)"
+         data-toggle="modal" 
+         data-target="#imgViewerModal">
+        <div class="gmcImgDiv">
+          <img class="gmcImg" ng-src="{{img.src}}">
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="imgViewerModal" 
+       class="modal hide fade" 
+       tabindex="-1" 
+       role="dialog" 
+       aria-labelledby="myModalLabel" 
+       aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" 
+              class="close" 
+              data-dismiss="modal" 
+              aria-hidden="true">&times;</button>
+      <h1 style='text-align: center' id="myModalLabel">
+        {{viewModel.currentImg.name}}
+      </h1> 
+    </div>
+    <div class="modal-body" style="padding: 0">
+
+      <div style='position: absolute; width: 100%; height: 100%;'>
+        <div class='chevronDiv' id='chevronLeftDiv' 
+            style='opacity: 0.25; float: left; height: 100%; width: 50px; cursor: pointer'>
+          <img style='height: 50px; margin-top: 285px' src='images/house/ChevronLeftBlack.png'>
+        </div>
+        <div class='chevronDiv' id='chevronRightDiv' 
+             style='opacity: 0.25; float: right; height: 100%; width: 50px; cursor: pointer'>
+          <img style='height: 50px; margin-top: 285px' src='images/house/ChevronRightBlack.png'>
+        </div>
+      </div>
+      
+      <img style='height: 500px; 
+                  display: block; 
+                  margin: 15 auto 15 auto;
+                  -webkit-box-shadow: 0 2px 26px rgba(0, 0, 0, 1), 0 0 0 1px rgba(0, 0, 0, 0);' 
+           ng-src="{{viewModel.currentImg.src}}" >
+    </div>
+    <div class="modal-footer">
+      <!-- Description -->
+      <p style='text-align: center; 
+                  margin-left: auto; 
+                  margin-right: auto; 
+                  max-width: 750px; 
+                  font-size: 16pt'> 
+        {{viewModel.currentImg.description }}
+      </p>"
+
+    </div>
   </div>
 </div>

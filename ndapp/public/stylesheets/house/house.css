@@ -19,6 +19,9 @@ h4, h5, h6, p{
   margin-top: 0
 }
 .greyMediaContainer{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   overflow: auto;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.2);
@@ -30,10 +33,16 @@ h4, h5, h6, p{
   height: 150px;
   margin-left: -20px;
 }
+.gmcCol {
+  width: 200px;
+}
 .gmcImg {
-  height: 100%;
+  width: 100%;
 }
 .gmcImgDiv{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   overflow: hidden;
   display: inline-block;
   height: 110px;
@@ -42,10 +51,6 @@ h4, h5, h6, p{
   padding-right: 5px;
   padding-bottom: 10px;
 } 
-#imgViewerModal{
-  width: 60%;
-  left: 50%;
-}
 .modal-body{
   max-height: 600px;
 }
