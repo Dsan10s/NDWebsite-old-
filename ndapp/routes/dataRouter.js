@@ -1,7 +1,6 @@
 module.exports = function(app) {
   app.get('/data/events', function(req, res) {
     var eventsJSON = require('../data/events');
-    console.log("events" in eventsJSON);
     res.json(eventsJSON);
   });
 
