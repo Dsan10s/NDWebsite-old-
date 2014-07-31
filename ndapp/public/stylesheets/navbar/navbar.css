@@ -2,117 +2,33 @@ body{
 	margin: 0;
 }
 
-h1, h2, h3{
-	font-family: Roboto Bold, 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-h4, h5, h6, p{
-	font-family: Roboto Regular, 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.title{
-	height: 80px;
-	position: absolute;
-	left: 25%;
-	margin-top: 40px;
-	margin-left: -164px;
-	
-}
 .header{
 	width: 100%;
-	height: 220px;
-	margin-top: -140px;
-	background-color: #D00000;
+	height: 30px;
+  padding: 5px;
+	top: 0;
+	background-color: rgba(70, 70, 70, 0.5);
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;   
+  box-sizing: border-box;         
 }
-#blackPI{
-	opacity: 1;
-}
-#whitePI{
-	opacity: 0;
-	-webkit-transition: opacity 0.15s;
-	transition: opacity 0.15s;
-}
-#whitePI:hover{
-	opacity: 1;
-}
-.phoenixIcon{
-	height: 80px;
-	margin-top: 35px;
-	left: 50%;
-	margin-left: -40px;
-	position: absolute;
-}
-.glowContainer{
-	width: 120px;
-	height: 120px;
-	margin-top: 15px;
-	left: 50%;
-	margin-left: -60px;
-	position: absolute;
-}
-.NDTitle{
-	height: 140px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-.linkbar{
-	position: absolute;
-	width: 100%;
-	height: 20px;
-	background-color: #424242;
-	-moz-box-shadow: 0 0 5px 10px #424242;
-	-webkit-box-shadow: 0 0 10px 10px #424242;
-	box-shadow: 0 0 10px 10px #424242;
-
+.headerUnderlay {
+  height: 40px;
 }
 
-#linkList{
-	text-align: center;
-	margin-top: 5px;
+.header #linksContainer {
+  text-align: center;
 }
-.listLink{
-	margin-top: -15px;
-	color: white;
-	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size:13pt;
+
+.header #linksContainer .linkDiv{
+  padding: 0 8px;
+  display: inline-block;
 }
-.link{
-	display: inline;
+
+.header #linksContainer .link {
+  color: white;
 }
-.titleText{
-	height: 40px;
-	float:left;
-	font-size: 35pt;
-	margin-top: 36px;
-	margin-left: 30px;
-	position: absolute;
-	font-family: Garamond;
-}
-.titleIcon{
-	float:left;
-	height: 40px;
-	margin-top: 34px;
-	margin-left: 30px;
-	position: absolute;
-}
-.titleTextBack{
-	float:left;
-	font-size: 37pt;
-	margin-top: 53px;
-	margin-left: 10px;
-	font-family: Garamond;
-	position: absolute;
-}
-.broContentPic{
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-#navbarUnderlay {
-	height: 100px;
-}
+
+/**/

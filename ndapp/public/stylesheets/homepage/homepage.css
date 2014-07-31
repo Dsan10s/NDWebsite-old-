@@ -10,12 +10,6 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
-h1, h2, h3{
-  font-family: Roboto Bold, 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-h4, h5, h6, p{
-  font-family: Roboto Regular, 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 .sectionHead{
   text-align: center;
   color: black;

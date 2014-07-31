@@ -7,10 +7,10 @@ ndapp.controller('navbarController', function($scope, ndService) {
   };
 
   (function setViewModel() {
-    var links = [{"text": "Home", "href": "/home"}, 
-                 {"text": "Brothers", "href": "/brothers"}, 
-                 {"text": "House", "href": "/house"}, 
-                 {"text": "About Us", "href": "/about"}];
+    var links = [{"text": "Home", "href": "/home", "icon": "home"}, 
+                 {"text": "Brothers", "href": "/brothers", "icon": "user"}, 
+                 {"text": "House", "href": "/house", "icon": "tower"}, 
+                 {"text": "About Us", "href": "/about", "icon": "globe"}];
 
     $scope.viewModel.links = links;
   })();
@@ -38,28 +38,10 @@ ndapp.controller('navbarController', function($scope, ndService) {
     helpers.animateHeaderIntro();
   })();
 
-  function eventHandlers() {
-    // $('body').on("mousemove", function(event){
-    //   if (!ndService.getHeaderIntro() || 
-    //        ndService.getHeaderIntro() === undefined){
-
-    //     var windowWidth = $(window).width();
-    //     var scroll = $(window).scrollTop();
-
-    //     if((event.pageY - scroll < 30 && !ndService.getHeaderDown() && 
-    //        (event.pageX/windowWidth < 0.45 || event.pageX/windowWidth > 0.55)) || 
-    //        (event.pageY - scroll < 10)){
-    //       $('.header').animate({"margin-top": "-140px"}, 300);
-    //       ndService.setHeaderDown(true);
-    //     }else if(event.pageY - scroll >= 120 && ndService.getHeaderDown() == true){
-    //       $('.header').animate({"margin-top": "-170px"}, 300);
-    //       ndService.setHeaderDown(false);
-    //     }
-    //   }
-    // });
+  function eventHandlers() {/*
 
     var two = new Two({width: 120, height: 120}).appendTo($(".glowContainer")[0]);
-    var r1 = 39, r2 = 50, currentRadius = r1, rDiff = r2 - r1;
+    var r1 = 49, r2 = 60, currentRadius = r1, rDiff = r2 - r1;
     var circle = two.makeCircle(60, 60, r1);
     var animating = false;
 
@@ -110,7 +92,7 @@ ndapp.controller('navbarController', function($scope, ndService) {
       click: function() {
         animateGlow();
       }
-    });
+    });*/
 
   }
 

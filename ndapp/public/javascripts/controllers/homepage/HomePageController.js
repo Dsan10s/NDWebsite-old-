@@ -212,7 +212,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
   var init = (function() {
     ndService.ajax.eventsDeferred().done(function(data) {
-      ndService.headerIntroDeferred.resolve(true);
+      ndService.headerIntroDeferred.resolve(false);
 
       private.events = data.events;
 

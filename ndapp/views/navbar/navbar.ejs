@@ -1,25 +1,19 @@
 <link rel="stylesheet" type="text/css" href="/stylesheets/navbar/navbar.css">
+
+<script type="text/javascript" src="/javascripts/controllers/navbar/NavBarController.js"></script>
 <script type="text/javascript" src="/javascripts/services/ndService.js"></script>
-<div style="background-color: white">
-  <img class="NDTitle" src="/images/navbar/Title3.png">
-</div>
-<div class="linkbar">
-  <ul id="linkList">
-    <a class="link" ng-repeat="link in viewModel.links" id="link{{link.text}}" href="{{link.href}}">
-      <li class="listLink" id="#">{{link.text}}</li>
+
+<div data-ng-controller="navbarController" class="header">
+  <div id="linksContainer">
+    <a ng-repeat="link in viewModel.links"
+       class="link"
+       href="{{link.href}}">
+
+      <div class="linkDiv">
+        <span class="glyphicon glyphicon-{{link.icon}}"></span>
+        {{link.text}}
+      </div>
     </a>
-  </ul>
+  </div>
 </div>
-<div id="titleBar">
-  <a href="/home">
-    <img class="titleText" src="/images/navbar/NavBarND.png">
-  </a>
-  <span class="glowContainer">
-  </span>
-  <a href="/home">
-    <img id="blackPI" class="phoenixIcon" src="/images/navbar/BlackPhoenixIcon.png">
-  </a>
-  <a href="/home">
-    <img id="whitePI" class="phoenixIcon" src="/images/navbar/PhoenixIcon.png">
-  </a>
-</div>
+<div class="headerUnderlay"></div>

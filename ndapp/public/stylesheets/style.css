@@ -1,6 +1,22 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  font: 14px "Lato", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, i, b, a, option {
+  font-family: "Lato", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+}
+
+p, i, b, a, option {
+  font-weight: 300;
 }
 
 a {
