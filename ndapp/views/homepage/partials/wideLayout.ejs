@@ -1,4 +1,42 @@
-<div class = "row-fluid">
+
+    <div class="containerLeft">
+      <legend class = "sectionHead">
+        <h1><a style = "color: black" href = "/events">Events</a></h1>
+      </legend>
+      <div class = "row" style = "margin: 0px">
+        <div style = "display: inline-block">
+          <h4 class = "colorCodeText">Rush</h4><div class = "colorCode rushColor"></div>
+        </div>
+        <div style = "display: inline-block">
+          <h4 class = "colorCodeText">CPW</h4><div class = "colorCode cpwColor"></div>
+        </div>
+        <div style = "display: inline-block">
+          <h4 class = "colorCodeText">Other Events</h4><div class = "colorCode otherEventsColor"></div>
+        </div>
+      </div>
+      <div class = "content eventsContent">
+        {{viewModel.monthWithEvents}}
+        <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
+          <legend class = "monthText">{{month}}</legend>
+          <div ng-repeat="event in viewModel.futureEvents[month]" 
+               class = "monthEvent">
+            <h4 class = "eventTitle">{{event.name}}</h4>
+            <h6 class = "eventDate">{{event.moment}}</h6>
+            <h6 class = "eventTime">{{event.time}}</h6>
+            <h6 class = "eventLocation">{{event.location}}</h6>
+            <p class = "eventDescription">{{event.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="containerRight">
+      Placeholder
+    </div>
+
+
+<!---->
+
+<!-- <div class = "row-fluid">
   <div class = "section span3">
     <div class = "eventsWell well well-large">
       <legend class = "sectionHead">
@@ -67,4 +105,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->

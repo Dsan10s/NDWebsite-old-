@@ -220,7 +220,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
       eventHandlers();
       enableNewCssAnimations();
 
-      helpers.animateIntro();
+      // helpers.animateIntro();
 
       helpers.sizingJS();
       $(window).resize(function() {
