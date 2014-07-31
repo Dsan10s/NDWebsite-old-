@@ -15,7 +15,7 @@ body{
   box-sizing: border-box;         
 }
 .headerUnderlay {
-  height: 40px;
+  height: 30px;
 }
 
 .header #linksContainer {
