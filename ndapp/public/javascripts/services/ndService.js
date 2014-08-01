@@ -67,4 +67,13 @@ ndapp.service('ndService', function() {
     getHeaderDown: getHeaderDown, 
     setHeaderDown: setHeaderDown
   }
+})
+.directive("oneWordSeparator", function() {
+  return {
+    restrict: "AE", 
+    scope: {
+      word: "="
+    }, 
+    templateUrl: "/templates/oneWordSeparator.html"
+  };
 });

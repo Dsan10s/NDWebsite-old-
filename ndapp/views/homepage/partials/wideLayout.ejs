@@ -1,38 +1,71 @@
+    <div class="homeInnerContainer">
+      <div class="homeSection containerLeft">
+        <legend class = "sectionHead">
+          <h1><a style = "color: black" href = "/events">Events</a></h1>
+        </legend>
+        <div class = "row" style = "margin: 0px">
+          <div style = "display: inline-block">
+            <h4 class = "colorCodeText">Rush</h4><div class = "colorCode rushColor"></div>
+          </div>
+          <div style = "display: inline-block">
+            <h4 class = "colorCodeText">CPW</h4><div class = "colorCode cpwColor"></div>
+          </div>
+          <div style = "display: inline-block">
+            <h4 class = "colorCodeText">Other Events</h4><div class = "colorCode otherEventsColor"></div>
+          </div>
+        </div>
+        <div class = "eventsContent">
+          {{viewModel.monthWithEvents}}
+          <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
 
-    <div class="containerLeft">
-      <legend class = "sectionHead">
-        <h1><a style = "color: black" href = "/events">Events</a></h1>
-      </legend>
-      <div class = "row" style = "margin: 0px">
-        <div style = "display: inline-block">
-          <h4 class = "colorCodeText">Rush</h4><div class = "colorCode rushColor"></div>
-        </div>
-        <div style = "display: inline-block">
-          <h4 class = "colorCodeText">CPW</h4><div class = "colorCode cpwColor"></div>
-        </div>
-        <div style = "display: inline-block">
-          <h4 class = "colorCodeText">Other Events</h4><div class = "colorCode otherEventsColor"></div>
+            <one-word-separator word="month"></one-word-separator>
+            
+            <div ng-repeat="event in viewModel.futureEvents[month]" 
+                 class = "monthEvent">
+              <h4 class = "eventTitle">{{event.name}}</h4>
+              <h6 class = "eventDate">{{event.moment}}</h6>
+              <h6 class = "eventTime">{{event.time}}</h6>
+              <h6 class = "eventLocation">{{event.location}}</h6>
+              <p class = "eventDescription">{{event.description}}</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class = "content eventsContent">
-        {{viewModel.monthWithEvents}}
-        <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
-          <legend class = "monthText">{{month}}</legend>
-          <div ng-repeat="event in viewModel.futureEvents[month]" 
-               class = "monthEvent">
-            <h4 class = "eventTitle">{{event.name}}</h4>
-            <h6 class = "eventDate">{{event.moment}}</h6>
-            <h6 class = "eventTime">{{event.time}}</h6>
-            <h6 class = "eventLocation">{{event.location}}</h6>
-            <p class = "eventDescription">{{event.description}}</p>
+      <div class="homeSection containerRight">
+        <div class="titleContainer">
+          <table id="titleTable">
+            <tr>
+              <td width="300"><img id="mainIcon" src="/images/PhoenixIcon.png"></td>
+              <td>
+                <legend id="nudeltaTextLegend">
+                  <h1 id="nudeltaText">Nu Delta</h1>
+                </legend>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div id="homeFeed">
+          <table id="wordPresTable">
+            <tr>
+              <td width="300">
+                <img src = "images/homepage/PresidentPic.jpg" class = "presPic">
+              </td>
+              <td id="wordPresCol">
+                <legend id="wordPresLegend">
+                  <h1 id="wordPresLegendText">A Word From the President</h1>
+                </legend>
+                <i id="wordPresName">David McClelland</i>
+              </td>
+            </tr>
+          </table>
+          <div id="wordPresText">
+            <h3>
+              <span style="font-size: 36px">T</span>hey say college is the best 4 years of your life. While you&#146;re here, your university teaches you much more than what it offers the classroom; you learn things about yourself you never thought you were capable of, and the decisions you make while you&#146;re an undergraduate will forever influence your future success. Who will you spend these 4 critical years with? Based on our 3 pillars of trust, respect, and brotherhood, Nu Delta Fraternity has given me my second family and my home away from home. Here, we make friendships that last much longer than 4 years, and make connections that last a lifetime.
+            </h3>
           </div>
         </div>
       </div>
     </div>
-    <div class="containerRight">
-      Placeholder
-    </div>
-
 
 <!---->
 

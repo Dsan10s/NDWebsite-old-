@@ -2,171 +2,92 @@
   "events": [
     {
       "type": "Rush",
-      "name": "Amped Up",
-      "time": "12:30 PM - 5:00 PM",
-      "dateString": "8/31/14",
+      "name": "Amped UP!",
+      "time": "12:30 PM - 7:00 PM",
+      "dateString": "8/30/14",
       "location": "",
-      "description": "Come meet the brothers of Nu Delta at our beautiful Boston 4 story mansion. Stick around and get house tours, play some video games, pool, fuse ball, and much more. Challenge and defeat the most brothers and you'll walk away with a fabulous prize!"
-    },
+      "description": "Challenge the brothers of Nu Delta to videogames, ping pong, pool, foosball, or anything you can think of to win a brand new TV, all while enjoying food from some of our favorite restaurants delivered fresh throughout the day!"
+    }, 
     {
       "type": "Rush",
-      "name": "Southern Style Chicken",
-      "time": "8:00 PM - 11:00 PM",
+      "name": "Jet Skis",
+      "time": "9:30 AM - 3:00 PM",
       "dateString": "8/31/14",
       "location": "",
-      "description": ""
-    },
-    {
-      "type": "Rush",
-      "name": "JET SKIS",
-      "time": "9:30 AM - 4:00 PM",
-      "dateString": "9/1/14",
-      "location": "",
-      "description": "An afternoon on the beach, Jet Skiing, and Nu Delt bros? Doesn't get much better than that!"
+      "description": "Drive jet skis with the brothers of Nu Delta! Race and get air off some waves on the open ocean!"
     },
     {
       "type": "Rush",
       "name": "Paintball",
-      "time": "5:00 PM - 9:00 PM",
-      "dateString": "9/1/14",
+      "time": "5:00 PM - 7:30 PM",
+      "dateString": "8/31/14",
       "location": "",
-      "description": "An evening of indoor painball right before the Party Bus is a great start to a looong night!"
-    },
+      "description": "See if you can keep up with the brothers of Nu Delta in this all out paint war at Boston Paintball!"
+    },  
     {
       "type": "Rush",
-      "name": "Night Rider",
-      "time": "10:00 PM - 2:00 AM",
-      "dateString": "9/2/14",
+      "name": "Southern Style Chicken & Waffles",
+      "time": "8:00 PM - 11:00 PM",
+      "dateString": "8/31/14",
       "location": "",
-      "description": ""
-    },
+      "description": "Swing by Nu Delta for some southern style chicken and waffles, and some homemade smoothies to go with them!"
+    }, 
+    {
+      "type": "Rush",
+      "name": "Monster Jam!",
+      "time": "10:00 PM - 2:00 AM",
+      "dateString": "8/31/14",
+      "location": "",
+      "description": "Stop by Nu Delta's Monster Jam to see why our parties are sponsored by Monster. Grab a few cans to refuel, then get ready to dance all night!"
+    }, 
     {
       "type": "Rush",
       "name": "Firing Range",
       "time": "10:00 AM - 2:00 PM",
-      "dateString": "9/2/14",
+      "dateString": "9/1/14",
       "location": "",
-      "description": "Test your aim with a set of different rifles and handguns. Beginner or expert, this is a thrilling (and safe) event for everyone"
-    },
+      "description": "Fire some crazy big guns at the firing range with Nu Delta and see if your videogame skills translate to the real deal!"
+    }, 
     {
       "type": "Rush",
       "name": "SkyZone",
       "time": "3:00 PM - 5:30 PM",
-      "dateString": "9/2/14",
+      "dateString": "9/1/14",
       "location": "",
-      "description": "Your backyard trampoline has nothing on this experience. Dodgeball, basketball, back flips and more!"
-    },
+      "description": "Join Nu Delta in playing dodgeball and basketball on the trampoline floors at SkyZone! Try to keep up and get your appetite ready for Steak and Lobster!!"
+    }, 
     {
       "type": "Rush",
       "name": "Steak & Lobster",
       "time": "6:00 PM - 8:30 PM",
-      "dateString": "9/2/14",
+      "dateString": "9/1/14",
       "location": "",
-      "description": "Prime steak and fresh caught lobster. A hearty meal is definitely a necessity before Monster Jam tonight!"
-    },
-    {
-      "type": "Rush",
-      "name": "MONSTER JAM",
-      "time": "10:00 PM - 2:00 AM",
-      "dateString": "9/2/14",
-      "location": "",
-      "description": ""
-    },
+      "description": "Stop by for some delicious steak & lobster at Nu Delta, meet some brothers and see our awesome 4-story Back Bay home!"
+    }, 
     {
       "type": "Rush",
       "name": "Target Runs",
-      "time": "12:00 PM - 3:00 PM",
-      "dateString": "9/3/14",
+      "time": "2:00 PM - 4:00 PM",
+      "dateString": "9/2/14",
       "location": "",
-      "description": "We'll take 2 separate trips to Target to make sure we all have all the supplies for the coming semester. Give us a call for a ride."
-    },
+      "description": "Need some last-minute school supplies, or just want to go shopping? Nu Delta's got you covered. We'll be making runs to target or (almost) anywhere else you need to go for those last-minute supplies."
+    }, 
     {
       "type": "Rush",
-      "name": "Roofdeck BBQ",
-      "time": "4:00 PM - 7:00 PM",
-      "dateString": "9/3/14",
+      "name": "Rockbed BBQ",
+      "time": "4:00 PM - 8:00 PM",
+      "dateString": "9/2/14",
       "location": "",
-      "description": ""
-    },
+      "description": "Nothing beats a good burger on Nu Delta's iconic Phoenix Rock Garden with great music and the brothers of Nu Delta! Come see our house and meet some awesome people!"
+    }, 
     {
       "type": "Rush",
       "name": "Dick's Last Resort",
       "time": "7:00 PM - 10:00 PM",
-      "dateString": "9/4/14",
+      "dateString": "9/3/14",
       "location": "",
-      "description": "Things get pretty rowdy whenever Nu Delts show up to Dick's Last Resort. Take a night out to celebrate your first classes at MIT!"
-    },
-    {
-      "type": "Other Events",
-      "name": "SK Late Night",
-      "time": "",
-      "dateString": "10/20/14",
-      "location": "Sigma Kappa Sorority",
-      "description": "Come down to Sigma Kappa and watch ND throw down in a talent show against some of the other MIT fraternities!  It's always a great show, so make sure not to miss it!"
-    },
-    {
-      "type": "Other Events",
-      "name": "Relay for Life",
-      "time": "6:00 PM - 6:00 AM",
-      "dateString": "3/9/14",
-      "location": "Johnson Athletic Center",
-      "description": ""
-    },
-    {
-      "type": "CPW",
-      "name": "The D is far dance",
-      "time": "5:00 PM - 8:00 PM",
-      "dateString": "4/11/2014",
-      "location": "Room 4-231",
-      "description": "Come challenge the brothers of Nu Delta to Just dance! Food and drink will be served."
-    },
-    {
-      "type": "CPW",
-      "name": "ND Lounging",
-      "time": "9:00 PM - 1:00 AM",
-      "dateString": "4/11/2014",
-      "location": "Nu Delta",
-      "description": "Want to party tonight? We'll be ready to party hop with you. Or maybe you'd just like to take the night off until the real party at Nu Delta tomorrow(SIKE, not happening anymore)? Either way, come meet and chill with the brothers of Nu Delta at our house. There will be delicious chicken wings, good music, games, and more to go round!"
-    },
-    {
-      "type": "CPW",
-      "name": "Tex-Mex Breakast",
-      "time": "9:00 AM - 11:00 AM",
-      "dateString": "4/12/2014",
-      "location": "Nu Delta",
-      "description": "Swing by Nu Delta for an amazing Tex-Mex style breakfast with chorizo & eggs, chilaquiles, and breakfast tacos/burritos. And BACON!!!"
-    },
-    {
-      "type": "CPW",
-      "name": "Rock Bed Barbecue",
-      "time": "3:00 PM - 5:30 PM",
-      "dateString": "4/12/2014",
-      "location": "Nu Delta",
-      "description": ""
-    },
-    {
-      "type": "CPW",
-      "name": "Interfraternal Bash",
-      "time": "10:00 PM - 1:00 AM",
-      "dateString": "4/12/2014",
-      "location": "Walker Memorial",
-      "description": "PARTY HARDY"
-    },
-    {
-      "type": "CPW",
-      "name": "Nu Smoothies",
-      "time": "1:00 AM - 3:00 AM",
-      "dateString": "4/13/2014",
-      "location": "Nu Delta",
-      "description": "All partied out tonight? Looking for something to eat? Stop by Nu Delta on your way home to close out the night with snacks and some next level smoothies."
-    },
-    {
-      "type": "CPW",
-      "name": "Breakfast of Champions",
-      "time": "8:00 AM - 12:00 PM",
-      "dateString": "4/13/2014",
-      "location": "Nu Delta",
-      "description": "Rise From The Ashes of last night's parties with a Breakfast Of Champions at Nu Delta. 460 Beacon ST. Guaranteed to be delicious."
+      "description": "Experience the outrageousness of the Dick's Last Resort restaurant in downtown Boston with Nu Delta while enjoying delicious barbecue and american-style cuisine."
     }
+
   ]
 }

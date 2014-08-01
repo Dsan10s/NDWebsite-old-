@@ -10,20 +10,46 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, i, b, a, option {
   font-family: "Lato", "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  font-weight: 300;
 }
 
 h1, h2, h3 {
-  font-weight: 400;
+
 }
 
 h4, h5, h6 {
-  font-weight: 400;
+
 }
 
 p, i, b, a, option {
-  font-weight: 300;
+
 }
 
 a {
   color: #00B7FF;
+}
+
+table {
+  width: 100%;
+}
+
+/* Directives
+-------------------------------------------------------- */
+
+.wordSeparator {
+  width: 100%;
+}
+
+.wordSeparatorLine {
+  height: 50%;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.wordTextContainer {
+  margin: 10px;
+}
+
+.wordText {
+  margin: 0;
 }
