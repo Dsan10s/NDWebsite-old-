@@ -3,11 +3,6 @@
 
 <div ng-controller="homepageController" id="homepageContainer">
 
-  <span ng-if="viewModel.windowWidth < 1100">
-    <%- partial('homepage/partials/smallLayout') %>
-  </span>
-  <span ng-if="viewModel.windowWidth >= 1100">
-    <%- partial('homepage/partials/wideLayout') %>
-  </span>
+  <%- partial('homepage/partials/wideLayout') %>
 
 </div>

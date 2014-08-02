@@ -5,7 +5,9 @@ ndapp.controller('homepageController', function($scope, ndService) {
   $scope.viewModel = {
     windowWidth: $(window).width(), 
     monthsWithEvents: [], 
-    futureEvents: {}
+    futureEvents: {}, 
+    brotherTitle: "Brothers", 
+    houseTitle: "House"
   }
 
   var setViewModel = function() {
@@ -252,6 +254,12 @@ ndapp.controller('homepageController', function($scope, ndService) {
         }
       }
     }, ".monthEvent");
+
+    $(".aboutFooter #facebookCol .aboutImg").tooltip({
+      title: "Facebook", 
+      trigger: "hover", 
+      placement: "top"
+    })
   }
 
   function getFutureEvents() {

@@ -34,6 +34,13 @@ table {
   width: 100%;
 }
 
+table td {
+  vertical-align: middle;
+}
+
+img {
+  max-height: 100%;
+}
 /* Directives
 -------------------------------------------------------- */
 
@@ -52,4 +59,10 @@ table {
 
 .wordText {
   margin: 0;
+}
+
+/* Universal CSS
+-------------------------------------------------------- */
+.imgShadow {
+  box-shadow: 5px 5px 26px rgba(0, 0, 0, 0.7);
 }

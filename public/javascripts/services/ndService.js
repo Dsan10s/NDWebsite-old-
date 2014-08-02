@@ -68,7 +68,7 @@ ndapp.service('ndService', function() {
     setHeaderDown: setHeaderDown
   }
 })
-.directive("oneWordSeparator", function() {
+.directive("ows", function() {
   return {
     restrict: "AE", 
     scope: {

@@ -18,7 +18,7 @@
           {{viewModel.monthWithEvents}}
           <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
 
-            <one-word-separator word="month"></one-word-separator>
+            <ows word="month"></ows>
             
             <div ng-repeat="event in viewModel.futureEvents[month]" 
                  class = "monthEvent">
@@ -32,38 +32,78 @@
         </div>
       </div>
       <div class="homeSection containerRight">
-        <div class="titleContainer">
-          <table id="titleTable">
-            <tr>
-              <td width="300"><img id="mainIcon" src="/images/PhoenixIcon.png"></td>
-              <td>
-                <legend id="nudeltaTextLegend">
-                  <h1 id="nudeltaText">Nu Delta</h1>
-                </legend>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div id="homeFeed">
-          <table id="wordPresTable">
-            <tr>
-              <td width="300">
-                <img src = "images/homepage/PresidentPic.jpg" class = "presPic">
-              </td>
-              <td id="wordPresCol">
-                <legend id="wordPresLegend">
-                  <h1 id="wordPresLegendText">A Word From the President</h1>
-                </legend>
-                <i id="wordPresName">David McClelland</i>
-              </td>
-            </tr>
-          </table>
-          <div id="wordPresText">
-            <h3>
-              <span style="font-size: 36px">T</span>hey say college is the best 4 years of your life. While you&#146;re here, your university teaches you much more than what it offers the classroom; you learn things about yourself you never thought you were capable of, and the decisions you make while you&#146;re an undergraduate will forever influence your future success. Who will you spend these 4 critical years with? Based on our 3 pillars of trust, respect, and brotherhood, Nu Delta Fraternity has given me my second family and my home away from home. Here, we make friendships that last much longer than 4 years, and make connections that last a lifetime.
-            </h3>
+        <div class="containerRightContent">
+          <div class="titleContainer">
+            <table id="titleTable">
+              <tr>
+                <td height="200"><img id="mainIcon" src="/images/PhoenixIcon.png"></td>
+                <td width="100%">
+                  <legend id="nudeltaTextLegend">
+                    <h1 id="nudeltaText">Nu Delta</h1>
+                  </legend>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="homeFeed">
+            <table id="wordPresTable">
+              <tr>
+                <td width="300">
+                  <img src="images/homepage/PresidentPic.jpg" class="imgShadow presPic">
+                </td>
+                <td id="wordPresCol">
+                  <legend id="wordPresLegend">
+                    <h1 id="wordPresLegendText">A Word From the President</h1>
+                  </legend>
+                  <i id="wordPresName">David McClelland</i>
+                </td>
+              </tr>
+            </table>
+            <div id="wordPresText">
+              <h3>
+                <span style="font-size: 36px">T</span>hey say college is the best 4 years of your life. While you&#146;re here, your university teaches you much more than what it offers the classroom; you learn things about yourself you never thought you were capable of, and the decisions you make while you&#146;re an undergraduate will forever influence your future success. Who will you spend these 4 critical years with? Based on our 3 pillars of trust, respect, and brotherhood, Nu Delta Fraternity has given me my second family and my home away from home. Here, we make friendships that last much longer than 4 years, and make connections that last a lifetime.
+              </h3>
+            </div>
+            
+            <div class="feedSection brothersFeedSection">
+              <ows word="viewModel.brotherTitle"></ows>
+              <div class="brotherFeedImageCont">
+                <a href="/brothers">
+                  <img class="imgShadow brotherFeedImage" src="images/homepage/MaineHouse2013.jpg">
+                </a>
+              </div>
+              <h3>The brothers of Nu Delta share a tight bond that brings us together, and promotes our success as individuals.  To learn more about the individual brothers, click the image above.</h3>
+            </div>
+
+            <div class="feedSection houseFeedSection">
+              <ows word="viewModel.houseTitle"></ows>
+              <div class="houseFeedImageCont">
+                <a href="/house">
+                  <img class="imgShadow houseFeedImage" src="images/house/houseImgs/CharlesView.jpg">
+                </a>
+              </div>
+              <h3>Many of the brothers reside in our lovely 4 story mansion located at 460 Beacon Street in Boston.  For many of the brothers, this is where our fondest MIT memories are made, so we take great pride in our house.  Click on the view from our roofdeck shown above to learn more about the house!</h3>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="aboutFooter">
+      <div class="aboutFooterContent">
+        <table>
+          <tr>
+            <td id="facebookCol" class="aboutCol" height="80px">
+              <a href="https://www.facebook.com/MIT.ND?ref=br_tf">
+                <img class="aboutImg" src="/images/PhoenixIcon.png">
+              </a>
+            </td>
+            <td id="" class="aboutCol" height="80px">
+              <a href="#">
+                <img class="aboutImg" src="/images/PhoenixIcon.png">
+              </a>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
 
