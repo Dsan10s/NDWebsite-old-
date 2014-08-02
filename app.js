@@ -32,6 +32,7 @@ app.configure('production', function(){
 require('./routes/indexRouter')(app);
 require('./routes/dataRouter')(app);
 
-app.listen(process.env.port || 3000, function(){
+var port = Number(process.env.PORT || 3000);
+app.listen(port, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
