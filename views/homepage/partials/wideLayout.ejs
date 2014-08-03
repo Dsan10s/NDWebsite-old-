@@ -18,7 +18,7 @@
           {{viewModel.monthWithEvents}}
           <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
 
-            <ows word="month"></ows>
+            <ts word="month"></ts>
             
             <div ng-repeat="event in viewModel.futureEvents[month]" 
                  class = "monthEvent">
@@ -66,7 +66,7 @@
             </div>
             
             <div class="feedSection brothersFeedSection">
-              <ows word="viewModel.brotherTitle"></ows>
+              <ts word="viewModel.brotherTitle"></ts>
               <div class="feedImageCont brotherFeedImageCont">
                 <a href="/brothers">
                   <img class="imgShadow feedImage brotherFeedImage" src="images/homepage/MaineHouse2013.jpg">
@@ -76,7 +76,7 @@
             </div>
 
             <div class="feedSection houseFeedSection">
-              <ows word="viewModel.houseTitle"></ows>
+              <ts word="viewModel.houseTitle"></ts>
               <div class="feedImageCont houseFeedImageCont">
                 <a href="/house">
                   <img class="imgShadow feedImage houseFeedImage" src="images/house/houseImgs/CharlesView.jpg">

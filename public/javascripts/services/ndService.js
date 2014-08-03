@@ -68,12 +68,12 @@ ndapp.service('ndService', function() {
     setHeaderDown: setHeaderDown
   }
 })
-.directive("ows", function() {
+.directive("ts", function() {
   return {
     restrict: "AE", 
     scope: {
       word: "="
     }, 
-    templateUrl: "/templates/oneWordSeparator.html"
+    templateUrl: "/templates/textSeparator.html"
   };
 });

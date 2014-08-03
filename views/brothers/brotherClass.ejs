@@ -7,6 +7,13 @@
 <script type="text/javascript" src="/javascripts/controllers/brothers/BrotherClassController.js"></script>
 
 <div ng-controller="brotherClassController" class="brotherClassContainer">
+
+  <div class="brotherClassContentContainer">
+    <div class="brotherClassContent">
+      <ts word="viewModel.classYearText"></ts>
+    </div>
+  </div>
+
   <div id="brotherSelector">
     <div ng-repeat="brother in viewModel.brothers" 
          class="brotherIconWrapper"
@@ -18,4 +25,5 @@
       </div>
     </div>
   </div>
+
 </div>

@@ -48,17 +48,27 @@ img {
   width: 100%;
 }
 
+.wordSeparator .lineContainer {
+  width: 50%;
+}
+
+.wordSeparator .wordContainer {
+  text-align: center;
+}
+
 .wordSeparatorLine {
-  height: 50%;
   border-bottom: 1px solid #4d4d4d;
 }
 
 .wordTextContainer {
-  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .wordText {
   margin: 0;
+  display: inline-block;
 }
 
 /* Universal CSS

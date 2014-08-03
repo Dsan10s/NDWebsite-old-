@@ -3,6 +3,8 @@ var ndapp = angular.module('ndapp');
 ndapp.controller('brotherClassController', function($scope, ndService) {
 
   var public = $scope.viewModel = {
+    classYear: brotherClassViewVars.classYear, 
+    classYearText: "Class of " + brotherClassViewVars.classYear, 
     brothers: {},
     brotherNames: [],  
     currentBrother: undefined, 
@@ -15,7 +17,6 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
   };
 
   var private = {
-    classYear: brotherClassViewVars.classYear, 
     maxSizeMult: 2.2, 
     maxSize: 80, 
     currentIconSize: undefined,
@@ -89,7 +90,7 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
   })();
 
   var init = (function() {
-    ndService.ajax.brothersDeferred(private.classYear).done(function(brothers) {
+    ndService.ajax.brothersDeferred(public.classYear).done(function(brothers) {
       ndService.headerIntroDeferred.resolve(false);
 
       setPrivateVars();

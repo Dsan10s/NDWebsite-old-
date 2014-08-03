@@ -1,4 +1,13 @@
-#brotherSelector {
+.brotherClassContainer .brotherClassContentContainer {
+  height: 100%;
+  padding: 30px 0 0 0;
+}
+
+.brotherClassContainer .brotherClassContent {
+  padding: 10px;
+}
+
+.brotherClassContainer #brotherSelector {
   position: fixed;
   bottom: 0;
   z-index: 10;
@@ -6,14 +15,14 @@
   text-align: center;
 }
 
-#brotherSelector .brotherIconWrapper {
+.brotherClassContainer #brotherSelector .brotherIconWrapper {
   display: inline-block;
   padding: 10px;
   cursor: pointer;
   overflow: visible !important;
 }
 
-#brotherSelector .brotherIcon {
+.brotherClassContainer #brotherSelector .brotherIcon {
   width: 100%;
   height: 100%;
   background-color: black;
@@ -21,6 +30,6 @@
   overflow: hidden;
 }
 
-#brotherSelector .brotherIconImg {
+.brotherClassContainer #brotherSelector .brotherIconImg {
   height: 100%;
 }
