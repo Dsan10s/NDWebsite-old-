@@ -1,79 +1,24 @@
-.background{
+#brotherSelector {
   position: fixed;
-  opacity: 1;
+  bottom: 0;
+  z-index: 10;
   width: 100%;
-  z-index: -1;
-}
-
-/*--------Sub Header---------*/
-
-#subHeader {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-  background-color: #BBBBBB;
-}
-
-#subHeader .container {
-  padding: 30px 0 30px 0;
-}
-
-/*-------Sub Navigation Bar--------*/
-.navbar {
-  position: absolute;
-margin-top: 80px;
-width: 100%;
-z-index: -1;
-}
-
-#navBarInner {
-  border-radius: 0px;
-}
-
-/*-----------Main Body----------*/
-#mainBody {
-  border-radius: 5px;
-  background-color: #363636;
-  padding: 10px;
-}
-
-.jumbotronNew {
-  padding: 10px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #EEEEEE;
-  border-radius: 5px;
-}
-
-#initContainer img {
-  max-height: 224px;
-}
-
-.panel {
-  padding: 15px;
-  margin-bottom: 20px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-.panel-footer {
-  padding: 10px 10px;
-  margin: 15px -15px -15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #dddddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
   text-align: center;
 }
-.headShotPicContainer{
+
+#brotherSelector .brotherIcon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 35px;
+  background-color: black;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
-}
-.headShotPic{
   cursor: pointer;
-  width: 100%;
+  webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+#brotherSelector .brotherIconImg {
+  height: 100%;
 }

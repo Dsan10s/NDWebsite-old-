@@ -8,7 +8,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Calvin Li ('16)",
     "officesHeld": "Steward (2012)",
     "extraInfo": "<b>Internships</b>: Hewlett-Packard, Qualcomm",
-    "jumboSrc": "Images/2015/Mata/MataJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Mata/MataJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Mata/MataHS.png"
   },
   "Makai Cartman": {
     "id": 2,
@@ -19,7 +20,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Eric Shirley ('16)",
     "officesHeld": "Social Chair (2012), Vice President (2013)",
     "extraInfo": "<b>Internships</b>: NASA JPL <br> <b>Favorite Quote</b>: 'Don't ever let somebody tell you, you can't do something. You got a dream, you gotta protect it. People can't do something themselves, they wanna tell you, you can't do it. You want something? Go get it. Period.'",
-    "jumboSrc": "Images/2015/Makai/MakaiJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Makai/MakaiJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Makai/MakaiHS.png"
   },
   "Franscisco Pe&ntilde;a": {
     "id": 3,
@@ -30,7 +32,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Aaron Okello ('16)",
     "officesHeld": "Social Chair (2012), Pledge Trainer (2013)",
     "extraInfo": "",
-    "jumboSrc": "Images/2015/Frank/FrankJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Frank/FrankJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Frank/FrankHS.png"
   },
   "Paul Dawson": {
     "id": 4,
@@ -41,7 +44,8 @@
     "littleBro": "",
     "officesHeld": "",
     "extraInfo": "<b>Interests</b>: Basketball",
-    "jumboSrc": "Images/2015/Paul/PaulJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Paul/PaulJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Paul/PaulHS.png"
   },
   "Ebenezer Sefah Jr.": {
     "id": 5,
@@ -52,7 +56,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Brian Wilcox ('16)",
     "officesHeld": "",
     "extraInfo": "<b>Favorite Quote</b>: 'God, grant me the serenity to accept the things I cannot change, Courage to change the things I can, And wisdom to know the difference.'",
-    "jumboSrc": "Images/2015/EJ/EJJumbo.png"
+    "jumboSrc": "/images/brothers/2015/EJ/EJJumbo.png", 
+    "iconSrc": "/images/brothers/2015/EJ/EJHS.png"
   },
   "Alexander Kendrick": {
     "id": 6,
@@ -63,7 +68,8 @@
     "littleBro": "",
     "officesHeld": "House Manager (2012)",
     "extraInfo": "<b>Favorite Quotes</b>: 'It's not how hard you hit the ground.  It's how fast you get back up and go.'",
-    "jumboSrc": "Images/2015/Kendrick/KendrickJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Kendrick/KendrickJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Kendrick/KendrickHS.png"
   },
   "Saulo Mendoza": {
     "id": 7,
@@ -74,7 +80,8 @@
     "littleBro": "",
     "officesHeld": "",
     "extraInfo": "<b>Interests</b>: Playing bass, playing guitar, creating music, tennis",
-    "jumboSrc": "Images/2015/Saulo/SauloJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Saulo/SauloJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Saulo/SauloHS.png"
   },
   "Fidelis Chimomobe": {
     "id": 8,
@@ -85,7 +92,8 @@
     "littleBro": "",
     "officesHeld": "",
     "extraInfo": "<b>Interests</b>: Charity mission in Africa and Actuarial Science <br> <b>Favorite Quotes</b>: 'Tot Facienda Parum Fectum', 'Ad Majorem Dei Glorium'",
-    "jumboSrc": "Images/2015/Fidelis/FidelisJumbo.png"
+    "jumboSrc": "/images/brothers/2015/Fidelis/FidelisJumbo.png", 
+    "iconSrc": "/images/brothers/2015/Fidelis/FidelisHS.png"
   },
   "David McClelland": {
     "id": 9,
@@ -96,6 +104,7 @@
     "littleBro": "<br> <b>Little Bro</b>: Anish Punjabi ('16)",
     "officesHeld": "Rush Chair (2013), Athletic Chair (2012)",
     "extraInfo": "<b>Internships</b>: Abbott Labs <br> <b>Favorite Quotes</b>: 'Never forget the moment you began to doubt, transition in from fitting in to standing out.'",
-    "jumboSrc": "Images/2015/David/DavidJumbo.png"
+    "jumboSrc": "/images/brothers/2015/David/DavidJumbo.png", 
+    "iconSrc": "/images/brothers/2015/David/DavidHS.jpg"
   }
 }

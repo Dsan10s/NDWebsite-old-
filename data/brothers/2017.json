@@ -8,7 +8,8 @@
     "littleBro": "",
     "officesHeld": "Assistant Work Week Chair (2013)",
     "extraInfo": "",
-    "jumboSrc": "Images/2017/Amin/AminHS.jpg"
+    "jumboSrc": "/images/brothers/2017/Amin/AminHS.jpg", 
+    "iconSrc": "/images/brothers/2017/Amin/AminHS.jpg"
   },
 
   "Moti Ogunsina": {
@@ -20,7 +21,8 @@
     "littleBro": "",
     "officesHeld": "Chaplain (2013)",
     "extraInfo": "<b>Interests</b>: Singing, Video Games, Basketball, Anime, Superhero Shows, Public Speaking, Debate, Philospophy, Religion <br> <b>Activities</b>: CRU, MIT Logarhythms <br> <b>UROPs</b>: Laboratory for Biomechanics and Human Rehabilitation (Fall 2013)",
-    "jumboSrc": "Images/2017/Moti/MotiJumbo.jpg"
+    "jumboSrc": "/images/brothers/2017/Moti/MotiJumbo.jpg", 
+    "iconSrc": "/images/brothers/2017/Moti/MotiHS.jpg"
   },
 
   "Alan Samboy": {
@@ -32,7 +34,8 @@
     "littleBro": "",
     "officesHeld": "Social Chair (2013)",
     "extraInfo": "<b>Interests</b>: Traveling, Languages, Volleyball, People! <br> <b>Activites</b>: Rowing Crew, Associate Advisor, International Mentor <br> <b>Favorite Quote</b>: 'Be who you are and say what you feel because those who mind don't matter and those who matter don't mind.' <br>",
-    "jumboSrc": "Images/2017/Alan/AlanJumbo.jpg"
+    "jumboSrc": "/images/brothers/2017/Alan/AlanJumbo.jpg", 
+    "iconSrc": "/images/brothers/2017/Alan/AlanHS.jpg"
   },
 
   "Narindra Peaks": {
@@ -44,7 +47,8 @@
     "littleBro": "",
     "officesHeld": "Webmaster (2013), IFC Delegate (2013)",
     "extraInfo": "<b>Interests</b>: Tennis, Music, Video Editing & Visual Effects, Graphic Design, Programming <br> <b>Activites</b>: MIT Symphony Orchestra, Dance Troupe <br> <b>UROPs</b>: MITx (edX)",
-    "jumboSrc": "Images/2017/Narindra/NarindraJumbo.jpg"
+    "jumboSrc": "/images/brothers/2017/Narindra/NarindraJumbo.jpg", 
+    "iconSrc": "/images/brothers/2017/Narindra/NarindraHS.jpg"
   },
 
   "James Rivera": {
@@ -56,7 +60,8 @@
     "littleBro": "",
     "officesHeld": "Treasurer (2013), Assistant Work Week Chair (2013), Assistant Rush Chair (2013)",
     "extraInfo": "<b>Interests</b>: Volleyball, DJing, Hip-hop dance <br> <b>Activites</b>: Dance Troupe, Club Volleyball <br> <b>UROPs</b>: Space Systems Lab (REXIS)",
-    "jumboSrc": "Images/2017/James/JamesJumbo.jpg"
+    "jumboSrc": "/images/brothers/2017/James/JamesJumbo.jpg", 
+    "iconSrc": "/images/brothers/2017/James/JamesHS.jpg"
   },
 
   "Carlos Henriquez": {
@@ -68,7 +73,8 @@
     "littleBro": "",
     "officesHeld": "Steward (2013)",
     "extraInfo": "<b>Interests</b>: Dancing, Basketball <br> <b>Activites</b>: Dance Troupe <br> <b>UROPs</b>: Space Systems Lab (Zero Robotics) <br> <b>Favorite Quote</b>: 'God grant me the serenity to accept the things I can't change, the course to change the things I can, and the wisdom to know the difference'",
-    "jumboSrc": "Images/2017/Carlos/CarlosJumbo.jpg"
+    "jumboSrc": "/images/brothers/2017/Carlos/CarlosJumbo.jpg", 
+    "iconSrc": "/images/brothers/2017/Carlos/CarlosHS.jpg"
   },
 
   "Fred Daso": {
@@ -80,6 +86,7 @@
     "littleBro": "",
     "officesHeld": "",
     "extraInfo": "",
-    "jumboSrc": "Images/2017/Fred/FredJumbo.jpg"
+    "jumboSrc": "/images/brothers/2017/Fred/FredJumbo.jpg", 
+    "iconSrc": "/images/brothers/2017/Fred/FredHS.jpg"
   }
 }

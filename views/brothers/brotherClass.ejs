@@ -6,28 +6,12 @@
 </script>
 <script type="text/javascript" src="/javascripts/controllers/brothers/BrotherClassController.js"></script>
 
-<div ng-controller="brotherClassController" class = "container" id = "mainBody">
-  <!-- Person Info -->
-  <div class = "jumbotronNew">
-    <div class = "container" id = "initContainer">
-      <div class = "row">
-        <div class = "span4"><img class = "thumbnail" src = "http://www.barnardlevit.co.uk/themes/barnardlevit/img/staff-pic-placeholder.gif"></div>
-        <div class = "span8"><h3>Click on a person down below!</h3></div>
-      </div>
+<div ng-controller="brotherClassController" class="brotherClassContainer">
+  <div id="brotherSelector">
+    <div ng-repeat="brother in viewModel.brothers" 
+         id="brotherIcon{{$index}}" 
+         class="imgShadow brotherIcon">
+      <img class="brotherIconImg" ng-src="{{brother.iconSrc}}" brother-icon-directive>
     </div>
-  </div>
-
-  <!-- Individual People -->
-  <div class = "row">
-  <div ng-repeat="brother in viewModel.brotherNames" class = "span2">
-    <div class = "panel" id = "1">
-      <div class = "thumbnail">
-        <div class = 'headShotPicContainer'>
-          <img class = 'headShotPic' src = "{{brothers[brother]}}">
-        </div>
-      </div>
-      <div class = "panel-footer">{{brother}}</div>
-    </div>
-  </div>
   </div>
 </div>

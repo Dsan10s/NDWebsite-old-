@@ -8,7 +8,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Christian Mata ('15)",
     "officesHeld": "Vice President (2012), House Manager (2011)",
     "extraInfo": "<b>Internships</b>: Qualcomm Inc.",
-    "jumboSrc": "Images/2014/Londono/LondonoJumbo.png"
+    "jumboSrc": "Images/2014/Londono/LondonoJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Londono/Londono.png"
   },
   "Angel Batista": {
     "id": 2,
@@ -19,7 +20,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Makai Cartman ('15)",
     "officesHeld": "Social Chair (2011)",
     "extraInfo": "<b>Internships</b>: CimaTruck/MISTI",
-    "jumboSrc": "Images/2014/Angel/AngelJumbo.png"
+    "jumboSrc": "Images/2014/Angel/AngelJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Angel/Angel.png"
   },
   "Christopher Kelly": {
     "id": 3,
@@ -30,7 +32,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Frank Pe&ntilde;a",
     "officesHeld": "President (2013), Rush Chair (2012), Treasurer (2012), Academic Chair (2012), Prefrosh Coordinator (2012), Webmaster (2012), Academic Chair (2011), Prefrosh Coordinator (2011)",
     "extraInfo": "<b>Interests</b>: Music and DJing, robotics, tinkering, computers, and entrepreneurship <br> <b>Favorite Quote</b>: 'I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence.' -Frederick Douglass",
-    "jumboSrc": "Images/2014/ChrisKelly/ChrisKellyJumbo.png"
+    "jumboSrc": "Images/2014/ChrisKelly/ChrisKellyJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Chris/Chris.png"
   },
   "Christopher Davis": {
     "id": 4,
@@ -41,7 +44,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Alex Kendrick ('15)",
     "officesHeld": "Steward (2011)",
     "extraInfo": "<b>Internships</b>: Camp Darby",
-    "jumboSrc": "Images/2014/ChrisDavis/ChrisDavisJumbo.png"
+    "jumboSrc": "Images/2014/ChrisDavis/ChrisDavisJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Chris/Chris.png"
   },
   "Edward Amilkar Valle": {
     "id": 5,
@@ -52,7 +56,8 @@
     "littleBro": "",
     "officesHeld": "Pledge Trainer (2012)",
     "extraInfo": "<b>Internships</b>: Universidad anahuac mayab",
-    "jumboSrc": "Images/2014/Eduardo/EduardoJumbo.png"
+    "jumboSrc": "Images/2014/Eduardo/EduardoJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Eduardo/Eduardo.png"
   },
   "Kwesi Phillips": {
     "id": 6,
@@ -63,7 +68,8 @@
     "littleBro": "",
     "officesHeld": "Community Service Chair (2011), Rush Chair (2012)",
     "extraInfo": "<b>Internships</b>: Microsoft",
-    "jumboSrc": "Images/2014/Kwesi/KwesiJumbo.png"
+    "jumboSrc": "Images/2014/Kwesi/KwesiJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Kwesi/Kwesi.png"
   },
   "Tochukwu Okoro": {
     "id": 11,
@@ -74,7 +80,8 @@
     "littleBro": "",
     "officesHeld": "Webmaster (2012)",
     "extraInfo": "<b>Internships</b>: Google",
-    "jumboSrc": "Images/2014/Tobe/TobeJumbo.png"
+    "jumboSrc": "Images/2014/Tobe/TobeJumbo.png", 
+    "iconSrc": "/images/brothers/2014Tobe/Tobe.png/"
   },
   "Kojo Welbeck": {
     "id": 13,
@@ -85,7 +92,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Ebenezer Sefah Jr. ('15)",
     "officesHeld": "Athletics Chair (2011), Summer House Manager (2011), Academic Chair (2013)",
     "extraInfo": "",
-    "jumboSrc": "Images/2014/Kojo/KojoHS.png"
+    "jumboSrc": "Images/2014/Kojo/KojoHS.png", 
+    "iconSrc": "/images/brothers/2014Kojo/Kojo.png/"
   },
   "Sebastian Leon": {
     "id": 14,
@@ -96,7 +104,8 @@
     "littleBro": "<br> <b>Little Bro</b>: Daniel Sanchez ('16)",
     "officesHeld": "Alumni Secretary (2012)",
     "extraInfo": "<b>Favorite Quotes</b>: 'Don't get wrecked'",
-    "jumboSrc": "Images/2014/Sebastian/SebastianJumbo.png"
+    "jumboSrc": "Images/2014/Sebastian/SebastianJumbo.png", 
+    "iconSrc": "/images/brothers/2014/Sebastian/Sebastian.png"
   }
 
 }
