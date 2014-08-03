@@ -1,92 +1,108 @@
 {  
   "Amin Manna": {
-    "id": 1,
-    "major": "6-3: Computer Science",
-    "hometown": "Jerusalem, Palestine",
-    "highSchool": "",
-    "bigBro": "Saul Lopez",
-    "littleBro": "",
-    "officesHeld": "Assistant Work Week Chair (2013)",
-    "extraInfo": "",
-    "jumboSrc": "/images/brothers/2017/Amin/AminHS.jpg", 
-    "iconSrc": "/images/brothers/2017/Amin/AminHS.jpg"
+    "info": [
+      {"infoName": "Pledge Number", "info": "1"}, 
+      {"infoName": "Major", "info": "6-3: Computer Science"}, 
+      {"infoName": "Hometown", "info": "Jerusalem, Palestine"},
+      {"infoName": "High School", "info": "PIP - Palestinian Institute of Pledgeology"},
+      {"infoName": "Big Brother", "info": "Kojo Welbeck ('14)"},
+      {"infoName": "Offices Held", "info": "Alumni Secretary, Webmaster"},
+      {"infoName": "Interests", "info": "Entrepreneurship, Computer Science"},
+      {"infoName": "UROPs", "info": "ECHOES with CSAIL Prof Karger (2014)"},
+      {"infoName": "Employed as", "info": "6.01 SLA (2014), MISTI-MEET CS Instructor and Recruiter (Summers 2013,2014), MISTI-GSL Tech Assistant (Summer 2014 @Mexico)"}
+    ], 
+    "jumboSrc": "/images/brothers/2017/Amin/AminHS.png", 
+    "iconSrc": "/images/brothers/2017/Amin/AminHS.png"
   },
 
   "Moti Ogunsina": {
-    "id": 2,
-    "major": "2: Mechanical Engineering",
-    "hometown": "Texas",
-    "highSchool": "Garland High School",
-    "bigBro": "Ebenezer Sefah Jr. ('15)",
-    "littleBro": "",
-    "officesHeld": "Chaplain (2013)",
-    "extraInfo": "<b>Interests</b>: Singing, Video Games, Basketball, Anime, Superhero Shows, Public Speaking, Debate, Philospophy, Religion <br> <b>Activities</b>: CRU, MIT Logarhythms <br> <b>UROPs</b>: Laboratory for Biomechanics and Human Rehabilitation (Fall 2013)",
-    "jumboSrc": "/images/brothers/2017/Moti/MotiJumbo.jpg", 
-    "iconSrc": "/images/brothers/2017/Moti/MotiHS.jpg"
+    "info": [
+      {"infoName": "Pledge Number", "info": "2"}, 
+      {"infoName": "Major", "info": "2A: Mechanical Engineering with Computer Science"},
+      {"infoName": "Hometown", "info": "Lagos, Nigeria"},
+      {"infoName": "High School", "info": "Loyola Jesuit College, Nigeria"},
+      {"infoName": "Big Brother", "info": "Tobe Okoro ('14)"},
+      {"infoName": "Offices Held", "info": "Assistant Rush Chair"},
+      {"infoName": "Interests", "info": "Soccer, DJing, Dancing"},
+      {"infoName": "Favorite Quote", "info": "'Shoot for the moon, and even if you miss, you'll land among the stars'"}
+    ], 
+    "jumboSrc": "/images/brothers/2017/Moti/MotiHS.png",
+    "iconSrc": "/images/brothers/2017/Moti/MotiHS.png"
   },
 
-  "Alan Samboy": {
-    "id": 4,
-    "major": "2: Mechanical Engineering",
-    "hometown": "Queretaro, Mexico",
-    "highSchool": "Tec de Monterrey",
-    "bigBro": "Peter Lee ('13)",
-    "littleBro": "",
-    "officesHeld": "Social Chair (2013)",
-    "extraInfo": "<b>Interests</b>: Traveling, Languages, Volleyball, People! <br> <b>Activites</b>: Rowing Crew, Associate Advisor, International Mentor <br> <b>Favorite Quote</b>: 'Be who you are and say what you feel because those who mind don't matter and those who matter don't mind.' <br>",
-    "jumboSrc": "/images/brothers/2017/Alan/AlanJumbo.jpg", 
-    "iconSrc": "/images/brothers/2017/Alan/AlanHS.jpg"
+  "Alan Samboy Adames": {
+    "info": [
+      {"infoName": "Pledge Number", "info": "1-C"},
+      {"infoName": "Major", "info": "2: Mechanical Engineering"}, 
+      {"infoName": "Hometown", "info": "Newark, New Jersey"},
+      {"infoName": "High School", "info": "North Star Academy"},
+      {"infoName": "Big Brother", "info": "David A McClleland ('15)"},
+      {"infoName": "Offices Held", "info": "Athletic Chair"},
+      {"infoName": "Interests", "info": "Soccer, Math, Family, Anime, Soccer and Other Sports, USA Network"},
+      {"infoName": "Internships", "info": "Audible.com, Audiobook Sale and Management"}
+    ], 
+    "jumboSrc": "/images/brothers/2017/Alan/AlanHS.png",
+    "iconSrc": "/images/brothers/2017/Alan/AlanHS.png"
   },
 
   "Narindra Peaks": {
-    "id": 5,
-    "major": "6-3: Computer Science",
-    "hometown": "Thiells, New York",
-    "highSchool": "North Rockland High School",
-    "bigBro": "Sebastian Leon ('14)",
-    "littleBro": "",
-    "officesHeld": "Webmaster (2013), IFC Delegate (2013)",
-    "extraInfo": "<b>Interests</b>: Tennis, Music, Video Editing & Visual Effects, Graphic Design, Programming <br> <b>Activites</b>: MIT Symphony Orchestra, Dance Troupe <br> <b>UROPs</b>: MITx (edX)",
+    "info": [
+      {"infoName": "Pledge Number", "info": "5"}, 
+      {"infoName": "Major", "info": "6-2: Electrical Engineering and Computer Science"},
+      {"infoName": "Hometown", "info": "Voorhees, New Jersey"},
+      {"infoName": "High School", "info": "Eastern Regional"},
+      {"infoName": "Big Brother", "info": "Kwesi Phillips"},
+      {"infoName": "Offices Held", "info": "House Manager"},
+      {"infoName": "Interests", "info": "Rubik's cubing, video games, volleyball"},
+      {"infoName": "Internships", "info": "Shoobx"}
+    ], 
     "jumboSrc": "/images/brothers/2017/Narindra/NarindraJumbo.jpg", 
-    "iconSrc": "/images/brothers/2017/Narindra/NarindraHS.jpg"
+    "iconSrc": "/images/brothers/2017/Narindra/NarindraHS.png"
   },
 
   "James Rivera": {
-    "id": 6,
-    "major": "2: Mechanical Engineering",
-    "hometown": "Racine, Wisconson",
-    "highSchool": "William Horlick High School",
-    "bigBro": "Makai Cartman ('15)",
-    "littleBro": "",
-    "officesHeld": "Treasurer (2013), Assistant Work Week Chair (2013), Assistant Rush Chair (2013)",
-    "extraInfo": "<b>Interests</b>: Volleyball, DJing, Hip-hop dance <br> <b>Activites</b>: Dance Troupe, Club Volleyball <br> <b>UROPs</b>: Space Systems Lab (REXIS)",
-    "jumboSrc": "/images/brothers/2017/James/JamesJumbo.jpg", 
-    "iconSrc": "/images/brothers/2017/James/JamesHS.jpg"
+    "info": [
+      {"infoName": "Pledge Number", "info": "6"}, 
+      {"infoName": "Major", "info": "16: Aeronautics and Astronautics"},
+      {"infoName": "Hometown", "info": "Las Cruces, New Mexico"},
+      {"infoName": "High School", "info": "Mesilla Valley Christian School"},
+      {"infoName": "Big Brother", "info": "Alejandro Romero Gomez ('16)"},
+      {"infoName": "Offices Held", "info": "Social Chair"},
+      {"infoName": "Interests", "info": "Guitar, Singing, Cycling, Soccer, Baseball"},
+      {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"}
+    ], 
+    "jumboSrc": "/images/brothers/2017/James/JamesHS.png", 
+    "iconSrc": "/images/brothers/2017/James/JamesHS.png"
   },
 
   "Carlos Henriquez": {
-    "id": 8,
-    "major": "6-3: Computer Science",
-    "hometown": "Oakland, California",
-    "highSchool": "Head-Royce School",
-    "bigBro": "Christian Mata ('15)",
-    "littleBro": "",
-    "officesHeld": "Steward (2013)",
-    "extraInfo": "<b>Interests</b>: Dancing, Basketball <br> <b>Activites</b>: Dance Troupe <br> <b>UROPs</b>: Space Systems Lab (Zero Robotics) <br> <b>Favorite Quote</b>: 'God grant me the serenity to accept the things I can't change, the course to change the things I can, and the wisdom to know the difference'",
-    "jumboSrc": "/images/brothers/2017/Carlos/CarlosJumbo.jpg", 
-    "iconSrc": "/images/brothers/2017/Carlos/CarlosHS.jpg"
+    "info": [
+      {"infoName": "Pledge Number", "info": "8"}, 
+      {"infoName": "Major", "info": "6-2: Electrical Engineering and Computer Science"},
+      {"infoName": "Hometown", "info": "Los Angeles, California"},
+      {"infoName": "High School", "info": "Venice High School"},
+      {"infoName": "Big Brother", "info": "Calvin Li ('16)"},
+      {"infoName": "Offices Held", "info": "Steward, Assistant Rush Chair"},
+      {"infoName": "Interests", "info": "Coffee, Video Games, Pokemon, Languages, Robotics, Entrepreneurship"},
+      {"infoName": "UROPs", "info": "Visualization of Mathematical Relations using Haptic Feedback (Edgerton Center)"},
+      {"infoName": "Internships", "info": "Software Development Engineering Intern (ShooBx)"},
+      {"infoName": "Favorite Quote", "info": "'When 'I' is replaced with 'we', even illness becomes wellness.'"}
+    ], 
+    "jumboSrc": "/images/brothers/2017/Carlos/CarlosHS.png", 
+    "iconSrc": "/images/brothers/2017/Carlos/CarlosHS.png"
   },
 
-  "Fred Daso": {
-    "id": 9,
-    "major": "6-3: Computer Science",
-    "hometown": "Colorado",
-    "highSchool": "",
-    "bigBro": "",
-    "littleBro": "",
-    "officesHeld": "",
-    "extraInfo": "",
-    "jumboSrc": "/images/brothers/2017/Fred/FredJumbo.jpg", 
-    "iconSrc": "/images/brothers/2017/Fred/FredHS.jpg"
+  "Frederick Daso": {
+    "info": [
+      {"infoName": "Pledge Number", "info": "9"}, 
+      {"infoName": "Major", "info": "16: Aeronautics and Astronautics"},
+      {"infoName": "Hometown", "info": "Hampton, Virginia"},
+      {"infoName": "High School", "info": "Bob Jones Pledge School"},
+      {"infoName": "Big Brother", "info": "Aaron Okello ('16)"},
+      {"infoName": "Offices Held", "info": "Community Service Chair, Summer Housing Manager"},
+      {"infoName": "Activities", "info": "Class Council"}
+    ], 
+    "jumboSrc": "/images/brothers/2017/Fred/FredJumbo.png",
+    "iconSrc": "/images/brothers/2017/Fred/FredHS.png"
   }
 }

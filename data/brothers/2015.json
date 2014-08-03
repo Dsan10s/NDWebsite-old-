@@ -1,109 +1,124 @@
 {
   "Christian Mata": {
-    "id": 1,
-    "major": "6-2: Computer Science and Electrical Engineering",
-    "hometown": "Houston, Texas",
-    "highSchool": "Macarthur High School",
-    "bigBro": "Christian Londo&ntilde;o",
-    "littleBro": "<br> <b>Little Bro</b>: Calvin Li ('16)",
-    "officesHeld": "Steward (2012)",
-    "extraInfo": "<b>Internships</b>: Hewlett-Packard, Qualcomm",
+    "info": [
+      {"infoName": "Pledge Number", "info": "1"}, 
+      {"infoName": "Major", "info": "6-2: Computer Science and Electrical Engineering"}, 
+      {"infoName": "Hometown", "info": "Houston, Texas"}, 
+      {"infoName": "High School", "info": "Macarthur High School"}, 
+      {"infoName": "Big Brother", "info": "Christian Londo&ntilde;o"}, 
+      {"infoName": "Little Brother", "info": "Calvin Li ('16)"}, 
+      {"infoName": "Offices Held", "info": "Steward"}, 
+      {"infoName": "Internships", "info": "Factual, Hewlett-Packard, Qualcomm"}
+    ], 
     "jumboSrc": "/images/brothers/2015/Mata/MataJumbo.png", 
     "iconSrc": "/images/brothers/2015/Mata/MataHS.png"
   },
   "Makai Cartman": {
-    "id": 2,
-    "major": "2: Mechanical Engineering",
-    "hometown": "Houston, Texas",
-    "highSchool": "Westside High School",
-    "bigBro": "Angel Batista ('14)",
-    "littleBro": "<br> <b>Little Bro</b>: Eric Shirley ('16)",
-    "officesHeld": "Social Chair (2012), Vice President (2013)",
-    "extraInfo": "<b>Internships</b>: NASA JPL <br> <b>Favorite Quote</b>: 'Don't ever let somebody tell you, you can't do something. You got a dream, you gotta protect it. People can't do something themselves, they wanna tell you, you can't do it. You want something? Go get it. Period.'",
+    "info": [
+      {"infoName": "Pledge Number", "info": "2"}, 
+      {"infoName": "Major", "info": "2: Mechanical Engineering"}, 
+      {"infoName": "Hometown", "info": "Houston, Texas"}, 
+      {"infoName": "High School", "info": "Westside High School"}, 
+      {"infoName": "Big Brother", "info": "Angel Batista ('14)"}, 
+      {"infoName": "Little Brother", "info": "Eric Shirley ('16)"}, 
+      {"infoName": "Offices Held", "info": "Vice President, Social Chair"}, 
+      {"infoName": "Internships", "info": "NASA JPL"}, 
+      {"infoName": "Favorite Quote", "info": "'Don't ever let somebody tell you, you can't do something. You got a dream, you gotta protect it. People can't do something themselves, they wanna tell you, you can't do it. You want something? Go get it. Period.'"}
+    ], 
     "jumboSrc": "/images/brothers/2015/Makai/MakaiJumbo.png", 
     "iconSrc": "/images/brothers/2015/Makai/MakaiHS.png"
   },
   "Franscisco Pe&ntilde;a": {
-    "id": 3,
-    "major": "9: Brain & Cognitive Sciences",
-    "hometown": "McAllen, Texas",
-    "highSchool": "Memorial High School",
-    "bigBro": "Chris Kelly",
-    "littleBro": "<br> <b>Little Bro</b>: Aaron Okello ('16)",
-    "officesHeld": "Social Chair (2012), Pledge Trainer (2013)",
-    "extraInfo": "",
+    "info": [
+      {"infoName": "Pledge Number", "info": "3"}, 
+      {"infoName": "Major", "info": "9: Brain & Cognitive Sciences"}, 
+      {"infoName": "Hometown", "info": "McAllen, Texas"}, 
+      {"infoName": "High School", "info": "Memorial High School"}, 
+      {"infoName": "Big Brother", "info": "Chris Kelly ('14)"},
+      {"infoName": "Little Brother", "info": "Aaron Okello ('16)"},
+      {"infoName": "Offices Held", "info": "Pledge Trainer, Social Chair"},
+      {"infoName": "Interests", "info": "Hip hop, contemporary, and cumbia dance. Mocha moves will always be one of the funnest experiences I had in college."},
+      {"infoName": "Internships", "info": "MISTI Mexico"},
+      {"infoName": "Favorite Quote", "info": "'Not everything that counts can be counted, and not everything that can be counted counts.'"}
+    ],
     "jumboSrc": "/images/brothers/2015/Frank/FrankJumbo.png", 
     "iconSrc": "/images/brothers/2015/Frank/FrankHS.png"
   },
   "Paul Dawson": {
-    "id": 4,
-    "major": "20: Biological Engineering",
-    "hometown": "Stone Mountain, Georgia",
-    "highSchool": "Greater Atlanta Christian School",
-    "bigBro": "Nahom Workie ('13)",
-    "littleBro": "",
-    "officesHeld": "",
-    "extraInfo": "<b>Interests</b>: Basketball",
+    "info": [
+      {"infoName": "Pledge Number", "info": "4"}, 
+      {"infoName": "Major", "info": "20: Biological Engineering"}, 
+      {"infoName": "Hometown", "info": "Stone Mountain, Georgia"}, 
+      {"infoName": "High School", "info": "Greater Atlanta Christian School"}, 
+      {"infoName": "Big Brother", "info": "Nahom Workie ('13)"}, 
+      {"infoName": "Interests", "info": "Basketball"}
+    ],
     "jumboSrc": "/images/brothers/2015/Paul/PaulJumbo.png", 
     "iconSrc": "/images/brothers/2015/Paul/PaulHS.png"
   },
   "Ebenezer Sefah Jr.": {
-    "id": 5,
-    "major": "6-2: Electrical Engineering and Computer Science",
-    "hometown": "Koforidua, Ghana",
-    "highSchool": "United World College-USA",
-    "bigBro": "Kojo Welbeck",
-    "littleBro": "<br> <b>Little Bro</b>: Brian Wilcox ('16)",
-    "officesHeld": "",
-    "extraInfo": "<b>Favorite Quote</b>: 'God, grant me the serenity to accept the things I cannot change, Courage to change the things I can, And wisdom to know the difference.'",
+    "info": [
+      {"infoName": "Pledge Number", "info": "5"}, 
+      {"infoName": "Major", "info": "6-2: Electrical Engineering and Computer Science"}, 
+      {"infoName": "Hometown", "info": "Koforidua, Ghana"}, 
+      {"infoName": "High School", "info": "United World College-USA"}, 
+      {"infoName": "Big Brother", "info": "Kojo Welbeck ('14)"},
+      {"infoName": "Little Brother", "info": "Brian Wilcox ('16)"},
+      {"infoName": "Favorite Quote", "info": "'God, grant me the serenity to accept the things I cannot change, Courage to change the things I can, And wisdom to know the difference.'"}
+    ],
     "jumboSrc": "/images/brothers/2015/EJ/EJJumbo.png", 
     "iconSrc": "/images/brothers/2015/EJ/EJHS.png"
   },
   "Alexander Kendrick": {
-    "id": 6,
-    "major": "10: Chemical Engineering",
-    "hometown": "Newnan, Georgia",
-    "highSchool": "Newnan High School",
-    "bigBro": "Chris Davis ('14)",
-    "littleBro": "",
-    "officesHeld": "House Manager (2012)",
-    "extraInfo": "<b>Favorite Quotes</b>: 'It's not how hard you hit the ground.  It's how fast you get back up and go.'",
+    "info": [
+      {"infoName": "Pledge Number", "info": "6"}, 
+      {"infoName": "Major", "info": "10: Chemical Engineering"}, 
+      {"infoName": "Hometown", "info": "Newnan, Georgia"}, 
+      {"infoName": "High School", "info": "Newnan High School"}, 
+      {"infoName": "Big Brother", "info": "Chris Davis ('14)"}, 
+      {"infoName": "Offices Held", "info": "House Manager"},
+      {"infoName": "Favorite Quote", "info": "'It's not how hard you hit the ground.  It's how fast you get back up and go.'"}
+    ],
     "jumboSrc": "/images/brothers/2015/Kendrick/KendrickJumbo.png", 
     "iconSrc": "/images/brothers/2015/Kendrick/KendrickHS.png"
   },
   "Saulo Mendoza": {
-    "id": 7,
-    "major": "20: Biological Engineering",
-    "hometown": "Los Angeles, California",
-    "highSchool": "John H. Francis Polytechnic High School",
-    "bigBro": "Peter Lee ('13)",
-    "littleBro": "",
-    "officesHeld": "",
-    "extraInfo": "<b>Interests</b>: Playing bass, playing guitar, creating music, tennis",
+    "info": [
+      {"infoName": "Pledge Number", "info": "7"}, 
+      {"infoName": "Major", "info": "20: Biological Engineering"}, 
+      {"infoName": "Hometown", "info": "Los Angeles, California"}, 
+      {"infoName": "High School", "info": "John H. Francis Polytechnic High School"}, 
+      {"infoName": "Big Brother", "info": "Peter Lee ('13)"}, 
+      {"infoName": "Interests", "info": "Playing bass, playing guitar, creating music, tennis"}
+    ],
     "jumboSrc": "/images/brothers/2015/Saulo/SauloJumbo.png", 
     "iconSrc": "/images/brothers/2015/Saulo/SauloHS.png"
   },
   "Fidelis Chimomobe": {
-    "id": 8,
-    "major": "6-2: Electrical Engineering and Computer Science",
-    "hometown": "Nyanga, Zimbabwe",
-    "highSchool": "Nyanga Boys High, Marist Brothers",
-    "bigBro": "Kwami Williams",
-    "littleBro": "",
-    "officesHeld": "",
-    "extraInfo": "<b>Interests</b>: Charity mission in Africa and Actuarial Science <br> <b>Favorite Quotes</b>: 'Tot Facienda Parum Fectum', 'Ad Majorem Dei Glorium'",
+    "info": [
+      {"infoName": "Pledge Number", "info": "8"}, 
+      {"infoName": "Major", "info": "6-2: Electrical Engineering and Computer Science"}, 
+      {"infoName": "Hometown", "info": "Nyanga, Zimbabwe"}, 
+      {"infoName": "High School", "info": "Nyanga Boys High, Marist Brothers"}, 
+      {"infoName": "Big Brother", "info": "Kwami Williams ('12)"},
+      {"infoName": "Interests", "info": "Charity mission in Africa and Actuarial Science"},
+      {"infoName": "Favorite Quotes", "info": "'Tot Facienda Parum Fectum', 'Ad Majorem Dei Glorium'"}
+    ],
     "jumboSrc": "/images/brothers/2015/Fidelis/FidelisJumbo.png", 
     "iconSrc": "/images/brothers/2015/Fidelis/FidelisHS.png"
   },
   "David McClelland": {
-    "id": 9,
-    "major": "2: Mechanical Engineering",
-    "hometown": "Waukegan, Illinois",
-    "highSchool": "Waukegan High School",
-    "bigBro": "Jonathan Thomas",
-    "littleBro": "<br> <b>Little Bro</b>: Anish Punjabi ('16)",
-    "officesHeld": "Rush Chair (2013), Athletic Chair (2012)",
-    "extraInfo": "<b>Internships</b>: Abbott Labs <br> <b>Favorite Quotes</b>: 'Never forget the moment you began to doubt, transition in from fitting in to standing out.'",
+    "info": [
+      {"infoName": "Pledge Number", "info": "9"}, 
+      {"infoName": "Major", "info": "2: Mechanical Engineering"}, 
+      {"infoName": "Hometown", "info": "Waukegan, Illinois"}, 
+      {"infoName": "High School", "info": "Waukegan High School"}, 
+      {"infoName": "Big Brother", "info": "Jonathan Thomas ('14)"},
+      {"infoName": "Litte Brother", "info": "Anish Punjabi ('16)"},
+      {"infoName": "Offices Held", "info": "President, Rush Chair, Athletic Chair"},
+      {"infoName": "Internships", "info": "Exxon, Abbott Labs"},
+      {"infoName": "Favorite Quotes", "info": "'Never forget the moment you began to doubt, transition in from fitting in to standing out.'"}
+    ],
     "jumboSrc": "/images/brothers/2015/David/DavidJumbo.png", 
     "iconSrc": "/images/brothers/2015/David/DavidHS.jpg"
   }

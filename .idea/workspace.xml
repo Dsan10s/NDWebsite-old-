@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758784eb-88b9-48b1-a4ef-b51a5ab0f465" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\public\templates\oneWordSeparator.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/brothers/2015.json" afterPath="$PROJECT_DIR$/data/brothers/2015.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/brothers/2016.json" afterPath="$PROJECT_DIR$/data/brothers/2016.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/controllers/brothers/BrotherClassController.js" afterPath="$PROJECT_DIR$/public/javascripts/controllers/brothers/BrotherClassController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/brothers/2017.json" afterPath="$PROJECT_DIR$/data/brothers/2017.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/brothers/brotherClass.css" afterPath="$PROJECT_DIR$/public/stylesheets/brothers/brotherClass.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/brothers/brotherClass.ejs" afterPath="$PROJECT_DIR$/views/brothers/brotherClass.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/homepage/homepage.css" afterPath="$PROJECT_DIR$/public/stylesheets/homepage/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/navbar/navbar.css" afterPath="$PROJECT_DIR$/public/stylesheets/navbar/navbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/services/ndService.js" afterPath="$PROJECT_DIR$/public/javascripts/services/ndService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/textSeparator.html" afterPath="$PROJECT_DIR$/public/templates/textSeparator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage/partials/wideLayout.ejs" afterPath="$PROJECT_DIR$/views/homepage/partials/wideLayout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NDWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,27 +27,72 @@
     <favorites_list name="NDWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2016.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25597268" vertical-offset="0" max-vertical-offset="879">
-              <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
-              <folding>
-                <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Alejandro Romero#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Danny Sanchez#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Mikael Mengistu#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5612981">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="2016.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="465">
+                  <caret line="121" column="62" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="62" />
+                  <folding>
+                    <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Alejandro Romero#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Danny Sanchez#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Anish Punjabi#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="2017.json" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/data/brothers/2017.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.39249146" vertical-offset="0" max-vertical-offset="879">
+                  <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
+                  <folding>
+                    <element signature="n#!!block;n#Amin Manna#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Moti Ogunsina#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Alan Samboy Adames#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Narindra Peaks#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#James Rivera#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Carlos Henriquez#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="2015.json" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/data/brothers/2015.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.17321016" vertical-offset="0" max-vertical-offset="866">
+                  <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+                  <folding>
+                    <element signature="n#!!block;n#Christian Mata#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Makai Cartman#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Franscisco Pe&amp;ntilde\ha#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Paul Dawson#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Ebenezer Sefah Jr.#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Alexander Kendrick#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Saulo Mendoza#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#Fidelis Chimomobe#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#David McClelland#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -76,7 +111,9 @@
         <option value="$PROJECT_DIR$/ndapp/public/javascripts/controllers/homepage/HomePageController.js" />
         <option value="$PROJECT_DIR$/ndapp/views/navbar/navbar.ejs" />
         <option value="$PROJECT_DIR$/ndapp/public/stylesheets/navbar/navbar.css" />
+        <option value="$PROJECT_DIR$/data/brothers/2015.json" />
         <option value="$PROJECT_DIR$/data/brothers/2016.json" />
+        <option value="$PROJECT_DIR$/data/brothers/2017.json" />
       </list>
     </option>
   </component>
@@ -415,12 +452,12 @@
       <workItem from="1406686899553" duration="150000" />
       <workItem from="1406687064011" duration="5155000" />
       <workItem from="1407099493198" duration="60000" />
-      <workItem from="1407099573426" duration="1820000" />
+      <workItem from="1407099573426" duration="7542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7185000" />
+    <option name="totallyTimeSpent" value="12907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -473,10 +510,28 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/brothers/2015.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17321016" vertical-offset="0" max-vertical-offset="866">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#Christian Mata#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Makai Cartman#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Franscisco Pe&amp;ntilde\ha#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Paul Dawson#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ebenezer Sefah Jr.#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Alexander Kendrick#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Saulo Mendoza#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Fidelis Chimomobe#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#David McClelland#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25597268" vertical-offset="0" max-vertical-offset="879">
-          <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="465">
+          <caret line="121" column="62" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="62" />
           <folding>
             <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
@@ -485,7 +540,22 @@
             <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Mikael Mengistu#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Anish Punjabi#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/brothers/2017.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39249146" vertical-offset="0" max-vertical-offset="879">
+          <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!block;n#Amin Manna#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Moti Ogunsina#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Alan Samboy Adames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Narindra Peaks#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#James Rivera#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Carlos Henriquez#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
