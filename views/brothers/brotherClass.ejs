@@ -9,9 +9,13 @@
 <div ng-controller="brotherClassController" class="brotherClassContainer">
   <div id="brotherSelector">
     <div ng-repeat="brother in viewModel.brothers" 
-         id="brotherIcon{{$index}}" 
-         class="imgShadow brotherIcon">
-      <img class="brotherIconImg" ng-src="{{brother.iconSrc}}" brother-icon-directive>
+         class="brotherIconWrapper"
+         brother-icon-directive>
+      <div id="brotherIcon{{$index}}" 
+           class="imgShadow brotherIcon">
+        <img ng-src="{{brother.iconSrc}}"
+             class="brotherIconImg">
+      </div>
     </div>
   </div>
 </div>

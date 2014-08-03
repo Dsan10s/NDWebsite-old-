@@ -7,6 +7,7 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
     brotherNames: [], 
     brotherIconCenters: {}, 
     brotherIconSize: undefined,
+    currentBrother: undefined, 
     calcIconCenters: function() {}
   }
   var public = $scope.viewModel;
@@ -19,7 +20,8 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
   };
 
   var private = {
-    classYear: brotherClassViewVars.classYear
+    classYear: brotherClassViewVars.classYear, 
+    maxSizeMultiplier: 2.2
   };
   var setPrivateVars = function() {
     
@@ -33,35 +35,49 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
      */
     function calcCenter(elem) {
       var offset = elem.offset();
-      var x = offset.left + (elem.width()/2);
-      var y = offset.top + (elem.height()/2);  
+      var x = offset.left + (parseInt(elem.css("height"))/2);
+      var y = offset.top + (parseInt(elem.css("height"))/2);  
       return {x: x, y: y};
     }
 
     function calcIconCenters() {
       var iconCenters = {};
-      $(".brotherIcon").each(function(i) {
+      $(".brotherIconWrapper").each(function(i) {
         var center = calcCenter($(this));
         iconCenters["#brotherIcon" + i] = center;
       });
       return iconCenters;
     }
+
+    function setIconSize(wrapper, iconSize) {
+      $(wrapper).css("height", iconSize + "px")
+                .css("width", iconSize + "px");
+      $(wrapper + " .brotherIcon").css("border-radius", (iconSize/2) + "px");
+      public.brotherIconSize = iconSize;
+    }
+
+    function setMaxIconSize (wrapper, iconSize) {
+      $(wrapper).css("max-width", iconSize + "px")
+                .css("max-height", iconSize + "px");
+      $(wrapper + " .brotherIcon").css("border-radius", (iconSize/2) + "px");
+    }
  
     function sizingJS() {
-      // var iconSize = public.brotherIconSize = $(window).width() / public.brotherNames.length;
-      // $(".brotherIcon").height(iconSize)
-      //                  .width(iconSize)
-      //                  .css("border-radius", (iconSize/2) + "px");
+      var iconSize = $(window).width() / public.brotherNames.length;
+      setIconSize(".brotherIconWrapper", iconSize);
+      public.brotherIconSize = parseInt($(".brotherIconWrapper").css("height"));
     }
 
     function responsiveJS() {
       sizingJS();
-      $scope.viewModel.brotherIconCenters = calcIconCenters();
+      public.brotherIconCenters = calcIconCenters();
     }
 
     return {
       calcCenter: calcCenter, 
       calcIconCenters: calcIconCenters,
+      setIconSize: setIconSize,
+      setMaxIconSize: setMaxIconSize,
       sizingJS: sizingJS, 
       responsiveJS: responsiveJS
     }
@@ -87,12 +103,11 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
 
   function eventHandlers() {
     function resizeIconBullet(e) {
-      $(".brotherIcon").each(function(i) {
-        var center = $scope.viewModel.brotherIconCenters["#brotherIcon" + i];
+      $(".brotherIconWrapper").each(function(i) {
+        var center = public.brotherIconCenters["#brotherIcon" + i];
         var xDiff = Math.abs(center.x - e.pageX);
-        var maxSizeMultiplier = 2.2;
-        var maxDiff = public.brotherIconSize * 2.5;
-        var maxSizeMultDiff = maxSizeMultiplier - 1;
+        var maxDiff = public.brotherIconSize * 2;
+        var maxSizeMultDiff = private.maxSizeMultiplier - 1;
 
         var newSize;
 
@@ -100,37 +115,36 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
           newSize = public.brotherIconSize;
         } else {
           var multiplier = ((-maxSizeMultDiff/maxDiff)*xDiff) 
-                           + maxSizeMultiplier;
+                           + private.maxSizeMultiplier;
           newSize = public.brotherIconSize * multiplier;
         }
 
-        $(this).height(newSize)
-               .width(newSize)
-               .css("border-radius", (newSize/2) + "px");
+        $(this).css("height", newSize)
+               .css("width", newSize);
+        $($(this).children()[0]).css("border-radius", newSize/2);
       });
     }
 
     $("#brotherSelector").on({
       mouseenter: function() {
+        helpers.setIconSize(".brotherIconWrapper", 
+                            parseInt($(".brotherIconWrapper").css("height")));
+        public.brotherIconCenters = public.calcIconCenters();
+        helpers.setMaxIconSize(".brotherIconWrapper", 
+                               public.brotherIconSize * private.maxSizeMultiplier);
         $(document).on("mousemove", resizeIconBullet);
       }, 
       mouseleave: function() {
         $(document).off("mousemove", resizeIconBullet);
-        $(".brotherIcon").animate({
+        $(".brotherIconWrapper").animate({
           "height": public.brotherIconSize, 
           "width": public.brotherIconSize, 
           "border-radius": (public.brotherIconSize/2) + "px"
-        }, 200);
+        }, 200, function() {
+          helpers.setMaxIconSize(".brotherIconWrapper", public.brotherIconSize);
+        });
       }
     });
   }
 
-})
-.directive("brotherIconDirective", function() {
-  return function(scope, element, attrs) {
-    if (scope.$last) {
-      scope.viewModel.brotherIconSize = $(".brotherIcon").height();
-      scope.viewModel.brotherIconCenters = scope.viewModel.calcIconCenters();
-    }
-  }
 });
