@@ -6,7 +6,7 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
     brothers: {},
     brotherNames: [], 
     brotherIconCenters: {}, 
-    brotherIconSize: undefined,
+    currentIconSize: undefined,
     currentBrother: undefined, 
     calcIconCenters: function() {}
   }
@@ -17,11 +17,13 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
       public.brotherNames = Object.keys(public.brothers);
       public.calcIconCenters = helpers.calcIconCenters;
     });
+    public.currentIconSize = parseInt($(".brotherIconWrapper").css("height"));
   };
 
   var private = {
     classYear: brotherClassViewVars.classYear, 
-    maxSizeMultiplier: 2.2
+    maxSizeMult: 2.2, 
+    maxSize: 80
   };
   var setPrivateVars = function() {
     
@@ -53,7 +55,7 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
       $(wrapper).css("height", iconSize + "px")
                 .css("width", iconSize + "px");
       $(wrapper + " .brotherIcon").css("border-radius", (iconSize/2) + "px");
-      public.brotherIconSize = iconSize;
+      public.currentIconSize = iconSize;
     }
 
     function setMaxIconSize (wrapper, iconSize) {
@@ -63,9 +65,16 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
     }
  
     function sizingJS() {
-      var iconSize = $(window).width() / public.brotherNames.length;
-      setIconSize(".brotherIconWrapper", iconSize);
-      public.brotherIconSize = parseInt($(".brotherIconWrapper").css("height"));
+      var preIconSize = $(window).width() / public.brotherNames.length;
+      var newIconSize = preIconSize - 
+                        (preIconSize * private.maxSizeMult / public.brotherNames.length)
+      setIconSize(".brotherIconWrapper", newIconSize);
+      if (newIconSize < private.maxSize) {
+        setMaxIconSize(".brotherIconWrapper", newIconSize);
+      } else {
+        setMaxIconSize(".brotherIconWrapper", private.maxSize);
+      }
+      public.currentIconSize = parseInt($(".brotherIconWrapper").css("height"));
     }
 
     function responsiveJS() {
@@ -106,17 +115,17 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
       $(".brotherIconWrapper").each(function(i) {
         var center = public.brotherIconCenters["#brotherIcon" + i];
         var xDiff = Math.abs(center.x - e.pageX);
-        var maxDiff = public.brotherIconSize * 2;
-        var maxSizeMultDiff = private.maxSizeMultiplier - 1;
+        var maxDiff = public.currentIconSize * 2;
+        var maxSizeMultDiff = private.maxSizeMult - 1;
 
         var newSize;
 
         if (xDiff > maxDiff) {
-          newSize = public.brotherIconSize;
+          newSize = public.currentIconSize;
         } else {
           var multiplier = ((-maxSizeMultDiff/maxDiff)*xDiff) 
-                           + private.maxSizeMultiplier;
-          newSize = public.brotherIconSize * multiplier;
+                           + private.maxSizeMult;
+          newSize = public.currentIconSize * multiplier;
         }
 
         $(this).css("height", newSize)
@@ -131,17 +140,17 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
                             parseInt($(".brotherIconWrapper").css("height")));
         public.brotherIconCenters = public.calcIconCenters();
         helpers.setMaxIconSize(".brotherIconWrapper", 
-                               public.brotherIconSize * private.maxSizeMultiplier);
+                               public.currentIconSize * private.maxSizeMult);
         $(document).on("mousemove", resizeIconBullet);
       }, 
       mouseleave: function() {
         $(document).off("mousemove", resizeIconBullet);
         $(".brotherIconWrapper").animate({
-          "height": public.brotherIconSize, 
-          "width": public.brotherIconSize, 
-          "border-radius": (public.brotherIconSize/2) + "px"
+          "height": public.currentIconSize, 
+          "width": public.currentIconSize, 
+          "border-radius": (public.currentIconSize/2) + "px"
         }, 200, function() {
-          helpers.setMaxIconSize(".brotherIconWrapper", public.brotherIconSize);
+          helpers.setMaxIconSize(".brotherIconWrapper", public.currentIconSize);
         });
       }
     });
