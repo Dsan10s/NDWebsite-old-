@@ -8,8 +8,6 @@
 
 #brotherSelector .brotherIconWrapper {
   display: inline-block;
-  max-width: 80px;
-  max-height: 80px;
   padding: 10px;
   cursor: pointer;
   overflow: visible !important;
@@ -21,8 +19,6 @@
   background-color: black;
   border-radius: 35px;
   overflow: hidden;
-  webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
 }
 
 #brotherSelector .brotherIconImg {
