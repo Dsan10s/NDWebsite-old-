@@ -1,13 +1,14 @@
 var ndapp = angular.module('ndapp');
 
-ndapp.controller('brotherClassController', function($scope, ndService) {
+ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
 
   var public = $scope.viewModel = {
     classYear: brotherClassViewVars.classYear, 
     classYearText: "Class of " + brotherClassViewVars.classYear, 
     brothers: {},
     brotherNames: [],  
-    currentBrother: undefined, 
+    currentBrotherName: undefined, 
+    currentBrother: undefined
   }
   var setViewModel = function(data) {
     $scope.$apply(function() {
@@ -15,6 +16,11 @@ ndapp.controller('brotherClassController', function($scope, ndService) {
       public.brotherNames = Object.keys(public.brothers);
     });
   };
+
+  public.setCurrentBrother = function(brother) {
+    public.currentBrotherName = $sce.trustAsHtml(brother);
+    public.currentBrother = public.brothers[brother];
+  }
 
   var private = {
     maxSizeMult: 2.2, 

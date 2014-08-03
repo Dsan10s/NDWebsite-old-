@@ -72,7 +72,7 @@ ndapp.service('ndService', function() {
   return {
     restrict: "AE", 
     scope: {
-      word: "="
+      text: "="
     }, 
     templateUrl: "/templates/textSeparator.html"
   };

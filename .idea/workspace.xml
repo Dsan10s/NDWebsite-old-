@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758784eb-88b9-48b1-a4ef-b51a5ab0f465" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\css\docs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-affix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\ndapp\public\external\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Dsan10s\GitHub\NDWebsite\public\templates\oneWordSeparator.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/brothers/2016.json" afterPath="$PROJECT_DIR$/data/brothers/2016.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/controllers/brothers/BrotherClassController.js" afterPath="$PROJECT_DIR$/public/javascripts/controllers/brothers/BrotherClassController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/brothers/brotherClass.css" afterPath="$PROJECT_DIR$/public/stylesheets/brothers/brotherClass.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/brothers/brotherClass.ejs" afterPath="$PROJECT_DIR$/views/brothers/brotherClass.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/homepage/homepage.css" afterPath="$PROJECT_DIR$/public/stylesheets/homepage/homepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/navbar/navbar.css" afterPath="$PROJECT_DIR$/public/stylesheets/navbar/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/services/ndService.js" afterPath="$PROJECT_DIR$/public/javascripts/services/ndService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/textSeparator.html" afterPath="$PROJECT_DIR$/public/templates/textSeparator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage/partials/wideLayout.ejs" afterPath="$PROJECT_DIR$/views/homepage/partials/wideLayout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NDWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,129 +37,27 @@
     <favorites_list name="NDWebsite" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46454328">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ndapp/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="645">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navbar.ejs" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ndapp/views/navbar/navbar.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45617172" vertical-offset="0" max-vertical-offset="559">
-                  <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HomePageController.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ndapp/public/javascripts/controllers/homepage/HomePageController.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="660">
-                  <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#129#219#0" expanded="false" />
-                    <element signature="e#253#492#0" expanded="false" />
-                    <element signature="e#522#978#0" expanded="false" />
-                    <element signature="e#1012#10179#0" expanded="false" />
-                    <element signature="e#7568#10060#0" expanded="false" />
-                    <element signature="e#10676#11398#0" expanded="false" />
-                    <element signature="e#11429#12098#0" expanded="false" />
-                    <element signature="e#12136#15489#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="navbar.css" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ndapp/public/stylesheets/navbar/navbar.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5809859" vertical-offset="0" max-vertical-offset="585">
-                  <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="homepage.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ndapp/public/stylesheets/homepage/homepage.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2236" max-vertical-offset="5160">
-                  <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-                  <folding>
-                    <marker date="1406875406677" expanded="true" signature="2487:2527" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2539:2542" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2552:2576" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2582:2602" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2613:2737" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2748:2844" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2859:2983" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="2995:3068" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3083:3089" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3097:3174" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3181:3357" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3366:3544" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3557:3743" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3763:3898" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="3907:4795" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="4812:4917" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="4928:4963" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="4969:5046" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5055:5136" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5148:5168" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5182:5202" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5212:5230" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5253:5389" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5398:5464" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5479:5499" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5512:5532" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5546:5566" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5577:5603" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5615:5822" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5838:5936" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="5947:6076" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="6087:6119" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="6129:6161" placeholder="{...}" />
-                    <marker date="1406875406677" expanded="true" signature="6179:6211" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="NavBarController.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ndapp/public/javascripts/controllers/navbar/NavBarController.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1560">
-                  <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-                  <folding>
-                    <marker date="1406777635347" expanded="true" signature="1464:2319" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="1566:2302" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="1729:2012" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="1915:2000" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="2018:2292" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="2352:2480" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="2383:2415" placeholder="{...}" />
-                    <marker date="1406777635347" expanded="true" signature="2442:2474" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="2016.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25597268" vertical-offset="0" max-vertical-offset="879">
+              <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
+              <folding>
+                <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Alejandro Romero#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Danny Sanchez#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Mikael Mengistu#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -180,6 +76,7 @@
         <option value="$PROJECT_DIR$/ndapp/public/javascripts/controllers/homepage/HomePageController.js" />
         <option value="$PROJECT_DIR$/ndapp/views/navbar/navbar.ejs" />
         <option value="$PROJECT_DIR$/ndapp/public/stylesheets/navbar/navbar.css" />
+        <option value="$PROJECT_DIR$/data/brothers/2016.json" />
       </list>
     </option>
   </component>
@@ -234,8 +131,18 @@
               <option name="myItemId" value="NDWebsite" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
+              <option name="myItemId" value="NDWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NDWebsite" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,217 +156,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homepage" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ndapp" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NDWebsite" />
+              <option name="myItemId" value="brothers" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,11 +414,13 @@
       <updated>1406686898819</updated>
       <workItem from="1406686899553" duration="150000" />
       <workItem from="1406687064011" duration="5155000" />
+      <workItem from="1407099493198" duration="60000" />
+      <workItem from="1407099573426" duration="1820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5305000" />
+    <option name="totallyTimeSpent" value="7185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -728,7 +431,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -746,8 +448,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -770,144 +473,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ndapp/app.js">
+    <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/views/navbar/navbar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/public/javascripts/controllers/house/HouseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/public/stylesheets/homepage/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2236" max-vertical-offset="5160">
-          <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.25597268" vertical-offset="0" max-vertical-offset="879">
+          <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
           <folding>
-            <marker date="1406875406677" expanded="true" signature="2487:2527" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2539:2542" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2552:2576" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2582:2602" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2613:2737" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2748:2844" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2859:2983" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="2995:3068" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3083:3089" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3097:3174" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3181:3357" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3366:3544" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3557:3743" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3763:3898" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="3907:4795" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="4812:4917" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="4928:4963" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="4969:5046" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5055:5136" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5148:5168" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5182:5202" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5212:5230" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5253:5389" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5398:5464" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5479:5499" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5512:5532" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5546:5566" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5577:5603" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5615:5822" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5838:5936" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="5947:6076" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="6087:6119" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="6129:6161" placeholder="{...}" />
-            <marker date="1406875406677" expanded="true" signature="6179:6211" placeholder="{...}" />
+            <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Alejandro Romero#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Danny Sanchez#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Mikael Mengistu#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6511628" vertical-offset="176" max-vertical-offset="735">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/public/javascripts/controllers/navbar/NavBarController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1080">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <marker date="1406777635347" expanded="true" signature="1464:2319" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="1566:2302" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="1729:2012" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="1915:2000" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="2018:2292" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="2352:2480" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="2383:2415" placeholder="{...}" />
-            <marker date="1406777635347" expanded="true" signature="2442:2474" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/public/javascripts/controllers/homepage/HomePageController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="660">
-          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
-          <folding>
-            <element signature="e#129#219#0" expanded="false" />
-            <element signature="e#253#492#0" expanded="false" />
-            <element signature="e#522#978#0" expanded="false" />
-            <element signature="e#1012#10179#0" expanded="false" />
-            <element signature="e#7568#10060#0" expanded="false" />
-            <element signature="e#10676#11398#0" expanded="false" />
-            <element signature="e#11429#12098#0" expanded="false" />
-            <element signature="e#12136#15489#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/views/navbar/navbar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45617172" vertical-offset="0" max-vertical-offset="559">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndapp/public/stylesheets/navbar/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5809859" vertical-offset="0" max-vertical-offset="585">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>

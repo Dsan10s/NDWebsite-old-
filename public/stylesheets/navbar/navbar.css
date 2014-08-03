@@ -7,7 +7,7 @@ body{
 	height: 30px;
   padding: 5px;
 	top: 0;
-	background-color: rgba(70, 70, 70, 0.5);
+	background-color: rgba(36, 36, 36, 0.8);
 	position: fixed;
 	z-index: 10;
   -webkit-box-sizing: border-box;

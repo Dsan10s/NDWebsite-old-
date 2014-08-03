@@ -18,7 +18,9 @@
           {{viewModel.monthWithEvents}}
           <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
 
-            <ts word="month"></ts>
+            <h3>
+              <ts text="month"></ts>
+            </h3>
             
             <div ng-repeat="event in viewModel.futureEvents[month]" 
                  class = "monthEvent">
@@ -38,7 +40,7 @@
               <tr>
                 <td height="200"><img id="mainIcon" src="/images/PhoenixIcon.png"></td>
                 <td width="100%">
-                  <legend id="nudeltaTextLegend">
+                  <legend class="nameLegend" id="nudeltaTextLegend">
                     <h1 id="nudeltaText">Nu Delta</h1>
                   </legend>
                 </td>
@@ -52,7 +54,7 @@
                   <img src="images/homepage/PresidentPic.jpg" class="imgShadow presPic">
                 </td>
                 <td id="wordPresCol">
-                  <legend id="wordPresLegend">
+                  <legend class="nameLegend">
                     <h1 id="wordPresLegendText">A Word From the President</h1>
                   </legend>
                   <i id="wordPresName">David McClelland</i>
@@ -66,7 +68,9 @@
             </div>
             
             <div class="feedSection brothersFeedSection">
-              <ts word="viewModel.brotherTitle"></ts>
+              <h2>  
+                <ts text="viewModel.brotherTitle"></ts>
+              </h2>
               <div class="feedImageCont brotherFeedImageCont">
                 <a href="/brothers">
                   <img class="imgShadow feedImage brotherFeedImage" src="images/homepage/MaineHouse2013.jpg">
@@ -76,7 +80,9 @@
             </div>
 
             <div class="feedSection houseFeedSection">
-              <ts word="viewModel.houseTitle"></ts>
+              <h2>  
+                <ts text="viewModel.houseTitle"></ts>
+              </h2>
               <div class="feedImageCont houseFeedImageCont">
                 <a href="/house">
                   <img class="imgShadow feedImage houseFeedImage" src="images/house/houseImgs/CharlesView.jpg">

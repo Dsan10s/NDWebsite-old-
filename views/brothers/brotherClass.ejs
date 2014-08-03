@@ -10,17 +10,54 @@
 
   <div class="brotherClassContentContainer">
     <div class="brotherClassContent">
-      <ts word="viewModel.classYearText"></ts>
+      <div class="classYearTextCont">
+        <div class="classYearTextWrapper">
+          <h1 class="classYearText">
+            <ts text="viewModel.classYearText"></ts>
+          </h1>
+        </div>
+      </div>
+      <div class="container brotherInfoContainer">
+        <table>
+          <tr>
+            <td class="imgCol">
+              <img ng-if="!viewModel.currentBrotherName"
+                   ng-src="http://www.barnardlevit.co.uk/themes/barnardlevit/img/staff-pic-placeholder.gif">
+              <img ng-src="{{viewModel.currentBrother.jumboSrc}}"
+                   class="imgShadow">
+            </td>
+            <td class="nameCol">
+              <legend class="nameLegend">
+                <h1 ng-if="!viewModel.currentBrotherName">
+                  Click on a brother below!
+                </h1>
+                <h1 ng-bind-html="viewModel.currentBrotherName"></h1>
+              </legend>
+            </td>
+          </tr>
+        </table>
+        <div class="container brotherInfo">
+          <h4 ng-repeat="info in viewModel.currentBrother.info">
+            <b ng-bind="info.infoName"></b>: 
+            <span ng-bind-html="info.info"></span>
+          </h4>
+        </div>
+
+
+
+        <div class="bottomSpace"></div>
+      </div>
     </div>
   </div>
 
   <div id="brotherSelector">
-    <div ng-repeat="brother in viewModel.brothers" 
+    <div ng-repeat="brother in viewModel.brotherNames" 
+         ng-click="viewModel.setCurrentBrother(brother)"
          class="brotherIconWrapper"
          brother-icon-directive>
       <div id="brotherIcon{{$index}}" 
            class="imgShadow brotherIcon">
-        <img ng-src="{{brother.iconSrc}}"
+        <img ng-src="{{viewModel.brothers[brother].iconSrc}}"
              class="brotherIconImg">
       </div>
     </div>

@@ -10,8 +10,12 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, i, b, a, option {
   font-family: "Lato", "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #4d4d4d;
+  color: inherit;
   font-weight: 300;
+}
+
+b {
+  font-weight: 500;
 }
 
 h1, h2, h3 {
@@ -40,12 +44,20 @@ table td {
 
 img {
   max-height: 100%;
+  max-width: 100%;
+}
+
+legend {
+  border-color: #4d4d4d;
 }
 /* Directives
 -------------------------------------------------------- */
 
 .wordSeparator {
   width: 100%;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
 
 .wordSeparator .lineContainer {
@@ -75,4 +87,8 @@ img {
 -------------------------------------------------------- */
 .imgShadow {
   box-shadow: 5px 5px 26px rgba(0, 0, 0, 0.7);
+}
+
+.nameLegend {
+  padding-left: 25px;
 }
