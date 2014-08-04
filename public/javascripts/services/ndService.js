@@ -2,6 +2,39 @@ var ndapp = angular.module('ndapp');
 
 ndapp.service('ndService', function() {
 
+  var helpers = {
+    /** Returns an object with:
+     *  - cssProp: The max or min of the width and the height of the image
+     *  - cssVal: The value of the default width if cssProp = width
+     *            or height if cssProp = height
+     *  @param {DOM img} img: a DOM image element
+     *  @param {boolean} maxOrMin: false if you want to use min,
+     *                   defaults to true
+     *  @param {float/int} mult: optional multiplier to thisHeight
+     *                           defaults to 1
+     */
+    calcImgMaxOrMin: function(img, maxOrMin, mult) {
+      maxOrMin = (maxOrMin === undefined) ? true : maxOrMin;
+      mult = (mult === undefined) ? 1 : mult;
+      var thisHeight = img.naturalHeight * mult;
+      var thisWidth = img.naturalWidth;
+      var heightOrWidthArray = ['height', 'width'];
+      var heightOrWidth = maxOrMin ? Math.max(thisHeight, thisWidth) : Math.min(thisHeight, thisWidth);
+      var cssProp, cssVal;
+      if (heightOrWidth == thisHeight) {
+        cssProp = heightOrWidthArray[0];
+        cssVal = thisWidth;
+      } else {
+        cssProp = heightOrWidthArray[1];
+        cssVal = thisHeight;
+      }
+      return {
+        cssProp: cssProp,
+        cssVal: cssVal
+      }
+    }
+  }
+
   var headerIntroDeferred = new $.Deferred();
 
   var ajax = (function() {
@@ -57,6 +90,8 @@ ndapp.service('ndService', function() {
   }
 
   return {
+    helpers: helpers,
+
     headerIntroDeferred: headerIntroDeferred, 
 
     ajax: ajax,

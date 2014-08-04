@@ -1,7 +1,86 @@
-<link rel="stylesheet" type="text/css" href="stylesheets/brothers/brotherHome.css">
-<script type="text/javascript" src="javascripts/controllers/brothers/BrotherHomeController.js"></script>
-<div ng-controller="brotherHomeController">
+<link rel="stylesheet" type="text/css" href="/stylesheets/brothers/brotherHome.css">
+<script type="text/javascript" src="/javascripts/controllers/brothers/BrotherHomeController.js"></script>
+<div ng-controller="brotherHomeController" class="brotherHomeContainer">
 
-  <%- partial('brothers/partials/wideLayout') %>
+  <div class="pageContentContainer brotherHomeContentContainer">
+    <div class="pageContent brotherHomeContent">
+      <div class="pageTextCont homeTextCont">
+        <div class="pageTextWrapper homeTextWrapper">
+          <h1 class="pageText homeText">
+            <ts text="viewModel.homeText"></ts>
+          </h1>
+          <div class="classSelector">
+            <table>
+              <tr>
+                <td><a href="brothers/2015"><h2>2015</h2></a></td>
+                <td><a href="brothers/2016"><h2>2016</h2></a></td>
+                <td><a href="brothers/2017"><h2>2017</h2></a></td>
+                <td><a href="#"><h2>2018</h2></a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="container pageMainContentContainer brotherHomeMainContentContainer">
+        <div id="brotherHomeCarousel" class="imgShadow carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li ng-repeat="img in viewModel.carouselImgs.concat([0])" 
+                ng-class="{active: !$index}"
+                data-target="#brotherHomeCarousel" 
+                data-slide-to="{{$index}}" 
+                ></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div ng-repeat="img in viewModel.carouselImgs" 
+                 ng-class="{active: !$index}"
+                 class="item">
+              <img class="carouselImg" ng-src="{{img.src}}">
+              <div class="carousel-caption">
+                <h3 ng-bind="img.caption"></h3>
+              </div>
+            </div>
+
+            <!-- Non images -->
+
+            <div class="item">
+              <object id="nuSoulVid" class="carouselImg">
+                <param name="movie" value="https://www.youtube.com/v/M7H1QQegVxs?version=3"></param>
+                <param name="allowFullScreen" value="true"></param>
+                <param name="allowScriptAccess" value="always"></param>
+                <embed class="carouselImg" src="https://www.youtube.com/v/M7H1QQegVxs?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" height="100%" width="100%"></embed>
+              </object>
+              <div class="carousel-caption">
+                <h3>NuSoul at LipSync</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#brotherHomeCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#brotherHomeCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        <h1>
+          <ts text="viewModel.valuesText"></ts>
+        </h1>
+        <table>
+          <tr>
+            <td class="valuesCol"><h3>Trust</h3></td>
+            <td class="valuesCol"><h3>Respect</h3></td>
+            <td class="valuesCol"><h3>Brotherhood</h3></td>
+          </tr>
+        </table>
+        <div class="valuesDescription">
+          <h4>The brothers of Nu Delta hold these values at the core of who we are as a fraternity.  The bonds we hold drive us forward, and allow us to become the best individuals we can be.  The memories we make and experiences we share make college a truly unforgettable experience.  To learn about the individual brothers of Nu Delta, click on a class above.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>

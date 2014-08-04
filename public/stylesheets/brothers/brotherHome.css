@@ -1,43 +1,50 @@
-body{
-  overflow: auto;
-  /*background-image: url("Images/NDPattern2.PNG")*/
-  background: url(/images/brothers/NDPattern2.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.classSelector td {
+  text-align: center;
 }
 
-#navigator {
+.classSelector a {
+  pointer-events: all;
   color: white;
-  position: fixed;
-  padding: 30px 0 0 0 ;
-  border-radius: 4px;
-  right: 0;
-  z-index: 3;
-  height: 100%;
-  text-align: right;
 }
 
-#navigatorCont {
-  height: 100%;
-  display: inline-flex;
+.classSelector h2 {
+  margin: 0;
 }
 
-#navBulletCont {
+.pageMainContentContainer.brotherHomeMainContentContainer {
+  padding-top: 200px;
+}
+
+.brotherHomeContent .pageText.homeText {
+  margin: 0;
+}
+
+#brotherHomeCarousel {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#brotherHomeCarousel .carousel-inner {
+  text-align: center;
+}
+
+#brotherHomeCarousel .carouselImg {
   display: inline-block;
-  margin: auto;
+  height: 100%;
 }
 
-.navBullet {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border-radius: 50px;
-  background-color: white;
-  opacity: 0.5;
-  cursor: pointer;
-  webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+#brotherHomeCarousel #nuSoulVid {
+  width: 100%;
+}
+
+.brotherHomeMainContentContainer .valuesCol {
+  width: 33.3333%;
+  text-align: center;
+}
+
+.brotherHomeMainContentContainer .valuesDescription {
+  margin: 30px auto 0 auto;
+  width: 80%;
+  text-align: center;
 }

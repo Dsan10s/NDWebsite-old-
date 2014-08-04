@@ -2,46 +2,45 @@ var ndapp = angular.module('ndapp');
 
 ndapp.controller('brotherHomeController', function($scope, ndService) {
 
-  $scope.viewModel = {
-    windowWidth: $(window).width()
-  }
+  var public = $scope.viewModel = {
+    homeText: "The Brothers of Nu Delta", 
+    valuesText: "Our Values", 
+    carouselImgs: [
+      {"src": "images/brothers/MaineHouse2013.jpg", 
+       "caption": "Brotherhood Retreat 2013"}, 
 
-  var setViewModel = function() {
-    $scope.viewModel.windowWidth = $(window).width();
+      {"src": "images/brothers/NDApplePicking3.jpg", 
+       "caption": "Apple Picking"}, 
+
+      {"src": "images/brothers/NDComposite.jpg", 
+       "caption": "Nu Delta Composite 2013"}, 
+
+      {"src": "images/brothers/NuSoul.jpg", 
+       "caption": "Nu Soul at AKO LipSync"}, 
+
+      {"src": "images/brothers/Beach2.jpg", 
+       "caption": ""}, 
+
+      {"src": "images/brothers/2014Formal.jpg", 
+       "caption": "Class of 2014 at Nu Delta Formal"}, 
+
+    ]
   }
+  var setViewModel = function() {}
 
   var private = {};
   var setPrivateVars = function() {
-    private.navigator = $("#navigator");
-    private.navBulletSize = $(".navBullet").height();
-    private.navCenters = helpers.calcNavCenters();
+    private.carousel = $("#brotherHomeCarousel");
   }
 
-  var helpers = (function() {
-
-    /**
-     * Calculates the position of the center of
-     * an element.
-     */
-    function calcCenter(elem) {
-      var offset = elem.offset();
-      var x = offset.left + (elem.width()/2);
-      var y = offset.top + (elem.height()/2);  
-      return {x: x, y: y};
-    }
-
-    function calcNavCenters() {
-      var navCenters = {};
-      $(".navBullet").each(function(i) {
-        var center = calcCenter($(this));
-        navCenters["#navBullet" + (i+1)] = center;
-      });
-      return navCenters;
-    }
- 
+  var helpers = (function() { 
     function staticSizingJS() {}
 
-    function sizingJS() {}
+    function sizingJS() {
+      var aspectRatio = 16/9;
+      var carouselWidth = private.carousel.width();
+      private.carousel.height(carouselWidth/aspectRatio);
+    }
 
     function responsiveJS(windowWidth) {
       sizingJS();
@@ -50,8 +49,6 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
     }
 
     return {
-      calcCenter: calcCenter,
-      calcNavCenters: calcNavCenters, 
       staticSizingJS: staticSizingJS,
       sizingJS: sizingJS, 
       responsiveJS: responsiveJS
@@ -74,40 +71,5 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
   })();
 
   function eventHandlers() {
-    function resizeNavBullet(e) {
-      private.navCenters = helpers.calcNavCenters();
-      $(".navBullet").each(function(i) {
-        var center = private.navCenters["#navBullet" + (i+1)];
-        var yDiff = Math.abs(center.y - e.pageY);
-        var maxDiff = private.navBulletSize * 1.5;
-
-        var newSize;
-
-        if (yDiff > maxDiff) {
-          newSize = private.navBulletSize;
-        } else {
-          var multiplier = ((-1/(maxDiff*2))*yDiff) + 1.5;
-          newSize = private.navBulletSize * multiplier;
-        }
-
-        $(this).height(newSize)
-               .width(newSize)
-               .css("border-radius", (newSize/2) + "px");
-      });
-    }
-
-    $("#navigator").on({
-      mouseenter: function() {
-        $(document).on("mousemove", resizeNavBullet);
-      }, 
-      mouseleave: function() {
-        $(document).off("mousemove", resizeNavBullet);
-        $(".navBullet").animate({
-          "height": private.navBulletSize, 
-          "width": private.navBulletSize, 
-          "border-radius": (private.navBulletSize/2) + "px"
-        }, 200);
-      }
-    });
   }
 });

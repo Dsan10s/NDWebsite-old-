@@ -109,6 +109,10 @@ body{
   margin-top: 30px;
 }
 
+#homepageContainer #homeFeed .sectionText {
+  text-align: center;
+}
+
 #homepageContainer #homeFeed .presPic {
   height: 300px;
 }
