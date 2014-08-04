@@ -24,6 +24,8 @@
 
 .brotherClassContainer .classSelector td {
   text-align: center;
+  color: white;
+  pointer-events: all;
 }
 
 .brotherClassContainer .classSelector a {

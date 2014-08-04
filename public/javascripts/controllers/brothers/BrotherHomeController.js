@@ -71,5 +71,9 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
   })();
 
   function eventHandlers() {
+
+    // Tooltips
+    $(".classSelector .2018Link").tooltip({title: "Coming Soon...", 
+                                           placement: "bottom"});
   }
 });

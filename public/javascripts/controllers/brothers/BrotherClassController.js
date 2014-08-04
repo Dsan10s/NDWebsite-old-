@@ -155,6 +155,10 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
         });
       }
     });
+
+    // Tooltips
+    $(".classSelector .2018Link").tooltip({title: "Coming Soon...", 
+                                           placement: "bottom"});
   }
 
 });

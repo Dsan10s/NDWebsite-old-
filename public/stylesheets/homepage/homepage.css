@@ -69,6 +69,10 @@ body{
   border-color: #00B7FF;
 }
 
+#homepageContainer .monthEvent h4.eventTitle {
+  margin: 5px 0;
+}
+
 #homepageContainer .containerRight {
   padding: 0 0 80px 0;
   margin-left: 350px;

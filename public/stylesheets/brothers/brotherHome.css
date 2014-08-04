@@ -1,5 +1,7 @@
 .classSelector td {
   text-align: center;
+  color: white;
+  pointer-events: all;
 }
 
 .classSelector a {
