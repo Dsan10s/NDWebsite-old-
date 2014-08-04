@@ -1,21 +1,9 @@
     <div class="homeInnerContainer">
       <div class="homeSection containerLeft">
-        <legend class="sectionHead">
-          <h1><a style="color: black" href="/events">Events</a></h1>
-        </legend>
-        <div class="row" style="margin: 0px">
-          <div style="display: inline-block">
-            <h4 class="colorCodeText">Rush</h4><div class="colorCode rushColor"></div>
-          </div>
-          <div style="display: inline-block">
-            <h4 class="colorCodeText">CPW</h4><div class="colorCode cpwColor"></div>
-          </div>
-          <div style="display: inline-block">
-            <h4 class="colorCodeText">Other Events</h4><div class="colorCode otherEventsColor"></div>
-          </div>
-        </div>
+        <span style="text-align: center">
+          <h1><a style="color: black">Events</a></h1>
+        </span>
         <div class="eventsContent">
-          {{viewModel.monthWithEvents}}
           <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
 
             <h3>
@@ -24,11 +12,11 @@
             
             <div ng-repeat="event in viewModel.futureEvents[month]" 
                  class="monthEvent">
-              <h4 class="eventTitle">{{event.name}}</h4>
-              <h6 class="eventDate">{{event.moment}}</h6>
-              <h6 class="eventTime">{{event.time}}</h6>
-              <h6 class="eventLocation">{{event.location}}</h6>
-              <p class="eventDescription">{{event.description}}</p>
+              <h4 class="eventTitle" ng-bind="event.name"></h4>
+              <h6 class="eventDate" ng-bind="event.moment"></h6>
+              <h6 class="eventTime" ng-bind="event.time"></h6>
+              <h6 class="eventLocation" ng-bind="event.location"></h6>
+              <p class="eventDescription" ng-bind="event.description"></p>
             </div>
           </div>
         </div>
@@ -98,7 +86,7 @@
         </div>
       </div>
     </div>
-    <div class="aboutFooter">
+    <!-- <div class="aboutFooter">
       <div class="aboutFooterContent">
         <table>
           <tr>
@@ -115,4 +103,4 @@
           </tr>
         </table>
       </div>
-    </div>
+    </div> -->
