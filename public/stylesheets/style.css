@@ -135,7 +135,11 @@ legend {
 }
 
 .pageContent .pageText {
-  margin-top: 0;
+  margin: 0;
+}
+
+.pageContent .pageText .wordTextContainer {
+  padding: 10px 10px 0;
 }
 
 .pageContent .pageText .wordSeparatorLine {
