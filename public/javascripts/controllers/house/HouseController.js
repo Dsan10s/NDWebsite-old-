@@ -3,6 +3,7 @@ var ndapp = angular.module('ndapp');
 ndapp.controller('HouseController', function($scope, ndService) {
 
   $scope.viewModel = {
+    houseText: "The House", 
     houseImgs: [], 
     currentImg: undefined, 
     houseImgIndex: 0
