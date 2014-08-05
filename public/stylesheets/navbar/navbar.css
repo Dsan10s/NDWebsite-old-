@@ -14,6 +14,15 @@ body{
   -moz-box-sizing: border-box;   
   box-sizing: border-box;         
 }
+
+#aboutModal .aboutSection {
+  margin-bottom: 10px;
+}
+
+#aboutModal .aboutSection .contactImg {
+  
+}
+
 .headerUnderlay {
   height: 30px;
 }

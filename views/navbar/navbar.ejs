@@ -3,11 +3,77 @@
 <script type="text/javascript" src="/javascripts/controllers/navbar/NavBarController.js"></script>
 <script type="text/javascript" src="/javascripts/services/ndService.js"></script>
 
+<!-- Modal -->
+<div data-ng-controller="navbarController" class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">About Us</h2>
+      </div>
+
+      <div class="modal-body">
+        <h3>
+          <ts text="viewModel.contactUsText"></ts>
+        </h3>
+        <div class="aboutSection">
+          <h4><b>President Email: </b></h4>
+          <p>&nbsp; nd_president@mit.edu</p>
+        </div>
+        <div class="aboutSection">
+          <table>
+            <tr>
+              <td><h4><b><legend>Facebook</legend></b></h4></td>
+              <td width="100">
+                <a href="https://www.facebook.com/MIT.ND?ref=br_tf">
+                  <img src="/images/navbar/facebookIcon.gif">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="aboutSection">
+          <table>
+            <tr>
+              <td><h4><b><legend>Twitter</legend></b></h4></td>
+              <td width="100">
+                <a href="https://twitter.com/nudelta">
+                  <img src="/images/navbar/twitterIcon.gif">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>
+          <ts text="viewModel.locateUsText"></ts>
+        </h3>
+        <div>
+          <b>Nu Delta Address</b>
+          <p>
+            <a href="https://maps.google.com/maps?q=460+Beacon+Street,+Boston,+MA&hl=en&sll=42.351474,-71.087816&sspn=0.006684,0.016512&oq=460+Beacon+Street+&t=h&hnear=460+Beacon+St,+Boston,+Suffolk,+Massachusetts+02115&z=17&iwloc=A">
+              &nbsp; 460 Beacon Street, Boston MA, 02115
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <div data-ng-controller="navbarController" class="header">
   <div id="linksContainer">
     <a ng-repeat="link in viewModel.links"
        class="link"
-       href="{{link.href}}">
+       href="{{link.href}}"
+       data-toggle="{{link.dataToggle}}"
+       data-target="{{link.dataTarget}}">
 
       <div class="linkDiv">
         <span class="glyphicon glyphicon-{{link.icon}}"></span>
