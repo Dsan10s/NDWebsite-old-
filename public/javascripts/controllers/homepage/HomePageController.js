@@ -59,16 +59,14 @@ ndapp.controller('homepageController', function($scope, ndService) {
       private.events = data.events;
 
       setViewModel();
-      eventHandlers();
-      enableNewCssAnimations();
 
-      // helpers.animateIntro();
 
       helpers.sizingJS();
       $(window).resize(function() {
-        var windowWidth = $(window).width();
-        helpers.responsiveJS(windowWidth);
+        helpers.responsiveJS();
       });
+
+      eventHandlers();
     });
   })();
 
