@@ -53,7 +53,7 @@
           <b>Nu Delta Address</b>
           <p>
             <a ng-href="https://www.google.com/maps/place/{{viewModel.urlAddress}}">
-              &nbsp; {{viewModel.address}}
+              &nbsp; <span ng-bind="viewModel.address"></span>
             </a>
           </p>
         </div>
@@ -77,7 +77,7 @@
 
       <div class="linkDiv">
         <span class="glyphicon glyphicon-{{link.icon}}"></span>
-        {{link.text}}
+        <span ng-bind="link.text"></span>
       </div>
     </a>
   </div>
