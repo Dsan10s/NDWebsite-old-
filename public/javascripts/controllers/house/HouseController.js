@@ -25,6 +25,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
 
   var private = (function() {
     return {
+      scrollAmount: 175, 
       mouseEntered: false, 
       currentIndex: undefined, 
       modalShowing: false, 
@@ -37,6 +38,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
   var setPrivateVars = function() {
     private.houseImgsContainerWrapper = $(".houseContainer .houseImgsContainerWrapper");
     private.houseImgsContainer = $(".houseContainer .houseImgsContainer");
+    private.houseImgsInnerContainer = $(".houseContainer .houseImgsInnerContainer");
   }
 
   var helpers = (function() {
@@ -57,7 +59,12 @@ ndapp.controller('HouseController', function($scope, ndService) {
       private.houseImgsContainerWrapper[0].style.height = houseImgsContainerHeight + "px";
     }
 
-    function sizingJS() {}
+    function sizingJS() {
+      var innerContainer = private.houseImgsInnerContainer;
+      if (innerContainer.width() - private.scrollAmount < $(window).width()) {
+        innerContainer.width($(window).width() + private.scrollAmount);
+      }
+    }
 
     function responsiveJS() {
       sizingJS();
@@ -157,7 +164,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
   function scrollHouseImgs() {
     var container = private.houseImgsContainer;
 
-    container.animate({"scrollLeft": 170}, 1500, "linear", function() {
+    container.animate({"scrollLeft": private.scrollAmount}, 1500, "linear", function() {
       updateHouseImgs();
       container.scrollLeft(0);
     });
