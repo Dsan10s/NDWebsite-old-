@@ -35,8 +35,6 @@ ndapp.service('ndService', function() {
     }
   }
 
-  var headerIntroDeferred = new $.Deferred();
-
   var ajax = (function() {
 
     function eventsDeferred() {
@@ -69,45 +67,17 @@ ndapp.service('ndService', function() {
       houseGalleryDeferred: houseGalleryDeferred
     }
   })();
-  
-  var headerIntro = false; 
-  var headerDown = false;
-
-  function getHeaderIntro() {
-    return headerIntro;
-  }
-
-  function setHeaderIntro(newHeaderIntro) {
-    headerIntro = newHeaderIntro
-  }
-
-  function getHeaderDown() {
-    return headerDown;
-  }
-
-  function setHeaderDown(newHeaderDown) {
-    headerDown = newHeaderDown
-  }
 
   return {
     helpers: helpers,
-
-    headerIntroDeferred: headerIntroDeferred, 
-
-    ajax: ajax,
-
-    getHeaderIntro: getHeaderIntro, 
-    setHeaderIntro: setHeaderIntro, 
-
-    getHeaderDown: getHeaderDown, 
-    setHeaderDown: setHeaderDown
+    ajax: ajax
   }
 })
 .directive("ts", function() {
   return {
     restrict: "AE", 
     scope: {
-      text: "="
+      text: "@"
     }, 
     templateUrl: "/templates/textSeparator.html"
   };

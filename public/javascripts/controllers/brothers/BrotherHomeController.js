@@ -2,9 +2,9 @@ var ndapp = angular.module('ndapp');
 
 ndapp.controller('brotherHomeController', function($scope, ndService) {
 
+  // Public /////////////////////////////////////////////////////////
+
   var public = $scope.viewModel = {
-    homeText: "The Brothers of Nu Delta", 
-    valuesText: "Our Values", 
     carouselImgs: [
       {"src": "images/brothers/MaineHouse2013.jpg", 
        "caption": "Brotherhood Retreat 2013"}, 
@@ -22,11 +22,12 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
        "caption": ""}, 
 
       {"src": "images/brothers/2014Formal.jpg", 
-       "caption": "Class of 2014 at Nu Delta Formal"}, 
-
+       "caption": "Class of 2014 at Nu Delta Formal"}
     ]
   }
   var setViewModel = function() {}
+
+  // Private ////////////////////////////////////////////////////////
 
   var private = {};
   var setPrivateVars = function() {
@@ -34,7 +35,6 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
   }
 
   var helpers = (function() { 
-    function staticSizingJS() {}
 
     function sizingJS() {
       var aspectRatio = 16/9;
@@ -42,29 +42,23 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
       private.carousel.height(carouselWidth/aspectRatio);
     }
 
-    function responsiveJS(windowWidth) {
+    function responsiveJS() {
       sizingJS();
-
-      $scope.viewModel.windowWidth = windowWidth;
     }
 
     return {
-      staticSizingJS: staticSizingJS,
       sizingJS: sizingJS, 
       responsiveJS: responsiveJS
     }
   })();
 
   var init = (function() {
-    ndService.headerIntroDeferred.resolve(false);
-
     setPrivateVars();
     setViewModel();
 
-    helpers.staticSizingJS();
     helpers.sizingJS();
     $(window).resize(function() {
-      helpers.responsiveJS($(window).width());
+      helpers.responsiveJS();
     });
 
     eventHandlers();

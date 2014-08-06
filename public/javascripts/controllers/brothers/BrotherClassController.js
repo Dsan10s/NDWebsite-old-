@@ -2,15 +2,18 @@ var ndapp = angular.module('ndapp');
 
 ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
 
+  // Public /////////////////////////////////////////////////////////
+
   var public = $scope.viewModel = {
+
     classYear: brotherClassViewVars.classYear, 
-    classYearText: "Class of " + brotherClassViewVars.classYear, 
     brothers: {},
     brotherNames: [],  
     currentBrotherName: undefined, 
     currentBrother: undefined
   }
   var setViewModel = function(data) {
+
     $scope.$apply(function() {
       public.brothers = data.brothers;
       public.brotherNames = Object.keys(public.brothers);
@@ -18,17 +21,22 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
   };
 
   public.setCurrentBrother = function(brother) {
+
     public.currentBrotherName = $sce.trustAsHtml(brother);
     public.currentBrother = public.brothers[brother];
   }
 
+  // Private ////////////////////////////////////////////////////////
+
   var private = {
+    
     maxSizeMult: 2.2, 
     maxSize: 80, 
     currentIconSize: undefined,
     brotherIconCenters: {}
   };
   var setPrivateVars = function() {
+
     private.currentIconSize = parseInt($(".brotherIconWrapper").css("height"));
   };
 
@@ -97,7 +105,6 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
 
   var init = (function() {
     ndService.ajax.brothersDeferred(public.classYear).done(function(brothers) {
-      ndService.headerIntroDeferred.resolve(false);
 
       setPrivateVars();
       setViewModel({brothers: brothers});

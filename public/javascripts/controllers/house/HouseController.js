@@ -2,24 +2,25 @@ var ndapp = angular.module('ndapp');
 
 ndapp.controller('HouseController', function($scope, ndService) {
 
-  $scope.viewModel = {
-    houseText: "The House", 
+  // Public /////////////////////////////////////////////////////////
+
+  public = $scope.viewModel = {
     houseImgs: [], 
     currentImg: undefined, 
     houseImgIndex: 0
   }
-
   var setViewModel = function(options) {
     $scope.$apply(function() {
-      $scope.viewModel.houseImgs = options.imgArray;
+      public.houseImgs = options.imgArray;
     });
-    
-
-    $scope.viewModel.setHouseImg = function(index) {
-      $scope.viewModel.currentImg = $scope.viewModel.houseImgs[index];
-      $scope.viewModel.houseImgIndex = index;
-    }
   }
+
+  public.setHouseImg = function(index) {
+    public.currentImg = public.houseImgs[index];
+    public.houseImgIndex = index;
+  }
+
+  // Private ////////////////////////////////////////////////////////
 
   var private = (function() {
     return {
@@ -45,8 +46,6 @@ ndapp.controller('HouseController', function($scope, ndService) {
 
   var init = (function() {
     ndService.ajax.houseGalleryDeferred().done(function(imgJSON) {
-      ndService.headerIntroDeferred.resolve(false);
-
       var options = {
         imgArray: imgJSON.imgArray
       }
@@ -60,15 +59,5 @@ ndapp.controller('HouseController', function($scope, ndService) {
     })
   })();
 
-  function eventHandlers() {
-    $(document).keyup(function(event){
-      if(private.modalShowing){
-        if(event.keyCode == 37){ // Left arrow
-          $("#chevronLeftDiv").click();
-        }else if (event.keyCode == 39){ // Right arrow
-          $("#chevronRightDiv").click();
-        }
-      }
-    });
-  }
+  function eventHandlers() {}
 });

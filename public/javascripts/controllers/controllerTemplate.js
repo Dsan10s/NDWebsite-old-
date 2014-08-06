@@ -2,14 +2,20 @@ var ndapp = angular.module('ndapp');
 
 ndapp.controller('Controller', function($scope, ndService) {
 
-  $scope.viewModel = {
+  // Public /////////////////////////////////////////////////////////
+
+  var public = $scope.viewModel = {
 
   }
 
   var setViewModel = function() {
 
-    $scope.$apply();
+    $scope.$apply(function() {
+
+    });
   }
+
+  // Private ////////////////////////////////////////////////////////
 
   var private = (function() {
     return {
@@ -32,14 +38,14 @@ ndapp.controller('Controller', function($scope, ndService) {
   })();
 
   var init = (function() {
-    ndService.headerIntroDeferred.resolve(false);
-
     setViewModel();
 
     helpers.sizingJS();
     $(window).resize(function() {
       helpers.responsiveJS();
     });
+
+    eventHandlers();
   })();
 
   function eventHandlers() {
