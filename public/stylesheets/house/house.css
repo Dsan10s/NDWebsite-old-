@@ -5,3 +5,62 @@
 .houseContainer .pageMainContentContainer.houseMainContentContainer {
 
 }
+
+.houseContainer .valuesDescription {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center
+}
+
+
+
+.houseContainer .bottomSpace {
+  height: 120px;
+}
+
+.houseContainer .houseImgsContainerWrapper {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  overflow: hidden;
+  height: 110px;
+  width: 100%;
+}
+
+.houseContainer .houseImgsContainer {
+  overflow-x: scroll;
+  width: 100%;
+  padding: 10px 0;
+  height: 110px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.houseContainer .houseImgsContainer .houseImgsInnerContainer {
+  width: auto;
+  height: 100%;
+}
+
+.houseContainer .houseImgsContainer .houseImgContainer {
+  height: 90px;
+  width: 160px;
+  background-color: white;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.houseContainer .houseImgsContainer .houseImgsImg {
+  max-width: none;
+  min-width: none;
+  width: 100%;
+}
+
+div.fancybox-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  font-family: "Lato", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}

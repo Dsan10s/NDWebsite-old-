@@ -1,5 +1,20 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/house/house.css">
-<script type="text/javascript" src="javascripts/controllers/house/HouseController.js"></script>
+
+<!-- Fancybox -->
+
+<!-- Mousewheel -->
+<script type="text/javascript" src="external/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancybox -->
+<link rel="stylesheet" type="text/css" href="/external/fancybox/source/jquery.fancybox.css" media="screen">
+<script type="text/javascript" src="/external/fancybox/source/jquery.fancybox.pack.js"></script>
+
+<!-- Fancybox helpers -->
+<link rel="stylesheet" type="text/css" href="/external/fancybox/source/helpers/jquery.fancybox-thumbs.css" media="screen">
+<script type="text/javascript" src="/external/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+<!-- Controller -->
+<script type="text/javascript" src="/javascripts/controllers/house/HouseController.js"></script>
 
 <div ng-controller="HouseController" class="houseContainer">
   
@@ -14,7 +29,36 @@
       </div>
       <div class="container pageMainContentContainer houseMainContentContainer">
         <img class="imgShadow" src="images/homepage/Background.png">
+        <h2>
+          <ts text="{{viewModel.address}}"></ts>
+        </h2>
+        <div class="valuesDescription">
+          <h4>This is the place that many brothers call home during their time at college.  The place where many of their fondest college memories are made, and the place where the brothers really form their bonds, sharing their experiences together.</h4>
+          <h4>The house is cleaned on a weekly basis to ensure that it remains a desirable place to live for the brothers, and to visit for friends.  To see more, click on an image of the house at the bottom of your screen!</h4>
+        </div>
+
+        <div class="bottomSpace"></div>
+
       </div>
+    </div>
+  </div>
+  <div class="houseImgsContainerWrapper">
+    <div class="houseImgsContainer">
+
+      <table class="houseImgsInnerContainer">
+        <tr>
+          <td ng-repeat="img in viewModel.houseImgs">
+            <div class="imgShadow houseImgContainer">
+              <a class="fancybox-thumb" 
+                 rel="fancybox-thumb" 
+                 ng-href="{{img.src}}"
+                 title="{{img.description}}">  
+                <img class="houseImgsImg" ng-src="{{img.src}}">
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
   <!-- <div class="greyMediaContainer">

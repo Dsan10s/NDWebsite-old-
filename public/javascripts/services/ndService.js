@@ -2,6 +2,10 @@ var ndapp = angular.module('ndapp');
 
 ndapp.service('ndService', function() {
 
+  var vars = {
+    address: "460 Beacon Street, Boston MA, 02115"
+  }
+
   var helpers = {
     /** Returns an object with:
      *  - cssProp: The max or min of the width and the height of the image
@@ -69,6 +73,7 @@ ndapp.service('ndService', function() {
   })();
 
   return {
+    vars: vars, 
     helpers: helpers,
     ajax: ajax
   }

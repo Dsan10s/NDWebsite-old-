@@ -1,7 +1,7 @@
 {  
   "imgArray": [
     {"src": "/images/house/houseImgs/Backlot.jpg", "name": "The Backlot", 
-    "description": ""},
+    "description": "The Backlot: parking space available for summer residents & guests throughout summer"},
 
     {"src": "/images/house/houseImgs/ChapterRoom.jpg", "name": "The Chapter Room", 
     "description": "This is the room where it all happens.  During the day it's a great place to watch tv or talk with friends.  At night, a number of our social events are hosted here"},
@@ -19,19 +19,19 @@
     "description": "There's nothing like a classic game of Billiards with friends"},
 
     {"src": "/images/house/houseImgs/RoofBostonSide.jpg", "name": "Roofdeck facing Boston", 
-    "description": ""},
+    "description": "Our roofdeck is great for BBQ's throughout the summer, great place to celebrate the 4th of July"},
 
     {"src": "/images/house/houseImgs/RoofSwing.jpg", "name": "Roofdeck facing Cambridge", 
-    "description": ""},
+    "description": "Our roofdeck swing, a nice place to sit down and relax to a beautiful view of the Charles"},
 
     {"src": "/images/house/houseImgs/SecondDouble.jpg", "name": "Second floor Double", 
-    "description": ""},
+    "description": "One of our doubles on the second floor.  All rooms come fully furnished, lofted beds"},
 
     {"src": "/images/house/houseImgs/SecondHallway.jpg", "name": "Second floor hallway", 
-    "description": ""},
+    "description": "Second floor hallway"},
 
     {"src": "/images/house/houseImgs/SecondToFoyer.jpg", "name": "Stairs to Foyer", 
-    "description": ""},
+    "description": "View of our stairs leading to the ground floor"},
 
     {"src": "/images/house/houseImgs/VegPatch.jpg", "name": "The Veg Patch", 
     "description": "Second floor triple with a great view of the Charles"}
