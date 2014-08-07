@@ -10,7 +10,8 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     brothers: {},
     brotherNames: [],  
     currentBrotherName: undefined, 
-    currentBrother: undefined
+    currentBrotherFirstName: undefined, 
+    currentBrother: undefined, 
   }
   var setViewModel = function(data) {
 
@@ -23,6 +24,7 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
   public.setCurrentBrother = function(brother) {
 
     public.currentBrotherName = $sce.trustAsHtml(brother);
+    public.currentBrotherFirstName = public.currentBrotherName.toString().split(" ")[0];
     public.currentBrother = public.brothers[brother];
   }
 

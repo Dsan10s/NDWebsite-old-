@@ -11,6 +11,7 @@
       {"infoName": "UROPs", "info": "ECHOES with CSAIL Prof Karger (2014)"},
       {"infoName": "Employed as", "info": "6.01 SLA (2014), MISTI-MEET CS Instructor and Recruiter (Summers 2013,2014), MISTI-GSL Tech Assistant (Summer 2014 @Mexico)"}
     ], 
+    "familyTree": 2,  
     "jumboSrc": "/images/brothers/2017/Amin/AminHS.png", 
     "iconSrc": "/images/brothers/2017/Amin/AminHS.png"
   },
@@ -26,6 +27,7 @@
       {"infoName": "Interests", "info": "Soccer, DJing, Dancing"},
       {"infoName": "Favorite Quote", "info": "'Shoot for the moon, and even if you miss, you'll land among the stars'"}
     ], 
+    "familyTree": 4,  
     "jumboSrc": "/images/brothers/2017/Moti/MotiHS.png",
     "iconSrc": "/images/brothers/2017/Moti/MotiHS.png"
   },
@@ -41,6 +43,7 @@
       {"infoName": "Interests", "info": "Soccer, Math, Family, Anime, Soccer and Other Sports, USA Network"},
       {"infoName": "Internships", "info": "Audible.com, Audiobook Sale and Management"}
     ], 
+    "familyTree": 4,  
     "jumboSrc": "/images/brothers/2017/Alan/AlanHS.png",
     "iconSrc": "/images/brothers/2017/Alan/AlanHS.png"
   },
@@ -56,6 +59,7 @@
       {"infoName": "Interests", "info": "Rubik's cubing, video games, volleyball"},
       {"infoName": "Internships", "info": "Shoobx"}
     ], 
+    "familyTree": 2,  
     "jumboSrc": "/images/brothers/2017/Narindra/NarindraJumbo.jpg", 
     "iconSrc": "/images/brothers/2017/Narindra/NarindraHS.png"
   },
@@ -71,6 +75,7 @@
       {"infoName": "Interests", "info": "Guitar, Singing, Cycling, Soccer, Baseball"},
       {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"}
     ], 
+    "familyTree": 6,  
     "jumboSrc": "/images/brothers/2017/James/JamesHS.png", 
     "iconSrc": "/images/brothers/2017/James/JamesHS.png"
   },
@@ -88,6 +93,7 @@
       {"infoName": "Internships", "info": "Software Development Engineering Intern (ShooBx)"},
       {"infoName": "Favorite Quote", "info": "'When 'I' is replaced with 'we', even illness becomes wellness.'"}
     ], 
+    "familyTree": 3,  
     "jumboSrc": "/images/brothers/2017/Carlos/CarlosHS.png", 
     "iconSrc": "/images/brothers/2017/Carlos/CarlosHS.png"
   },
@@ -102,6 +108,7 @@
       {"infoName": "Offices Held", "info": "Community Service Chair, Summer Housing Manager"},
       {"infoName": "Activities", "info": "Class Council"}
     ], 
+    "familyTree": 1,  
     "jumboSrc": "/images/brothers/2017/Fred/FredJumbo.png",
     "iconSrc": "/images/brothers/2017/Fred/FredHS.png"
   }

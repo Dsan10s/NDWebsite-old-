@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="/stylesheets/brothers/brotherClass.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/brothers/familyTree.css">
 <script type="text/javascript">
   var brotherClassViewVars = {
     classYear: <%- classYear %>
@@ -38,11 +39,16 @@
             </td>
             <td class="nameCol">
               <legend class="nameLegend">
-                <h1 ng-if="!viewModel.currentBrotherName">
+                <h1 ng-if="!viewModel.currentBrother">
                   Click on a brother below!
                 </h1>
                 <h1 ng-bind-html="viewModel.currentBrotherName"></h1>
               </legend>
+              <a href="#familyTreeOuterContainer" ng-if="viewModel.currentBrother" class="familyTreeLink">
+                <i>
+                  View <span ng-bind="viewModel.currentBrotherFirstName"></span>'s family tree
+                </i>
+              </a>
             </td>
           </tr>
         </table>
@@ -53,7 +59,37 @@
           </h4>
         </div>
 
+        <div ng-if="viewModel.currentBrother" id="familyTreeOuterContainer">
+          <div class="familyTreeSpacer"></div>
+          <h2>  
+            <ts text="Family Tree"></ts>
+          </h2>
 
+          <div class="familyTreeContainer">
+            <span ng-if="viewModel.currentBrother.familyTree == 0">
+              <%- partial('brothers/partials/familyTrees/familyTree0') %>
+            </span>
+            <span ng-if="viewModel.currentBrother.familyTree == 1">
+              <%- partial('brothers/partials/familyTrees/familyTree1') %>
+            </span>
+            <span ng-if="viewModel.currentBrother.familyTree == 2">
+              <%- partial('brothers/partials/familyTrees/familyTree2') %>
+            </span>
+            <span ng-if="viewModel.currentBrother.familyTree == 3">
+              <%- partial('brothers/partials/familyTrees/familyTree3') %>
+            </span>
+            <span ng-if="viewModel.currentBrother.familyTree == 4">
+              <%- partial('brothers/partials/familyTrees/familyTree4') %>
+            </span>
+            <span ng-if="viewModel.currentBrother.familyTree == 5">
+              <%- partial('brothers/partials/familyTrees/familyTree5') %>
+            </span>
+            <span ng-if="viewModel.currentBrother.familyTree == 6">
+              <%- partial('brothers/partials/familyTrees/familyTree6') %>
+            </span>
+          </div>
+
+        </div>
 
         <div class="bottomSpace"></div>
       </div>

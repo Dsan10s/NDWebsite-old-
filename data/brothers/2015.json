@@ -9,7 +9,8 @@
       {"infoName": "Little Brother", "info": "Calvin Li ('16)"}, 
       {"infoName": "Offices Held", "info": "Steward"}, 
       {"infoName": "Internships", "info": "Factual, Hewlett-Packard, Qualcomm"}
-    ], 
+    ],
+    "familyTree": 3,  
     "jumboSrc": "/images/brothers/2015/Mata/MataJumbo.png", 
     "iconSrc": "/images/brothers/2015/Mata/MataHS.png"
   },
@@ -24,7 +25,8 @@
       {"infoName": "Offices Held", "info": "Vice President, Social Chair"}, 
       {"infoName": "Internships", "info": "NASA JPL"}, 
       {"infoName": "Favorite Quote", "info": "'Don't ever let somebody tell you, you can't do something. You got a dream, you gotta protect it. People can't do something themselves, they wanna tell you, you can't do it. You want something? Go get it. Period.'"}
-    ], 
+    ],
+    "familyTree": 5,  
     "jumboSrc": "/images/brothers/2015/Makai/MakaiJumbo.png", 
     "iconSrc": "/images/brothers/2015/Makai/MakaiHS.png"
   },
@@ -41,6 +43,7 @@
       {"infoName": "Internships", "info": "MISTI Mexico"},
       {"infoName": "Favorite Quote", "info": "'Not everything that counts can be counted, and not everything that can be counted counts.'"}
     ],
+    "familyTree": 1, 
     "jumboSrc": "/images/brothers/2015/Frank/FrankJumbo.png", 
     "iconSrc": "/images/brothers/2015/Frank/FrankHS.png"
   },
@@ -53,6 +56,7 @@
       {"infoName": "Big Brother", "info": "Nahom Workie ('13)"}, 
       {"infoName": "Interests", "info": "Basketball"}
     ],
+    "familyTree": 1, 
     "jumboSrc": "/images/brothers/2015/Paul/PaulJumbo.png", 
     "iconSrc": "/images/brothers/2015/Paul/PaulHS.png"
   },
@@ -66,6 +70,7 @@
       {"infoName": "Little Brother", "info": "Brian Wilcox ('16)"},
       {"infoName": "Favorite Quote", "info": "'God, grant me the serenity to accept the things I cannot change, Courage to change the things I can, And wisdom to know the difference.'"}
     ],
+    "familyTree": 2, 
     "jumboSrc": "/images/brothers/2015/EJ/EJJumbo.png", 
     "iconSrc": "/images/brothers/2015/EJ/EJHS.png"
   },
@@ -79,6 +84,7 @@
       {"infoName": "Offices Held", "info": "House Manager"},
       {"infoName": "Favorite Quote", "info": "'It's not how hard you hit the ground.  It's how fast you get back up and go.'"}
     ],
+    "familyTree": 5, 
     "jumboSrc": "/images/brothers/2015/Kendrick/KendrickJumbo.png", 
     "iconSrc": "/images/brothers/2015/Kendrick/KendrickHS.png"
   },
@@ -91,6 +97,7 @@
       {"infoName": "Big Brother", "info": "Peter Lee ('13)"}, 
       {"infoName": "Interests", "info": "Playing bass, playing guitar, creating music, tennis"}
     ],
+    "familyTree": 6, 
     "jumboSrc": "/images/brothers/2015/Saulo/SauloJumbo.png", 
     "iconSrc": "/images/brothers/2015/Saulo/SauloHS.png"
   },
@@ -104,6 +111,7 @@
       {"infoName": "Interests", "info": "Charity mission in Africa and Actuarial Science"},
       {"infoName": "Favorite Quotes", "info": "'Tot Facienda Parum Fectum', 'Ad Majorem Dei Glorium'"}
     ],
+    "familyTree": 2, 
     "jumboSrc": "/images/brothers/2015/Fidelis/FidelisJumbo.png", 
     "iconSrc": "/images/brothers/2015/Fidelis/FidelisHS.png"
   },
@@ -119,6 +127,7 @@
       {"infoName": "Internships", "info": "Exxon, Abbott Labs"},
       {"infoName": "Favorite Quotes", "info": "'Never forget the moment you began to doubt, transition in from fitting in to standing out.'"}
     ],
+    "familyTree": 4, 
     "jumboSrc": "/images/brothers/2015/David/DavidJumbo.png", 
     "iconSrc": "/images/brothers/2015/David/DavidHS.jpg"
   }

@@ -8,6 +8,7 @@
       {"infoName": "Big Brother", "info": "Saul Lopez"}, 
       {"infoName": "Offices Held", "info": "Assistant Work Week Chair, Assistant House Manager"}
     ], 
+    "familyTree": 3, 
     "jumboSrc": "/images/brothers/2016/Anthony/AnthonyHS.png", 
     "iconSrc": "/images/brothers/2016/Anthony/AnthonyHS.png"
   },
@@ -24,7 +25,7 @@
       {"infoName": "UROPs", "info": "Laboratory for Biomechanics and Human Rehabilitation (Fall 2013)"}, 
       {"infoName": "Internships", "info": "MISTI Spain (Universidad Polit&eacute;cnica de Catalunya"}
     ], 
-    "extraInfo": "",
+    "familyTree": 2, 
     "jumboSrc": "/images/brothers/2016/Brian/BrianJumbo.png", 
     "iconSrc": "/images/brothers/2016/Brian/BrianHS.png"
   },
@@ -42,6 +43,7 @@
       {"infoName": "Favorite Quote", "info": "'Be who you are and say what you feel because those who mind don't matter and those who matter don't mind.'"}, 
       {"infoName": "About Me", "info": "I'm originally from Mexico but love traveling, getting to know people from different cultures, with different backgrounds, experiences and thoughts. Everyone has an amazing story to tell! I'm social, open minded, out going, responsible, try to be punctual, semi organized, empathetic, try to be awesome :)"}
     ], 
+    "familyTree": 6, 
     "jumboSrc": "/images/brothers/2016/Alex/AlexJumbo.png", 
     "iconSrc": "/images/brothers/2016/Alex/AlexHS.png"
   },
@@ -58,6 +60,7 @@
       {"infoName": "UROPs", "info": "MITx (edX)"}, 
       {"infoName": "Internships", "info": "ClearSlide"}
     ], 
+    "familyTree": 0, 
     "jumboSrc": "/images/brothers/2016/Me/MeJumbo.png", 
     "iconSrc": "/images/brothers/2016/Me/MeHS.png"
   },
@@ -74,6 +77,7 @@
       {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"}, 
       {"infoName": "Internships", "info": "ClearSlide"}
     ],
+    "familyTree": 5, 
     "jumboSrc": "/images/brothers/2016/Eric/EricJumbo.png", 
     "iconSrc": "/images/brothers/2016/Eric/EricHS.png"
   },
@@ -91,6 +95,7 @@
       {"infoName": "UROPs", "info": "Space Systems Lab (Zero Robotics)"},
       {"infoName": "Favorite Quote", "info": "'God grant me the serenity to accept the things I can't change, the course to change the things I can, and the wisdom to know the difference'"}
     ],
+    "familyTree": 3, 
     "jumboSrc": "/images/brothers/2016/Calvin/CalvinJumbo.png", 
     "iconSrc": "/images/brothers/2016/Calvin/CalvinHS.png"
   },
@@ -106,6 +111,7 @@
       {"infoName": "Interests", "info": "Music, Dance, DJing"},
       {"infoName": "Activities", "info": "'Every time I worry or feel a bit unsure, I hit the stage and look around and feel so reassured.'"}
     ],
+    "familyTree": 1, 
     "jumboSrc": "/images/brothers/2016/Aaron/Aaron.jpg", 
     "iconSrc": "/images/brothers/2016/Aaron/AaronHS.png"
   },
@@ -122,6 +128,7 @@
       {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"},
       {"infoName": "Internships", "info": "Redfin"}
     ],
+    "familyTree": 1, 
     "jumboSrc": "/images/brothers/2016/Mike/MikeJumbo.png", 
     "iconSrc": "/images/brothers/2016/Mike/MikeHS.png"
   },
@@ -134,6 +141,7 @@
       {"infoName": "Big Brother", "info": "David McClelland ('15)"}, 
       {"infoName": "Activities", "info": "Class Council (Class of 2016 President)"}
     ],
+    "familyTree": 4, 
     "jumboSrc": "/images/brothers/2016/Anish/AnishJumbo.png", 
     "iconSrc": "/images/brothers/2016/Anish/AnishHS.png"
   }
