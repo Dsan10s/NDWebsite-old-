@@ -17,6 +17,17 @@ app.configure(function(){
   app.use(express.methodOverride());
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
+  app.use(function(req, res, next) {
+    res.render('errors/pageNotFound', { status: 404, url: req.url });
+  });
+
+  app.use(function(err, req, res, next) {
+    res.render('errors/pageNotFound', {
+      status: err.status || 500, 
+      error: err, 
+      title: "Page not found"
+    })
+  })
 });
 
 app.configure('development', function(){

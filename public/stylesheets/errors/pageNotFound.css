@@ -1,0 +1,8 @@
+.pageNotFoundContainer .pageNotFoundMainContentContainer {
+  padding-top: 0;
+  height: 100%;
+}
+
+.pageNotFoundContainer .pageNotFoundTextTable {
+  height: 100%;
+}
