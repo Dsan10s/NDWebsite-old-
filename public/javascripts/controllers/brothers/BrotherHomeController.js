@@ -47,6 +47,7 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
     }
 
     function responsiveJS() {
+      
       sizingJS();
     }
 
