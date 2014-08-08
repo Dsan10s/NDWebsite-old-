@@ -3,6 +3,7 @@ var ndapp = angular.module('ndapp');
 ndapp.service('ndService', function() {
 
   var vars = {
+    
     address: "460 Beacon Street, Boston MA, 02115"
   }
 

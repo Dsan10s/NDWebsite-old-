@@ -26,12 +26,12 @@ ndapp.controller('HouseController', function($scope, ndService) {
   var private = (function() {
     return {
       scrollAmount: 175, 
-      mouseEntered: false, 
       currentIndex: undefined, 
       modalShowing: false, 
       imgScrollInterval: undefined, 
 
       houseImgsContainerWrapper: undefined,
+      houseImgsContainer: undefined, 
       houseImgsInnerContainer: undefined
     }
   })();
@@ -67,6 +67,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
     }
 
     function responsiveJS() {
+
       sizingJS();
     }
 
@@ -96,34 +97,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
 
       eventHandlers();
       setImgScrollInterval();
-
-      $(".fancybox-thumb").ready(function() {
-        $(".fancybox-thumb").fancybox({
-          prevEffect: "none", 
-          nextEffect: "none", 
-          helpers: {
-            title: {
-              type: "outside"
-            }, 
-            thumbs: {
-              width: 50, 
-              height: 50
-            }
-          }, 
-          beforeLoad: function() {
-            helpers.hideImgScroll();
-            eventHelpers.unbindImgScrollEvents();
-            clearImgScrollInterval();
-          }, 
-          beforeClose: function() {
-            helpers.revealImgScroll();
-          }, 
-          afterClose: function() {
-            eventHelpers.bindImgScrollEvents();
-            setImgScrollInterval();
-          }
-        });
-      });
+      fancyboxReady();
     })
   })();
 
@@ -148,9 +122,39 @@ ndapp.controller('HouseController', function($scope, ndService) {
       unbindImgScrollEvents: unbindImgScrollEvents
     }
   })();
-
   function eventHandlers() {
+
     eventHelpers.bindImgScrollEvents();
+  }
+
+  function fancyboxReady() {
+    $(".fancybox-thumb").ready(function() {
+      $(".fancybox-thumb").fancybox({
+        prevEffect: "none", 
+        nextEffect: "none", 
+        helpers: {
+          title: {
+            type: "outside"
+          }, 
+          thumbs: {
+            width: 50, 
+            height: 50
+          }
+        }, 
+        beforeLoad: function() {
+          helpers.hideImgScroll();
+          eventHelpers.unbindImgScrollEvents();
+          clearImgScrollInterval();
+        }, 
+        beforeClose: function() {
+          helpers.revealImgScroll();
+        }, 
+        afterClose: function() {
+          eventHelpers.bindImgScrollEvents();
+          setImgScrollInterval();
+        }
+      });
+    });
   }
 
   function updateHouseImgs() {
@@ -171,6 +175,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
   }
 
   function setImgScrollInterval() {
+
     private.imgScrollInterval = setInterval(scrollHouseImgs, 1500);
   }
 
