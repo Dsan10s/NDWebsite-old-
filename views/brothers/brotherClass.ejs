@@ -32,11 +32,12 @@
         <table height="300">
           <tr>
             <td class="imgCol">
-              <img ng-if="!viewModel.currentBrotherName"
+              <img ng-if="!viewModel.currentBrother"
                    ng-src="http://www.barnardlevit.co.uk/themes/barnardlevit/img/staff-pic-placeholder.gif"
                    width="300"
                    height="300">
-              <img ng-src="{{viewModel.currentBrother.jumboSrc}}"
+              <img ng-if="viewModel.currentBrother"
+                   ng-src="{{viewModel.currentBrother.jumboSrc}}"
                    class="imgShadow"
                    width="300"
                    height="300">
