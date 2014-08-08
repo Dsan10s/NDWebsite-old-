@@ -33,9 +33,13 @@
           <tr>
             <td class="imgCol">
               <img ng-if="!viewModel.currentBrotherName"
-                   ng-src="http://www.barnardlevit.co.uk/themes/barnardlevit/img/staff-pic-placeholder.gif">
+                   ng-src="http://www.barnardlevit.co.uk/themes/barnardlevit/img/staff-pic-placeholder.gif"
+                   width="300"
+                   height="300">
               <img ng-src="{{viewModel.currentBrother.jumboSrc}}"
-                   class="imgShadow">
+                   class="imgShadow"
+                   width="300"
+                   height="300">
             </td>
             <td class="nameCol">
               <legend class="nameLegend">
@@ -108,5 +112,10 @@
       </div>
     </div>
   </div>
+
+  <!-- Caching brother images -->
+  <img ng-repeat="brother in viewModel.brothers"
+       ng-src="{{brother.jumboSrc}}"
+       style="display: none;">
 
 </div>
