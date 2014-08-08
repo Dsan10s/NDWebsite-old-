@@ -65,6 +65,10 @@ body{
   transition: border-color 0.3s;
 }
 
+#homepageContainer .monthEvent .glyphicon-chevron-down {
+  color: #aaa;
+}
+
 #homepageContainer .monthEvent:hover {
   border-color: #00B7FF;
 }
