@@ -64,32 +64,32 @@
           </h4>
         </div>
 
-        <div ng-if="viewModel.currentBrother" id="familyTreeOuterContainer">
+        <div ng-show="viewModel.currentBrother" id="familyTreeOuterContainer">
           <div class="familyTreeSpacer"></div>
           <h2>  
             <ts text="Family Tree"></ts>
           </h2>
 
           <div class="familyTreeContainer">
-            <span ng-if="viewModel.currentBrother.familyTree == 0">
+            <span ng-show="viewModel.currentBrother.familyTree == 0">
               <%- partial('brothers/partials/familyTrees/familyTree0') %>
             </span>
-            <span ng-if="viewModel.currentBrother.familyTree == 1">
+            <span ng-show="viewModel.currentBrother.familyTree == 1">
               <%- partial('brothers/partials/familyTrees/familyTree1') %>
             </span>
-            <span ng-if="viewModel.currentBrother.familyTree == 2">
+            <span ng-show="viewModel.currentBrother.familyTree == 2">
               <%- partial('brothers/partials/familyTrees/familyTree2') %>
             </span>
-            <span ng-if="viewModel.currentBrother.familyTree == 3">
+            <span ng-show="viewModel.currentBrother.familyTree == 3">
               <%- partial('brothers/partials/familyTrees/familyTree3') %>
             </span>
-            <span ng-if="viewModel.currentBrother.familyTree == 4">
+            <span ng-show="viewModel.currentBrother.familyTree == 4">
               <%- partial('brothers/partials/familyTrees/familyTree4') %>
             </span>
-            <span ng-if="viewModel.currentBrother.familyTree == 5">
+            <span ng-show="viewModel.currentBrother.familyTree == 5">
               <%- partial('brothers/partials/familyTrees/familyTree5') %>
             </span>
-            <span ng-if="viewModel.currentBrother.familyTree == 6">
+            <span ng-show="viewModel.currentBrother.familyTree == 6">
               <%- partial('brothers/partials/familyTrees/familyTree6') %>
             </span>
           </div>

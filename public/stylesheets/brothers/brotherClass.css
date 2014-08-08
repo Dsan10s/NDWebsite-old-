@@ -95,6 +95,7 @@
   float: none;
   display: inline-block;
   vertical-align: top;
+  margin-right: -4px;
 }
 
 .brotherClassContainer .bottomSpace {

@@ -26,6 +26,15 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     public.currentBrotherName = $sce.trustAsHtml(brother);
     public.currentBrotherFirstName = public.currentBrotherName.toString().split(" ")[0];
     public.currentBrother = public.brothers[brother];
+
+    if (private.familyCell) {
+      private.familyCell.css("background-color", "white")
+                        .css("color", "#000");
+    }
+
+    private.familyCell = $("#" + public.classYear + "-" + public.currentBrother.info[0].info);
+    private.familyCell.css("background-color", "#a90329")
+                      .css("color", "white");
   }
 
   // Private ////////////////////////////////////////////////////////
@@ -35,7 +44,8 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     maxSizeMult: 2.2, 
     maxSize: 80, 
     currentIconSize: undefined,
-    brotherIconCenters: {}
+    brotherIconCenters: {}, 
+    familyCell: undefined
   };
   var setPrivateVars = function() {
 
