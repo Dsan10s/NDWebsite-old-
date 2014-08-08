@@ -5,14 +5,13 @@ ndapp.controller('homepageController', function($scope, ndService) {
   // Public /////////////////////////////////////////////////////////
 
   var public = $scope.viewModel = {
-    windowWidth: $(window).width(), 
     monthsWithEvents: [], 
     futureEvents: {}
   }
 
   var setViewModel = function() {
     $scope.$apply(function() {
-      var futureEvents = getFutureEvents();
+      var futureEvents = helpers.getFutureEvents();
       public.monthsWithEvents = Object.keys(futureEvents);
       public.futureEvents = futureEvents;
     });
@@ -42,6 +41,32 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
   var helpers = (function() {
 
+    function getFutureEvents() {
+      var futureEvents = {};
+      for (var i = 0; i < private.events.length; i++) {
+        var thisEvent = private.events[i];
+        var thisDate = thisEvent.dateString;
+        var month = moment(thisDate).format('MMMM');
+        
+
+        var now = new Date();
+
+        var thisMoment = moment(thisDate);
+        var nowMoment = moment(now);
+
+        var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);
+
+        if (isFuture) {
+          if (!(month in futureEvents)) {
+            futureEvents[month] = [];
+          }
+          thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
+          futureEvents[month].push(thisEvent);
+        }
+      }
+      return futureEvents;
+    }
+
     function sizingJS() {}
 
     function responsiveJS() {
@@ -49,6 +74,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
     }
 
     return {
+      getFutureEvents: getFutureEvents, 
       sizingJS: sizingJS, 
       responsiveJS: responsiveJS
     }
@@ -80,40 +106,6 @@ ndapp.controller('homepageController', function($scope, ndService) {
         }
       }
     }, ".monthEvent");
-
-    // Tooltips
-
-    $(".aboutFooter #facebookCol .aboutImg").tooltip({
-      title: "Facebook", 
-      trigger: "hover", 
-      placement: "top"
-    })
-  }
-
-  function getFutureEvents() {
-    var futureEvents = {};
-    for (var i = 0; i < private.events.length; i++) {
-      var thisEvent = private.events[i];
-      var thisDate = thisEvent.dateString;
-      var month = moment(thisDate).format('MMMM');
-      
-
-      var now = new Date();
-
-      var thisMoment = moment(thisDate);
-      var nowMoment = moment(now);
-
-      var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);
-
-      if (isFuture) {
-        if (!(month in futureEvents)) {
-          futureEvents[month] = [];
-        }
-        thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
-        futureEvents[month].push(thisEvent);
-      }
-    }
-    return futureEvents;
   }
 
 });

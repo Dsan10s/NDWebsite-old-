@@ -29,8 +29,12 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
 
   // Private ////////////////////////////////////////////////////////
 
-  var private = {};
+  var private = {
+
+    carousel: undefined
+  };
   var setPrivateVars = function() {
+    
     private.carousel = $("#brotherHomeCarousel");
   }
 
