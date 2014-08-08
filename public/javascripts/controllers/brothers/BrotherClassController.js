@@ -5,7 +5,6 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
   // Public /////////////////////////////////////////////////////////
 
   var public = $scope.viewModel = {
-
     classYear: brotherClassViewVars.classYear, 
     brothers: {},
     brotherNames: [],  
@@ -14,7 +13,6 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     currentBrother: undefined, 
   }
   var setViewModel = function(data) {
-
     $scope.$apply(function() {
       public.brothers = data.brothers;
       public.brotherNames = Object.keys(public.brothers);
@@ -22,7 +20,6 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
   };
 
   public.setCurrentBrother = function(brother) {
-
     public.currentBrotherName = $sce.trustAsHtml(brother);
     public.currentBrotherFirstName = public.currentBrotherName.toString().split(" ")[0];
     public.currentBrother = public.brothers[brother];
@@ -40,16 +37,17 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
   // Private ////////////////////////////////////////////////////////
 
   var private = {
-    
     maxSizeMult: 2.2, 
     maxSize: 80, 
     currentIconSize: undefined,
     brotherIconCenters: {}, 
-    familyCell: undefined
+    familyCell: undefined, 
+
+    brotherIconWrappers: undefined
   };
   var setPrivateVars = function() {
-
-    private.currentIconSize = parseInt($(".brotherIconWrapper").css("height"));
+    private.currentIconSize = parseInt(private.brotherIconWrappers.css("height"));
+    private.brotherIconWrappers = $(".brotherIconWrapper"); 
   };
 
   var helpers = (function() {
@@ -67,7 +65,7 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
 
     function calcIconCenters() {
       var iconCenters = {};
-      $(".brotherIconWrapper").each(function(i) {
+      private.brotherIconWrappers.each(function(i) {
         var center = calcCenter($(this));
         iconCenters["#brotherIcon" + i] = center;
       });
@@ -97,7 +95,7 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
       } else {
         setMaxIconSize(".brotherIconWrapper", private.maxSize);
       }
-      private.currentIconSize = parseInt($(".brotherIconWrapper").css("height"));
+      private.currentIconSize = parseInt(private.brotherIconWrappers.css("height"));
     }
 
     function responsiveJS() {
@@ -132,7 +130,7 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
 
   function eventHandlers() {
     function resizeIconBullet(e) {
-      $(".brotherIconWrapper").each(function(i) {
+      private.brotherIconWrappers.each(function(i) {
         var center = private.brotherIconCenters["#brotherIcon" + i];
         var xDiff = Math.abs(center.x - e.pageX);
         var maxDiff = private.currentIconSize * 2;
@@ -157,7 +155,7 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     $("#brotherSelector").on({
       mouseenter: function() {
         helpers.setIconSize(".brotherIconWrapper", 
-                            parseInt($(".brotherIconWrapper").css("height")));
+                            parseInt(private.brotherIconWrappers.css("height")));
         private.brotherIconCenters = helpers.calcIconCenters();
         helpers.setMaxIconSize(".brotherIconWrapper", 
                                private.currentIconSize * private.maxSizeMult);
@@ -165,7 +163,7 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
       }, 
       mouseleave: function() {
         $(document).off("mousemove", resizeIconBullet);
-        $(".brotherIconWrapper").animate({
+        private.brotherIconWrappers.animate({
           "height": private.currentIconSize, 
           "width": private.currentIconSize, 
           "border-radius": (private.currentIconSize/2) + "px"
