@@ -46,8 +46,8 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     brotherIconWrappers: undefined
   };
   var setPrivateVars = function() {
-    private.currentIconSize = parseInt(private.brotherIconWrappers.css("height"));
     private.brotherIconWrappers = $(".brotherIconWrapper"); 
+    private.currentIconSize = parseInt(private.brotherIconWrappers.css("height"));
   };
 
   var helpers = (function() {
