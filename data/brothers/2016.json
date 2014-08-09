@@ -57,7 +57,7 @@
       {"infoName": "Offices Held", "info": "Webmaster, IFC Delegate"},
       {"infoName": "Interests", "info": "Tennis, Violin, Hip-hop dance, Video Editing & Visual Effects, Graphic Design, Programming"}, 
       {"infoName": "Activities", "info": "MIT Symphony Orchestra, Dance Troupe"}, 
-      {"infoName": "UROPs", "info": "MITx (edX)"}, 
+      {"infoName": "UROPs", "info": "Fluid Interfaces (LuminAR), NB Haystack, MITx (edX)"}, 
       {"infoName": "Internships", "info": "ClearSlide"}
     ], 
     "familyTree": 0, 
@@ -74,7 +74,7 @@
       {"infoName": "Offices Held", "info": "Vice President, Rush Chair, Treasurer, Assistant Work Week Chair, Assistant Rush Chair"},
       {"infoName": "Interests", "info": "Volleyball, DJing, Hip-hop dance"}, 
       {"infoName": "Activities", "info": "Dance Troupe, Club Volleyball"}, 
-      {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"}, 
+      {"infoName": "UROPs", "info": "Fluid Interfaces (LuminAR), MIT IS&T, Space Systems Lab (REXIS)"}, 
       {"infoName": "Internships", "info": "DirecTV"}
     ],
     "familyTree": 5, 
@@ -126,7 +126,7 @@
       {"infoName": "Offices Held", "info": "House Manager, Athletic Chair"},
       {"infoName": "Interests", "info": "Soccer, Coding, Family"},
       {"infoName": "Activities", "info": "Dance Troupe"},
-      {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"},
+      {"infoName": "UROPs", "info": "MIT IS&T, Space Systems Lab (REXIS)"},
       {"infoName": "Internships", "info": "Redfin"}
     ],
     "familyTree": 1, 
