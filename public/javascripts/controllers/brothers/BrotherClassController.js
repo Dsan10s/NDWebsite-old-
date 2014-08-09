@@ -32,6 +32,8 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     private.familyCell = $("#" + public.classYear + "-" + public.currentBrother.info[0].info);
     private.familyCell.css("background-color", "#a90329")
                       .css("color", "white");
+
+    $(".brotherClassContainer .brotherClassContent").scrollTop(0);
   }
 
   // Private ////////////////////////////////////////////////////////
@@ -46,8 +48,8 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
     brotherIconWrappers: undefined
   };
   var setPrivateVars = function() {
-    private.brotherIconWrappers = $(".brotherIconWrapper"); 
-    private.currentIconSize = parseInt(private.brotherIconWrappers.css("height"));
+
+    private.currentIconSize = parseInt($(".brotherIconWrapper").css("height"));
   };
 
   var helpers = (function() {
@@ -95,6 +97,10 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
       } else {
         setMaxIconSize(".brotherIconWrapper", private.maxSize);
       }
+
+      if (!private.brotherIconWrappers) {
+        private.brotherIconWrappers = $(".brotherIconWrapper");
+      }
       private.currentIconSize = parseInt(private.brotherIconWrappers.css("height"));
     }
 
@@ -130,6 +136,9 @@ ndapp.controller('brotherClassController', function($scope, $sce, ndService) {
 
   function eventHandlers() {
     function resizeIconBullet(e) {
+      if (!private.brotherIconWrappers || private.brotherIconWrappers.length == 0) {
+        private.brotherIconWrappers = $(".brotherIconWrapper");
+      }
       private.brotherIconWrappers.each(function(i) {
         var center = private.brotherIconCenters["#brotherIcon" + i];
         var xDiff = Math.abs(center.x - e.pageX);
