@@ -10,6 +10,14 @@
     }, 
     {
       "type": "Rush",
+      "name": "Southern Style Chicken & Waffles",
+      "time": "8:00 PM - 11:00 PM",
+      "dateString": "8/30/14",
+      "location": "",
+      "description": "Swing by Nu Delta for some southern style chicken and waffles, and some homemade smoothies to go with them!"
+    }, 
+    {
+      "type": "Rush",
       "name": "Jet Skis",
       "time": "9:30 AM - 3:00 PM",
       "dateString": "8/31/14",
@@ -24,14 +32,6 @@
       "location": "",
       "description": "See if you can keep up with the brothers of Nu Delta in this all out paint war at Boston Paintball!"
     },  
-    {
-      "type": "Rush",
-      "name": "Southern Style Chicken & Waffles",
-      "time": "8:00 PM - 11:00 PM",
-      "dateString": "8/31/14",
-      "location": "",
-      "description": "Swing by Nu Delta for some southern style chicken and waffles, and some homemade smoothies to go with them!"
-    }, 
     {
       "type": "Rush",
       "name": "Monster Jam!",

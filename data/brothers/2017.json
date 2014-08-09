@@ -4,11 +4,10 @@
       {"infoName": "Pledge Number", "info": "1"}, 
       {"infoName": "Major", "info": "6-3: Computer Science"}, 
       {"infoName": "Hometown", "info": "Jerusalem, Palestine"},
-      {"infoName": "High School", "info": "PIP - Palestinian Institute of Pledgeology"},
       {"infoName": "Big Brother", "info": "Kojo Welbeck ('14)"},
       {"infoName": "Offices Held", "info": "Alumni Secretary, Webmaster"},
-      {"infoName": "Interests", "info": "Entrepreneurship, Computer Science"},
-      {"infoName": "UROPs", "info": "ECHOES with CSAIL Prof Karger (2014)"},
+      {"infoName": "Interests", "info": "Entrepreneurship, Computer Science, Soccer"},
+      {"infoName": "UROPs", "info": "ECHOES with CSAIL Prof Karger"},
       {"infoName": "Employed as", "info": "6.01 SLA (2014), MISTI-MEET CS Instructor and Recruiter (Summers 2013,2014), MISTI-GSL Tech Assistant (Summer 2014 @Mexico)"}
     ], 
     "familyTree": 2,  
@@ -38,7 +37,7 @@
       {"infoName": "High School", "info": "North Star Academy"},
       {"infoName": "Big Brother", "info": "David A McClleland ('15)"},
       {"infoName": "Offices Held", "info": "Athletic Chair"},
-      {"infoName": "Interests", "info": "Soccer, Math, Family, Anime, Soccer and Other Sports, USA Network"},
+      {"infoName": "Interests", "info": "Math, Family, Anime, Soccer and Other Sports, USA Network"},
       {"infoName": "Internships", "info": "Audible.com"}
     ], 
     "familyTree": 4,  
@@ -66,7 +65,7 @@
       {"infoName": "Major", "info": "16: Aeronautics and Astronautics"},
       {"infoName": "Hometown", "info": "Las Cruces, New Mexico"},
       {"infoName": "High School", "info": "Mesilla Valley Christian School"},
-      {"infoName": "Big Brother", "info": "Alejandro Romero Gomez ('16)"},
+      {"infoName": "Big Brother", "info": "Alejandro Romero ('16)"},
       {"infoName": "Offices Held", "info": "Social Chair"},
       {"infoName": "Interests", "info": "Guitar, Singing, Cycling, Soccer, Baseball"},
       {"infoName": "UROPs", "info": "Space Systems Lab (REXIS)"}
