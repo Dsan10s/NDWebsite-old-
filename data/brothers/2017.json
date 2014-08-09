@@ -15,7 +15,6 @@
     "jumboSrc": "/images/brothers/2017/Amin/AminHS.jpg", 
     "iconSrc": "/images/brothers/2017/Amin/AminHS.jpg"
   },
-
   "Moti Ogunsina": {
     "info": [
       {"infoName": "Pledge Number", "info": "2"}, 
@@ -31,7 +30,6 @@
     "jumboSrc": "/images/brothers/2017/Moti/MotiHS.jpg",
     "iconSrc": "/images/brothers/2017/Moti/MotiHS.jpg"
   },
-
   "Alan Samboy Adames": {
     "info": [
       {"infoName": "Pledge Number", "info": "4"},
@@ -41,13 +39,12 @@
       {"infoName": "Big Brother", "info": "David A McClleland ('15)"},
       {"infoName": "Offices Held", "info": "Athletic Chair"},
       {"infoName": "Interests", "info": "Soccer, Math, Family, Anime, Soccer and Other Sports, USA Network"},
-      {"infoName": "Internships", "info": "Audible.com, Audiobook Sale and Management"}
+      {"infoName": "Internships", "info": "Audible.com"}
     ], 
     "familyTree": 4,  
     "jumboSrc": "/images/brothers/2017/Alan/AlanHS.jpg",
     "iconSrc": "/images/brothers/2017/Alan/AlanHS.jpg"
   },
-
   "Narindra Peaks": {
     "info": [
       {"infoName": "Pledge Number", "info": "5"}, 
@@ -63,7 +60,6 @@
     "jumboSrc": "/images/brothers/2017/Narindra/NarindraJumbo.jpg", 
     "iconSrc": "/images/brothers/2017/Narindra/NarindraHS.jpg"
   },
-
   "James Rivera": {
     "info": [
       {"infoName": "Pledge Number", "info": "6"}, 
@@ -79,7 +75,6 @@
     "jumboSrc": "/images/brothers/2017/James/JamesHS.jpg", 
     "iconSrc": "/images/brothers/2017/James/JamesHS.jpg"
   },
-
   "Carlos Henriquez": {
     "info": [
       {"infoName": "Pledge Number", "info": "8"}, 
@@ -90,14 +85,13 @@
       {"infoName": "Offices Held", "info": "Steward, Assistant Rush Chair"},
       {"infoName": "Interests", "info": "Coffee, Video Games, Pokemon, Languages, Robotics, Entrepreneurship"},
       {"infoName": "UROPs", "info": "Visualization of Mathematical Relations using Haptic Feedback (Edgerton Center)"},
-      {"infoName": "Internships", "info": "Software Development Engineering Intern (ShooBx)"},
+      {"infoName": "Internships", "info": "ShooBx"},
       {"infoName": "Favorite Quote", "info": "'When 'I' is replaced with 'we', even illness becomes wellness.'"}
     ], 
     "familyTree": 3,  
     "jumboSrc": "/images/brothers/2017/Carlos/CarlosHS.jpg", 
     "iconSrc": "/images/brothers/2017/Carlos/CarlosHS.jpg"
   },
-
   "Frederick Daso": {
     "info": [
       {"infoName": "Pledge Number", "info": "9"}, 
