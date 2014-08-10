@@ -49,9 +49,9 @@ ndapp.controller('homepageController', function($scope, ndService) {
         var month = moment(thisDate).format('MMMM');
         
 
-        var now = new Date();
+        var now = Date.parse(new Date());
 
-        var thisMoment = moment(thisDate);
+        var thisMoment = moment(thisDate, "MM/DD/YY");
         var nowMoment = moment(now);
 
         var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);

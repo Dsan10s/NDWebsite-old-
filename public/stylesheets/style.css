@@ -125,6 +125,7 @@ legend {
   margin: 30px 0 0 0;
   z-index: 10;
   pointer-events: none;
+  width: 100%;
 }
 
 .pageContent .pageTextWrapper {
