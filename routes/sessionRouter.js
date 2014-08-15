@@ -17,7 +17,7 @@ module.exports = function(app) {
     if (!req.session.user) {
       res.redirect('/admin/login');
     } else {
-      res.render('admin/adminHome');
+      res.render('admin/adminHome', {title: "Admin Home"});
     }
   });
 
@@ -26,6 +26,8 @@ module.exports = function(app) {
         admins[req.body.username].password === req.body.password) {
       req.session.user = admins[req.body.username];
       res.redirect('/admin');
+    } else {
+      res.redirect('/admin/login');
     }
   });
 

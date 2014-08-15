@@ -32,8 +32,8 @@ app.configure(function(){
       status: err.status || 500, 
       error: err, 
       title: "Page not found"
-    })
-  })
+    });
+  });
 });
 
 app.configure('development', function(){
