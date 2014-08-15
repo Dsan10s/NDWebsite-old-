@@ -15,6 +15,12 @@ app.configure(function(){
   app.set('view engine', 'ejs');
   app.use(express.bodyParser());
   app.use(express.methodOverride());
+  app.use(express.cookieParser('New Delt 2016 Chewbacca'));
+
+  app.use(express.session({
+    secret: 'New Delt 2016 Chewbacca', 
+    maxAge: 360000
+  }));
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
   app.use(function(req, res, next) {
