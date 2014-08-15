@@ -48,6 +48,7 @@ app.configure('production', function(){
 
 require('./routes/indexRouter')(app);
 require('./routes/dataRouter')(app);
+require('./routes/sessionRouter')(app);
 
 var port = Number(process.env.PORT || 3000);
 app.listen(port, function(){
