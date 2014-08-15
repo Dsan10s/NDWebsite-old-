@@ -90,7 +90,7 @@ body{
 #homepageContainer .containerRight .titleContainer {
   background-color: rgba(36, 36, 36, 0.8);
   padding: 20px;
-  box-shadow: 0 0 75px 50px rgba(36, 36, 36, 0.8);
+  box-shadow: 0 0 50px 50px rgba(36, 36, 36, 0.8);
   margin-bottom: 75px;
 }
 
