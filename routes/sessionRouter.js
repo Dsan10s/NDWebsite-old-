@@ -1,6 +1,8 @@
-var admin = {
-  'username': 'admin', 
-  'password': 'letmein'
+var admins = {
+  "admin": {
+    username: "admin", 
+    password: "letmein"
+  }
 }
 
 module.exports = function(app) {
@@ -13,16 +15,27 @@ module.exports = function(app) {
 
   app.get('/admin', function(req, res) {
     if (!req.session.user) {
-      res.redirect('/admin/login'):
+      res.redirect('/admin/login');
     } else {
       res.render('admin/adminHome');
     }
   });
 
+  app.post('/admin', function(req, res) {
+    if (admins[req.body.username] && 
+        admins[req.body.username].password === req.body.password) {
+      req.session.user = admins[req.body.username];
+      res.redirect('/admin');
+    }
+  });
+
+  app.del('/admin', function(req, res, next) {
+    req.session.destroy();
+    res.redirect('/admin/login');
+  });
+
   app.get('/admin/login', function(req, res) {
     res.render('admin/login', {title: "Log in"});
   });
-
-
 
 }
