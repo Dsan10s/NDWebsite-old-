@@ -15,6 +15,13 @@ app.configure(function(){
   app.set('view engine', 'ejs');
   app.use(express.bodyParser());
   app.use(express.methodOverride());
+  app.use(express.cookieParser('NDSecretString321!'));
+
+  app.use(express.session({
+    secret: 'NDSecretString321!', 
+    maxAge: 360000
+  }));
+
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
   app.use(function(req, res, next) {
@@ -42,6 +49,7 @@ app.configure('production', function(){
 
 require('./routes/indexRouter')(app);
 require('./routes/dataRouter')(app);
+require('./routes/sessionsRouter')(app);
 
 var port = Number(process.env.PORT || 3000);
 app.listen(port, function(){
