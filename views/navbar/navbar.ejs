@@ -80,5 +80,17 @@
         <span ng-bind="link.text"></span>
       </div>
     </a>
+    <% if (session && session.user) { %>
+    <form method="POST" action="/admin" style="display: inline-block">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" id="submit" style="display: none">
+      <a href="javascript: document.getElementById('submit').click()">
+        <div class="linkDiv">
+          <span class="glyphicon glyphicon-lock"></span>
+          <span>Log out</span>
+        </div>
+      </a>
+    </form>
+    <% } %>
   </div>
 </div>
