@@ -82,6 +82,14 @@
     }, 
     {
       "type": "Rush",
+      "name": "LASER TAG!",
+      "time": "8:00 PM - 11:00 PM",
+      "dateString": "9/2/14",
+      "location": "",
+      "description": "Get your adrenaline pumping playing the best laser tag in Boston! The brothers of Nu Delta will show you how it's done!"
+    }, 
+    {
+      "type": "Rush",
       "name": "Dick's Last Resort",
       "time": "7:00 PM - 10:00 PM",
       "dateString": "9/3/14",
