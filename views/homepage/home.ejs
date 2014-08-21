@@ -9,13 +9,13 @@
         <h1>Events</h1>
       </span>
       <div class="eventsContent">
-        <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
+        <div ng-repeat="titleDate in viewModel.datesWithEvents">
 
           <h3>
-            <ts text="{{month}}"></ts>
+            <ts text="{{titleDate}}"></ts>
           </h3>
           
-          <div ng-repeat="event in viewModel.futureEvents[month]" 
+          <div ng-repeat="event in viewModel.futureEvents[titleDate]" 
                class="imgShadow monthEvent">
 
             <table>

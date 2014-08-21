@@ -5,14 +5,14 @@ ndapp.controller('homepageController', function($scope, ndService) {
   // Public /////////////////////////////////////////////////////////
 
   var public = $scope.viewModel = {
-    monthsWithEvents: [], 
+    datesWithEvents: [], 
     futureEvents: {}
   }
 
   var setViewModel = function() {
     $scope.$apply(function() {
       var futureEvents = helpers.getFutureEvents();
-      public.monthsWithEvents = Object.keys(futureEvents);
+      public.datesWithEvents = Object.keys(futureEvents);
       public.futureEvents = futureEvents;
     });
   }
@@ -21,7 +21,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
   var private = (function() {
     return {
-      monthsWithEvents: [], 
+      datesWithEvents: [], 
       animate: true, 
       events: []
     }
@@ -36,20 +36,21 @@ ndapp.controller('homepageController', function($scope, ndService) {
         var thisDate = thisEvent.dateString;
         var month = moment(thisDate).format('MMMM');
         
-
         var now = Date.parse(new Date());
 
         var thisMoment = moment(thisDate, "MM/DD/YY");
         var nowMoment = moment(now);
 
+        var titleDate = moment(thisMoment).format('MMMM Do');
+
         var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);
 
         if (isFuture) {
-          if (!(month in futureEvents)) {
-            futureEvents[month] = [];
+          if (!(titleDate in futureEvents)) {
+            futureEvents[titleDate] = [];
           }
           thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
-          futureEvents[month].push(thisEvent);
+          futureEvents[titleDate].push(thisEvent);
         }
       }
       return futureEvents;
