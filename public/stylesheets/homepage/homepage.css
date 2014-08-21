@@ -29,9 +29,8 @@ body{
 
 #homepageContainer .containerLeft {
   float: left;
-  z-index: 12;
   width: 350px;
-  overflow: auto;
+  overflow-y: auto;
   color: white;
   border-color: white;
 
@@ -101,7 +100,7 @@ body{
 }
 
 #homepageContainer .containerRightContent {
-  overflow: auto;
+  overflow-y: auto;
   height: 100%;
 }
 

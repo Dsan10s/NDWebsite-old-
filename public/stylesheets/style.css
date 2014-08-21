@@ -54,6 +54,14 @@ img {
 legend {
   border-color: #4d4d4d;
 }
+
+/* NanoScroller
+-------------------------------------------------------- */
+
+.nano .nano-content { padding: 14px; }
+.nano .nano-pane   { background: rgba(255,255,255,0.4); margin: 2px; display: block; padding: 2px 0}
+.nano .nano-slider { background: #111; }
+
 /* Directives
 -------------------------------------------------------- */
 
