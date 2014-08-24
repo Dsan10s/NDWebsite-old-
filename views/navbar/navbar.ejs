@@ -3,6 +3,22 @@
 <script type="text/javascript" src="/javascripts/controllers/navbar/NavBarController.js"></script>
 <script type="text/javascript" src="/javascripts/services/ndService.js"></script>
 
+<div data-ng-controller="navbarController" class="header imgShadow">
+  <div id="linksContainer">
+    <a ng-repeat="link in viewModel.links"
+       class="link"
+       href="{{link.href}}"
+       data-toggle="{{link.dataToggle}}"
+       data-target="{{link.dataTarget}}">
+
+      <div class="linkDiv">
+        <span class="glyphicon glyphicon-{{link.icon}}"></span>
+        <span ng-bind="link.text"></span>
+      </div>
+    </a>
+  </div>
+</div>
+
 <!-- Modal -->
 <div data-ng-controller="navbarController" class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -64,21 +80,5 @@
       </div>
 
     </div>
-  </div>
-</div>
-
-<div data-ng-controller="navbarController" class="header imgShadow">
-  <div id="linksContainer">
-    <a ng-repeat="link in viewModel.links"
-       class="link"
-       href="{{link.href}}"
-       data-toggle="{{link.dataToggle}}"
-       data-target="{{link.dataTarget}}">
-
-      <div class="linkDiv">
-        <span class="glyphicon glyphicon-{{link.icon}}"></span>
-        <span ng-bind="link.text"></span>
-      </div>
-    </a>
   </div>
 </div>
