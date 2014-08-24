@@ -6,6 +6,7 @@ ndapp.controller('navbarController', function($scope, ndService) {
 
   var public = $scope.viewModel = {
     address: ndService.vars.address, 
+    isHomepage: undefined, 
     urlAddress: undefined, 
     links: [{"text": "Home", 
              "href": "/home", 
@@ -29,6 +30,7 @@ ndapp.controller('navbarController', function($scope, ndService) {
 
   var setViewModel = function() {
     public.urlAddress = helpers.createGmapsAddress(public.address);
+    public.isHomepage = isHomepage();
   };
 
   // Private ////////////////////////////////////////////////////////
@@ -60,4 +62,10 @@ ndapp.controller('navbarController', function($scope, ndService) {
 
   function eventHandlers() {}
 
+  function isHomepage() {
+    var url = navbarViewVars.url;
+    if (url == "/" || url == "/home") {
+      return true;
+    }
+  }
 });
