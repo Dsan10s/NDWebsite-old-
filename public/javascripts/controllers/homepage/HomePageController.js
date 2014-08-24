@@ -96,7 +96,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
       }
     }, ".monthEvent");
 
-    $(".containerLeft").one("mouseenter", function() {
+    $("body").one("mousemove", function() {
       ndService.nanoScrollerInit();
     });
   }
