@@ -1,17 +1,32 @@
-<h1>Log in</h1>
+<link rel="stylesheet" type="text/css" href="/stylesheets/admin/login.css">
+<script type="text/javascript" src="/javascripts/controllers/admin/loginController.js"></script>
+<div ng-controller="loginController" class="loginContainer">
 
-<form method="POST", action="/admin">
-  <p>
-    <label for="username">User name: </label>
-    <br>
-    <input id="username" name="username">
-  </p>
-  <p>
-    <label for="password">Password </label>
-    <br>
-    <input id="password" name="password" type="password">
-  </p>
-  <p>
-    <input type="submit" value="Log in">
-  </p>
-</form>
+  <div class="pageContent adminContent loginContent">
+    <div class="pageTextCont loginTextCont">
+      <div class="pageTextWrapper loginTextWrapper">
+        <h1 class="pageText loginText">
+          <ts text="Admin log in"></ts>
+        </h1>
+      </div>
+    </div>
+    <div class="container pageMainContentContainer loginMainContentContainer">
+      <form method="POST" action="/admin" class="loginForm" role="form">
+        <div class="form-group">
+          <label for="username"><h3 class="loginLabelText">User name: </h3></label>
+          <br>
+          <input id="username" class="ndInput form-control" name="username">
+        </div>
+        <div class="form-group">
+          <label for="password"><h3 class="loginLabelText">Password </h3></label>
+          <br>
+          <input id="password" class="ndInput form-control" name="password" type="password">
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn btn-default" value="Log in">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

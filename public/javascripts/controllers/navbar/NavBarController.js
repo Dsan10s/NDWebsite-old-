@@ -25,7 +25,14 @@ ndapp.controller('navbarController', function($scope, ndService) {
              "dataToggle": "modal", 
              "dataTarget": "#aboutModal", 
              "icon": "globe"
-            }]
+            }], 
+    adminLinks: [{"text": "Admin Home", 
+                  "href": "/admin", 
+                  "icon": "dashboard"
+                 }, 
+                 {"text": "Event Editor", 
+                  "href": "/admin/editEvents", 
+                  "icon": "tasks"}]
   };
 
   var setViewModel = function() {
