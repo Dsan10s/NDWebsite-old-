@@ -46,11 +46,21 @@ ndapp.controller('homepageController', function($scope, ndService) {
         var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);
 
         if (isFuture) {
-          if (!(titleDate in futureEvents)) {
-            futureEvents[titleDate] = [];
+          if (thisEvent.type == "Rush") {
+            if (thisMoment.diff(nowMoment, 'd') < 7) {
+              if (!(titleDate in futureEvents)) {
+                futureEvents[titleDate] = [];
+              }
+              thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
+              futureEvents[titleDate].push(thisEvent);
+            }
+          } else {
+            if (!(titleDate in futureEvents)) {
+              futureEvents[titleDate] = [];
+            }
+            thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
+            futureEvents[titleDate].push(thisEvent);
           }
-          thisEvent.moment = moment(thisMoment).format('dddd MMMM Do YYYY');
-          futureEvents[titleDate].push(thisEvent);
         }
       }
       return futureEvents;

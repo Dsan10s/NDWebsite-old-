@@ -28,7 +28,6 @@ body{
 }
 
 #homepageContainer .containerLeft {
-  display: none;
   float: left;
   width: 350px;
   overflow-y: auto;
@@ -97,8 +96,9 @@ body{
 
 #homepageContainer .containerRight {
   padding: 0;
-  /*margin-left: 350px;*/
-  margin-left: 0;
+  margin-left: 350px;
+  position: relative;
+  box-shadow: -7px 10px 26px rgba(0, 0, 0, 0.7);
 }
 
 #homepageContainer .containerRightContent {
