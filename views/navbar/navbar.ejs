@@ -3,6 +3,28 @@
 <script type="text/javascript" src="/javascripts/controllers/navbar/NavBarController.js"></script>
 <script type="text/javascript" src="/javascripts/services/ndService.js"></script>
 
+<script type="text/javascript">
+  var navbarViewVars = {
+    url: "<%- req.url %>"
+  }
+</script>
+
+<div data-ng-controller="navbarController" class="header" ng-class="{imgShadow: viewModel.isHomepage}">
+  <div id="linksContainer">
+    <a ng-repeat="link in viewModel.links"
+       class="link"
+       href="{{link.href}}"
+       data-toggle="{{link.dataToggle}}"
+       data-target="{{link.dataTarget}}">
+
+      <div class="linkDiv">
+        <span class="glyphicon glyphicon-{{link.icon}}"></span>
+        <span ng-bind="link.text"></span>
+      </div>
+    </a>
+  </div>
+</div>
+
 <!-- Modal -->
 <div data-ng-controller="navbarController" class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -64,33 +86,5 @@
       </div>
 
     </div>
-  </div>
-</div>
-
-<div data-ng-controller="navbarController" class="header">
-  <div id="linksContainer">
-    <a ng-repeat="link in viewModel.links"
-       class="link"
-       href="{{link.href}}"
-       data-toggle="{{link.dataToggle}}"
-       data-target="{{link.dataTarget}}">
-
-      <div class="linkDiv">
-        <span class="glyphicon glyphicon-{{link.icon}}"></span>
-        <span ng-bind="link.text"></span>
-      </div>
-    </a>
-    <% if (session && session.user) { %>
-    <form method="POST" action="/admin" style="display: inline-block">
-      <input type="hidden" name="_method" value="DELETE">
-      <input type="submit" id="submit" style="display: none">
-      <a href="javascript: document.getElementById('submit').click()">
-        <div class="linkDiv">
-          <span class="glyphicon glyphicon-lock"></span>
-          <span>Log out</span>
-        </div>
-      </a>
-    </form>
-    <% } %>
   </div>
 </div>

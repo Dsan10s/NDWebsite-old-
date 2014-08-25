@@ -54,6 +54,31 @@ img {
 legend {
   border-color: #4d4d4d;
 }
+
+/* NanoScroller
+-------------------------------------------------------- */
+
+.nano .nano-content { padding: 14px; }
+.nano .nano-pane { 
+  background: rgba(200,200,200,.5);
+  margin: 2px;
+  display: block;
+  padding: 0;
+  width: 8px;
+  border-left: 1px solid rgba(255,255,255,.5);
+  border-right: 1px solid rgba(255,255,255,.5);
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.nano .nano-pane:hover { 
+  width: 16px;
+  border-radius: 8px;
+}
+.nano .nano-pane:hover .nano-slider {
+  border-radius: 7px;
+}
+.nano .nano-slider { background: #111; }
+
 /* Directives
 -------------------------------------------------------- */
 

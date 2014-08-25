@@ -7,10 +7,6 @@ body{
   background-size: cover;
 }
 
-.header {
-  padding-left: 350px;
-}
-
 #homepageContainer .tooltip {
   font-size: 16px;
 }
@@ -32,11 +28,9 @@ body{
 }
 
 #homepageContainer .containerLeft {
-  position: fixed;
-  top: 0;
-  z-index: 12;
+  float: left;
   width: 350px;
-  overflow: auto;
+  overflow-y: auto;
   color: white;
   border-color: white;
 
@@ -103,10 +97,12 @@ body{
 #homepageContainer .containerRight {
   padding: 0;
   margin-left: 350px;
+  position: relative;
+  box-shadow: -7px 10px 26px rgba(0, 0, 0, 0.7);
 }
 
 #homepageContainer .containerRightContent {
-  overflow: auto;
+  overflow-y: auto;
   height: 100%;
 }
 

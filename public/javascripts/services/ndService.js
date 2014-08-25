@@ -73,10 +73,15 @@ ndapp.service('ndService', function() {
     }
   })();
 
+  function nanoScrollerInit() {
+    $(".nano").nanoScroller();
+  }
+
   return {
     vars: vars, 
     helpers: helpers,
-    ajax: ajax
+    ajax: ajax, 
+    nanoScrollerInit: nanoScrollerInit
   }
 })
 .directive("ts", function() {

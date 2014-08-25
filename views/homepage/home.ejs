@@ -4,98 +4,102 @@
 <div ng-controller="homepageController" id="homepageContainer">
 
   <div class="homeInnerContainer">
-    <div class="homeSection containerLeft">
-      <span style="text-align: center">
-        <h1>Events</h1>
-      </span>
-      <div class="eventsContent">
-        <div ng-repeat="month in viewModel.monthsWithEvents" class="{{month}}">
+    <div class="homeSection containerLeft nano">
+      <div class="nano-content">
+        <span style="text-align: center">
+          <h1>Events</h1>
+        </span>
+        <div class="eventsContent">
+          <div ng-repeat="titleDate in viewModel.datesWithEvents">
 
-          <h3>
-            <ts text="{{month}}"></ts>
-          </h3>
-          
-          <div ng-repeat="event in viewModel.futureEvents[month]" 
-               class="imgShadow monthEvent">
+            <h3>
+              <ts text="{{titleDate}}"></ts>
+            </h3>
+            
+            <div ng-repeat="event in viewModel.futureEvents[titleDate]" 
+                 class="imgShadow monthEvent">
 
-            <table>
-              <tr>
-                <td>
-                  <h4 class="eventTitle" ng-bind="event.name"></h4>
-                  <h6 class="eventDate" ng-bind="event.moment"></h6>
-                  <h6 class="eventTime" ng-bind="event.time"></h6>
-                </td>
-                <td width="30">
-                  <span class="glyphicon glyphicon-chevron-down"></span>
-                </td>
-              </tr>
-            </table>
+              <table>
+                <tr>
+                  <td>
+                    <h4 class="eventTitle" ng-bind="event.name"></h4>
+                    <h6 class="eventDate" ng-bind="event.moment"></h6>
+                    <h6 class="eventTime" ng-bind="event.time"></h6>
+                  </td>
+                  <td width="30">
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                  </td>
+                </tr>
+              </table>
 
-            <h6 class="eventLocation" ng-bind="event.location"></h6>
-            <p class="eventDescription" ng-bind="event.description"></p>
+              <h6 class="eventLocation" ng-bind="event.location"></h6>
+              <p class="eventDescription" ng-bind="event.description"></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="homeSection containerRight">
-      <div class="containerRightContent">
-        <div class="titleContainer">
-          <table id="titleTable">
-            <tr>
-              <td height="200"><img id="mainIcon" src="/images/PhoenixIcon.png"></td>
-              <td width="100%">
-                <legend class="nameLegend" id="nudeltaTextLegend">
-                  <h1 id="nudeltaText">Nu Delta</h1>
-                </legend>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div id="homeFeed">
-          <table id="wordPresTable">
-            <tr>
-              <td width="300">
-                <img src="images/homepage/PresidentPic.jpg" class="imgShadow presPic">
-              </td>
-              <td id="wordPresCol">
-                <legend class="nameLegend">
-                  <h1 id="wordPresLegendText">A Word From the President</h1>
-                </legend>
-                <i id="wordPresName">David McClelland</i>
-              </td>
-            </tr>
-          </table>
-          <div id="wordPresText">
-            <h3>
-              <span style="font-size: 36px">T</span>hey say college is the best 4 years of your life. While you&#146;re here, your university teaches you much more than what it offers the classroom; you learn things about yourself you never thought you were capable of, and the decisions you make while you&#146;re an undergraduate will forever influence your future success. Who will you spend these 4 critical years with? Based on our 3 pillars of trust, respect, and brotherhood, Nu Delta Fraternity has given me my second family and my home away from home. Here, we make friendships that last much longer than 4 years, and make connections that last a lifetime.
-            </h3>
+      <div class="containerRightContent nano">
+        <div class="nano-content">
+          <div class="titleContainer">
+            <table id="titleTable">
+              <tr>
+                <td height="200"><img id="mainIcon" src="/images/PhoenixIcon.png"></td>
+                <td width="100%">
+                  <legend class="nameLegend" id="nudeltaTextLegend">
+                    <h1 id="nudeltaText">Nu Delta</h1>
+                  </legend>
+                </td>
+              </tr>
+            </table>
           </div>
-          
-          <div class="feedSection brothersFeedSection">
-            <h2>  
-              <ts text="Brothers"></ts>
-            </h2>
-            <div class="feedImageCont brotherFeedImageCont">
-              <a href="/brothers">
-                <img class="imgShadow feedImage brotherFeedImage" src="images/homepage/MaineHouse2013.jpg">
-              </a>
+          <div id="homeFeed">
+            <table id="wordPresTable">
+              <tr>
+                <td width="300">
+                  <img src="images/homepage/PresidentPic.jpg" class="imgShadow presPic">
+                </td>
+                <td id="wordPresCol">
+                  <legend class="nameLegend">
+                    <h1 id="wordPresLegendText">A Word From the President</h1>
+                  </legend>
+                  <i id="wordPresName">David McClelland</i>
+                </td>
+              </tr>
+            </table>
+            <div id="wordPresText">
+              <h3>
+                <span style="font-size: 36px">T</span>hey say college is the best 4 years of your life. While you&#146;re here, your university teaches you much more than what it offers the classroom; you learn things about yourself you never thought you were capable of, and the decisions you make while you&#146;re an undergraduate will forever influence your future success. Who will you spend these 4 critical years with? Based on our 3 pillars of trust, respect, and brotherhood, Nu Delta Fraternity has given me my second family and my home away from home. Here, we make friendships that last much longer than 4 years, and make connections that last a lifetime.
+              </h3>
             </div>
-            <div class="sectionText">
-              <h3>The brothers of Nu Delta share a tight bond that brings us together, and promotes our success as individuals.  To learn more about the individual brothers, click the image above.</h3>
+            
+            <div class="feedSection brothersFeedSection">
+              <h2>  
+                <ts text="Brothers"></ts>
+              </h2>
+              <div class="feedImageCont brotherFeedImageCont">
+                <a href="/brothers">
+                  <img class="imgShadow feedImage brotherFeedImage" src="images/homepage/MaineHouse2013.jpg">
+                </a>
+              </div>
+              <div class="sectionText">
+                <h3>The brothers of Nu Delta share a tight bond that brings us together, and promotes our success as individuals.  To learn more about the individual brothers, click the image above.</h3>
+              </div>
             </div>
-          </div>
 
-          <div class="feedSection houseFeedSection">
-            <h2>  
-              <ts text="House"></ts>
-            </h2>
-            <div class="feedImageCont houseFeedImageCont">
-              <a href="/house">
-                <img class="imgShadow feedImage houseFeedImage" src="images/house/houseImgs/CharlesView.jpg">
-              </a>
-            </div>
-            <div class="sectionText">
-              <h3>Many of the brothers reside in our lovely 4 story mansion located at 460 Beacon Street in Boston.  For many of the brothers, this is where our fondest MIT memories are made, so we take great pride in our house.  Click on the view from our roofdeck shown above to learn more about the house!</h3>
+            <div class="feedSection houseFeedSection">
+              <h2>  
+                <ts text="House"></ts>
+              </h2>
+              <div class="feedImageCont houseFeedImageCont">
+                <a href="/house">
+                  <img class="imgShadow feedImage houseFeedImage" src="images/house/houseImgs/CharlesView.jpg">
+                </a>
+              </div>
+              <div class="sectionText">
+                <h3>Many of the brothers reside in our lovely 4 story mansion located at 460 Beacon Street in Boston.  For many of the brothers, this is where our fondest MIT memories are made, so we take great pride in our house.  Click on the view from our roofdeck shown above to learn more about the house!</h3>
+              </div>
             </div>
           </div>
         </div>
