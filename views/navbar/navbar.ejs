@@ -11,6 +11,7 @@
 
 <div data-ng-controller="navbarController" class="header" ng-class="{imgShadow: viewModel.isHomepage}">
   <div id="linksContainer">
+    <% if (!session || !session.user) { %>
     <a ng-repeat="link in viewModel.links"
        class="link"
        href="{{link.href}}"
@@ -22,9 +23,10 @@
         <span ng-bind="link.text"></span>
       </div>
     </a>
+    <% } %>
     <% if (session && session.user) { %>
-    <div class="link linkDiv">|</div>
     <a ng-repeat="link in viewModel.adminLinks"
+       class="link"
        href="{{link.href}}">
 
       <div class="linkDiv">
@@ -35,7 +37,7 @@
     <form method="POST" action="/admin" style="display: inline-block">
       <input type="hidden" name="_method" value="DELETE">
       <input type="submit" id="submit" style="display: none">
-      <a href="javascript: document.getElementById('submit').click()">
+      <a href="javascript: document.getElementById('submit').click()" class="link">
         <div class="linkDiv">
           <span class="glyphicon glyphicon-lock"></span>
           <span>Log out</span>

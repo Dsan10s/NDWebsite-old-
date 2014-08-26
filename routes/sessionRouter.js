@@ -40,4 +40,8 @@ module.exports = function(app) {
     res.render('admin/login', {title: "Log in"});
   });
 
+  app.get('/admin/editEvents', function(req, res) {
+    res.render('admin/editEvents', {title: "Edit Events"});
+  }); 
+
 }
