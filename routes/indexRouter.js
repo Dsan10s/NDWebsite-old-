@@ -14,6 +14,10 @@ module.exports = function(app) {
     res.render('homepage/home', {title: "N&Delta;"});
   });
 
+  app.get('/home', function(req, res) {
+    res.render('homepage/home', {title: "N&Delta;"});
+  });
+
   ///////////////////////////////////////////////////////////////////
   // Brothers
   ///////////////////////////////////////////////////////////////////
