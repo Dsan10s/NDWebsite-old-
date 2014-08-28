@@ -9,7 +9,7 @@ ndapp.controller('navbarController', function($scope, ndService) {
     isHomepage: undefined, 
     urlAddress: undefined, 
     links: [{"text": "Home", 
-             "href": "/home", 
+             "href": "/", 
              "icon": "home"
             }, 
             {"text": "Brothers", 
