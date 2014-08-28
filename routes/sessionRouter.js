@@ -1,7 +1,10 @@
+var passwordHash = require('password-hash'), 
+    notLoggedIn  = require('./middleware/not_logged_in');
+
 var admins = {
   "admin": {
     username: "admin", 
-    password: "letmein"
+    password: passwordHash.generate("letmein")
   }
 }
 
@@ -21,9 +24,9 @@ module.exports = function(app) {
     }
   });
 
-  app.post('/admin', function(req, res) {
+  app.post('/admin', notLoggedIn, function(req, res) {
     if (admins[req.body.username] && 
-        admins[req.body.username].password === req.body.password) {
+        passwordHash.verify(req.body.password, admins[req.body.username].password)) {
       req.session.user = admins[req.body.username];
       res.redirect('/admin');
     } else {
@@ -36,12 +39,16 @@ module.exports = function(app) {
     res.redirect('/admin/login');
   });
 
-  app.get('/admin/login', function(req, res) {
-    res.render('admin/login', {title: "Log in"});
+  app.get('/admin/login', notLoggedIn, function(req, res) {
+    res.render('admin/login', {title: "Admin log in"});
   });
 
   app.get('/admin/editEvents', function(req, res) {
-    res.render('admin/editEvents', {title: "Edit Events"});
+    if (!req.session.user) {
+      res.redirect('/admin/login');
+    } else {
+      res.render('admin/editEvents', {title: "Edit Events"});
+    }
   }); 
 
 }

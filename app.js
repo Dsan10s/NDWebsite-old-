@@ -3,10 +3,15 @@
  * Module dependencies.
  */
 
-var express = require('express'), 
-    ejs     = require('ejs');
+var express  = require('express'), 
+    ejs      = require('ejs'), 
+    mongoose = require('mongoose');
 
 var app = module.exports = express.createServer();
+
+// Database
+var dbURL = 'mongodb://localhost/nudelta'; 
+var db = mongoose.connect(dbURL);
 
 // Configuration
 
@@ -49,6 +54,7 @@ app.configure('production', function(){
 require('./routes/indexRouter')(app);
 require('./routes/dataRouter')(app);
 require('./routes/sessionRouter')(app);
+require('./routes/admins.js')(app);
 
 var port = Number(process.env.PORT || 3000);
 app.listen(port, function(){

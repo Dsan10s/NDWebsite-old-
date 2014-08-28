@@ -8,31 +8,15 @@ ndapp.controller('navbarController', function($scope, ndService) {
     address: ndService.vars.address, 
     isHomepage: undefined, 
     urlAddress: undefined, 
-    links: [{"text": "Home", 
-             "href": "/home", 
-             "icon": "home"
-            }, 
-            {"text": "Brothers", 
-             "href": "/brothers", 
-             "icon": "user"
-            }, 
-            {"text": "House", 
-             "href": "/house", 
-             "icon": "tower"
-            }, 
-            {"text": "About Us", 
-             "href": "#", 
-             "dataToggle": "modal", 
-             "dataTarget": "#aboutModal", 
-             "icon": "globe"
-            }], 
-    adminLinks: [{"text": "Admin Home", 
-                  "href": "/admin", 
-                  "icon": "dashboard"
-                 }, 
-                 {"text": "Event Editor", 
-                  "href": "/admin/editEvents", 
-                  "icon": "tasks"}]
+    links:     [{"text": "Home",     "href": "/home",     "icon": "home"}, 
+                {"text": "Brothers", "href": "/brothers", "icon": "user"}, 
+                {"text": "House",    "href": "/house",    "icon": "tower"}, 
+                {"text": "About Us", "href": "#",         "icon": "globe", 
+                 "dataToggle": "modal", 
+                 "dataTarget": "#aboutModal"
+                }], 
+    adminLinks: [{"text": "Admin Home",   "href": "/admin",            "icon": "dashboard"}, 
+                 {"text": "Event Editor", "href": "/admin/editEvents", "icon": "tasks"}]
   };
 
   var setViewModel = function() {
