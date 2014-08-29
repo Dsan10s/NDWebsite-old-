@@ -18,19 +18,14 @@ app.configure(function(){
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
   app.use(function(req, res, next) {
-    res.render('errors/pageNotFound', { 
-      status: 404, 
-      url: req.url, 
-      message: "This page could not be found" 
-    });
+    res.render('errors/pageNotFound', {status: 404, url: req.url});
   });
 
   app.use(function(err, req, res, next) {
     res.render('errors/pageNotFound', {
       status: err.status || 500, 
       error: err, 
-      title: "Internal server error", 
-      message: "Internal server error"
+      title: "Page not found"
     });
   });
 });
