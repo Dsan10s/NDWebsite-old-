@@ -22,11 +22,12 @@ app.configure(function(){
   });
 
   app.use(function(err, req, res, next) {
-    res.render('errors/pageNotFound', {
-      status: err.status || 500, 
-      error: err, 
-      title: "Page not found"
-    });
+    // res.render('errors/pageNotFound', {
+    //   status: err.status || 500, 
+    //   error: err, 
+    //   title: "Page not found"
+    // });
+    res.redirect('/');
   });
 });
 
