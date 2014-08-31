@@ -43,7 +43,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
         var titleDate = moment(thisMoment).format('MMMM Do');
 
-        var isFuture = (thisMoment.diff(nowMoment, 'seconds') > 0);
+        var isFuture = (thisMoment.diff(nowMoment, 'seconds') >= -(60 * 60 * 24));
 
         if (isFuture) {
           if (thisEvent.type == "Rush") {

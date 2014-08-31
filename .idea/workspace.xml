@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758784eb-88b9-48b1-a4ef-b51a5ab0f465" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/house/house.ejs" afterPath="$PROJECT_DIR$/views/house/house.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="NDWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,18 +31,9 @@
           <file leaf-file-name="2016.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.25" vertical-offset="45" max-vertical-offset="495">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="2310">
                   <caret line="124" column="6" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="62" />
-                  <folding>
-                    <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Alejandro Romero#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Danny Sanchez#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Anish Punjabi#0;n#!!top" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -49,16 +41,9 @@
           <file leaf-file-name="2017.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/brothers/2017.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="1755">
                   <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-                  <folding>
-                    <element signature="n#!!block;n#Amin Manna#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Moti Ogunsina#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Alan Samboy Adames#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Narindra Peaks#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#James Rivera#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Carlos Henriquez#0;n#!!top" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -66,7 +51,7 @@
           <file leaf-file-name="brotherHome.ejs" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/brothers/brotherHome.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1365">
+                <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1155">
                   <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
                   <folding />
                 </state>
@@ -76,8 +61,8 @@
           <file leaf-file-name="house.ejs" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/house/house.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.34642032" vertical-offset="0" max-vertical-offset="866">
-                  <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.8660508" vertical-offset="0" max-vertical-offset="1035">
+                  <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -90,19 +75,9 @@
           <file leaf-file-name="2015.json" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/brothers/2015.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.17321016" vertical-offset="0" max-vertical-offset="866">
+                <state vertical-scroll-proportion="0.72286373" vertical-offset="1234" max-vertical-offset="2100">
                   <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-                  <folding>
-                    <element signature="n#!!block;n#Christian Mata#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Makai Cartman#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Franscisco Pe&amp;ntilde\ha#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Paul Dawson#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Ebenezer Sefah Jr.#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Alexander Kendrick#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Saulo Mendoza#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#Fidelis Chimombe#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#David McClelland#0;n#!!top" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -128,11 +103,11 @@
         <option value="$PROJECT_DIR$/ndapp/public/javascripts/controllers/homepage/HomePageController.js" />
         <option value="$PROJECT_DIR$/ndapp/views/navbar/navbar.ejs" />
         <option value="$PROJECT_DIR$/ndapp/public/stylesheets/navbar/navbar.css" />
-        <option value="$PROJECT_DIR$/data/brothers/2015.json" />
         <option value="$PROJECT_DIR$/data/brothers/2016.json" />
         <option value="$PROJECT_DIR$/data/brothers/2017.json" />
         <option value="$PROJECT_DIR$/views/brothers/brotherHome.ejs" />
         <option value="$PROJECT_DIR$/views/house/house.ejs" />
+        <option value="$PROJECT_DIR$/data/brothers/2015.json" />
       </list>
     </option>
   </component>
@@ -168,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,6 +196,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,14 +447,15 @@
       <workItem from="1406687064011" duration="5155000" />
       <workItem from="1407099493198" duration="60000" />
       <workItem from="1407099573426" duration="9483000" />
+      <workItem from="1409280658250" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14848000" />
+    <option name="totallyTimeSpent" value="15116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -505,8 +481,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -529,59 +505,25 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/brothers/2015.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17321016" vertical-offset="0" max-vertical-offset="866">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#Christian Mata#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Makai Cartman#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Franscisco Pe&amp;ntilde\ha#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Paul Dawson#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Ebenezer Sefah Jr.#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Alexander Kendrick#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Saulo Mendoza#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Fidelis Chimombe#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#David McClelland#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="45" max-vertical-offset="495">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2310">
           <caret line="124" column="6" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!block;n#Anthony Pennes#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Brian Wilcox#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Alejandro Romero#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Danny Sanchez#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Eric Shirley#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Calvin Li#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Aaron Okello#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Anish Punjabi#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/brothers/2017.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="1755">
           <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#Amin Manna#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Moti Ogunsina#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Alan Samboy Adames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Narindra Peaks#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#James Rivera#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Carlos Henriquez#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/brothers/brotherHome.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1365">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1155">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
@@ -589,8 +531,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/house/house.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34642032" vertical-offset="0" max-vertical-offset="866">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1035">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/brothers/2015.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/brothers/2015.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72286373" vertical-offset="1234" max-vertical-offset="2100">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/brothers/2016.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="2310">
+          <caret line="124" column="6" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/brothers/2017.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="1755">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/brothers/brotherHome.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1155">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/house/house.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8660508" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
           <folding />
         </state>
       </provider>

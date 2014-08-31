@@ -1,3 +1,18 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^nudelta.mit.edu
-RewriteRule ^(.*) http://guarded-wildwood-9736.herokuapp.com/$1 [P]
+# Options +FollowSymLinks -MultiViews
+# RewriteEngine On
+# RewriteBase /
+
+# RewriteCond %{HTTP_HOST} ^nudelta.mit.edu$ [NC]
+# RewriteRule ^(.*)$ http://nudelta.herokuapp.com/$1 [L,P,NC]
+
+Redirect 301 / http://nudelta.herokuapp.com/
+
+Redirect /home http://nudelta.herokuapp.com/home
+
+Redirect /brothers http://nudelta.herokuapp.com/brothers
+
+Redirect /brothers/2015 http://nudelta.herokuapp.com/brothers/2015
+Redirect /brothers/2016 http://nudelta.herokuapp.com/brothers/2016
+Redirect /brothers/2017 http://nudelta.herokuapp.com/brothers/2017
+
+Redirect /house http://nudelta.herokuapp.com/house
