@@ -1,0 +1,120 @@
+{
+  "Brandon Zabala": {
+    "info": [
+      {"infoName": "Pledge Number", "info": "1"}, 
+      {"infoName": "Major", "info": "Chemical Engineering"}, 
+      {"infoName": "Hometown", "info": "Albuquerque, New Mexico"}, 
+      {"infoName": "High School", "info": "Hope Christian School"}, 
+      {"infoName": "Big Brother", "info": "James Rivera ('17)"},
+      {"infoName": "Interests", "info": "Music, Basketball, and every other sport"},
+      {"infoName": "UROPs", "info": "Strano Group (Chemical Engineering Lab)"}, 
+      {"infoName": "Internships", "info": "Yearout Mechanical Inc."}
+    ], 
+    "familyTree": 6, 
+    "jumboSrc": "/images/brothers/2018/Brandon/BrandonFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Brandon/BrandonHS.jpg"
+   }, 
+  "Jordan Browne": {
+    "info": [
+      {"infoName": "Pledge Number", "info": "2"}, 
+      {"infoName": "Major", "info": "Mathematics"}, 
+      {"infoName": "Minor", "info": "Management Science with a Concentration in Finance"}, 
+      {"infoName": "Hometown", "info": "Plymouth, New Hampshire"}, 
+      {"infoName": "High School", "info": "Cambridge Rindge and Latin School"}, 
+      {"infoName": "Big Brother", "info": "Brian Wilcox ('16)"}, 
+      {"infoName": "Interests", "info": "Derivatives Trading, Algorithmic Trading, Rowing"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;I was born for a storm, and a calm does not suit me.&quot; -President Andrew Jackson"}
+    ], 
+    "familyTree": 2, 
+    "jumboSrc": "/images/brothers/2018/Jordan/JordanFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Jordan/JordanHS.jpg"
+   },
+  "Solan Megerssa": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Eduardo Orozco": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Stephen Gaffley": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Kristopher Wiggins": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Fabrice Fils-Aime": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Yoeal Efrem": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Rex Shepherd": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Cory Johnson": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Jeremiah Smith": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Charles Ezeugwu": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+   },
+  "Jerry Akinsulire": {
+    "info": [
+
+    ], 
+    "familyTree": 0, 
+    "jumboSrc": "", 
+    "iconSrc": ""
+  }
+}
