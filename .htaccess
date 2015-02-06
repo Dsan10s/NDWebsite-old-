@@ -1,18 +1,19 @@
-Options +FollowSymLinks -MultiViews
-RewriteEngine On
-RewriteBase /
+# Options +FollowSymLinks -MultiViews
+# RewriteEngine On
+# RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^nudelta.mit.edu$ [NC]
-RewriteRule ^(.*)$ http://nudelta.herokuapp.com/$1 [L,P,NC]
+# RewriteCond %{HTTP_HOST} ^nudelta.mit.edu$ [NC]
+# RewriteRule ^(.*)$ http://nudelta.herokuapp.com/$1 [L,P,NC]
 
-# Redirect 301 / http://nudelta.herokuapp.com/
+Redirect 301 / http://nudelta.herokuapp.com/
 
-# Redirect /home http://nudelta.herokuapp.com/home
+Redirect /home http://nudelta.herokuapp.com/home
 
-# Redirect /brothers http://nudelta.herokuapp.com/brothers
+Redirect /brothers http://nudelta.herokuapp.com/brothers
 
-# Redirect /brothers/2015 http://nudelta.herokuapp.com/brothers/2015
-# Redirect /brothers/2016 http://nudelta.herokuapp.com/brothers/2016
-# Redirect /brothers/2017 http://nudelta.herokuapp.com/brothers/2017
+Redirect /brothers/2015 http://nudelta.herokuapp.com/brothers/2015
+Redirect /brothers/2016 http://nudelta.herokuapp.com/brothers/2016
+Redirect /brothers/2017 http://nudelta.herokuapp.com/brothers/2017
+Redirect /brothers/2018 http://nudelta.herokuapp.com/brothers/2018
 
-# Redirect /house http://nudelta.herokuapp.com/house
+Redirect /house http://nudelta.herokuapp.com/house
