@@ -13,7 +13,7 @@
     "familyTree": 6, 
     "jumboSrc": "/images/brothers/2018/Brandon/BrandonFull.jpg", 
     "iconSrc": "/images/brothers/2018/Brandon/BrandonHS.jpg"
-   }, 
+  }, 
   "Jordan Browne": {
     "info": [
       {"infoName": "Pledge Number", "info": "2"}, 
@@ -28,93 +28,122 @@
     "familyTree": 2, 
     "jumboSrc": "/images/brothers/2018/Jordan/JordanFull.jpg", 
     "iconSrc": "/images/brothers/2018/Jordan/JordanHS.jpg"
-   },
+  },
   "Solan Megerssa": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "3"}, 
+      {"infoName": "Hometown", "info": "San Francisco, California"}, 
+      {"infoName": "High School", "info": "Sheldon High School"}, 
+      {"infoName": "Big Brother", "info": "Eric Shirley ('16)"}, 
+      {"infoName": "Interests", "info": "Frisbee, soccer, Super Smash Bros"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 5, 
+    "jumboSrc": "/images/brothers/2018/Solan/SolanFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Solan/SolanHS.jpg"
+  },
   "Eduardo Orozco": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "4"}, 
+      {"infoName": "Big Brother", "info": "Amin Manna ('17)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 2, 
+    "jumboSrc": "/images/brothers/2018/Eduardo/EduardoFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Eduardo/EduardoHS.jpg"
+  },
   "Stephen Gaffley": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "5"}, 
+      {"infoName": "Big Brother", "info": "Alan Samboy Adames ('17)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 4, 
+    "jumboSrc": "/images/brothers/2018/Stephen/StephenFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Stephen/StephenHS.jpg"
+  },
   "Kristopher Wiggins": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "6"}, 
+      {"infoName": "Hometown", "info": "New York, New York"}, 
+      {"infoName": "High School", "info": "Frederick Douglass Academy"}, 
+      {"infoName": "Big Brother", "info": "Daniel Sanchez ('16)"}, 
+      {"infoName": "Interests", "info": "Basketball, Football, Games, Movies, Music"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;I got love for my brother but we can never go nowhere unless we share with each other.&quot;"}
     ], 
     "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "jumboSrc": "/images/brothers/2018/Kris/KrisFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Kris/KrisHS.jpg"
+  },
   "Fabrice Fils-Aime": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "7"}, 
+      {"infoName": "Big Brother", "info": "Carlos Henriquez ('17)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 3, 
+    "jumboSrc": "/images/brothers/2018/Fabrice/FabriceFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Fabrice/FabriceHS.jpg"
+  },
   "Yoeal Efrem": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "8"}, 
+      {"infoName": "Major", "info": "Computer Science"}, 
+      {"infoName": "Hometown", "info": "Cambridge, MA"}, 
+      {"infoName": "High School", "info": "Cambridge Rindge and Latin School"}, 
+      {"infoName": "Big Brother", "info": "Mikael Mengistu ('16)"}, 
+      {"infoName": "Interests", "info": "Soccer, Basketball, Artificial Intelligence"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 1, 
+    "jumboSrc": "/images/brothers/2018/Yoeal/YoealFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Yoeal/YoealHS.jpg"
+  },
   "Rex Shepherd": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "9"}, 
+      {"infoName": "Hometown", "info": "Mandeville, Louisiana"}, 
+      {"infoName": "High School", "info": "Lakeshore High School"}, 
+      {"infoName": "Big Brother", "info": "Frederick Odein Daso ('17)"}, 
+      {"infoName": "Interests", "info": "Football, Biking, Card games"}, 
+      {"infoName": "Programs", "info": "Interphase 2014"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 1, 
+    "jumboSrc": "/images/brothers/2018/Rex/RexFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Rex/RexHS.jpg"
+  },
   "Cory Johnson": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "11"}, 
+      {"infoName": "Major", "info": "Computer Science"}, 
+      {"infoName": "Hometown", "info": "San Antonio, Texas"}, 
+      {"infoName": "High School", "info": "James Madison High School"}, 
+      {"infoName": "Big Brother", "info": "Aaron Okello ('16)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 1, 
+    "jumboSrc": "/images/brothers/2018/Cory/CoryFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Cory/CoryHS.jpg"
+  },
   "Jeremiah Smith": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "12"}, 
+      {"infoName": "Big Brother", "info": "Narindra Peaks ('17)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 2, 
+    "jumboSrc": "/images/brothers/2018/Jeremiah/JeremiahFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Jeremiah/JeremiahHS.jpg"
+  },
   "Charles Ezeugwu": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "13"}, 
+      {"infoName": "Big Brother", "info": "Ebenezer Sefah Jr. ('15)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
-   },
+    "familyTree": 2, 
+    "jumboSrc": "/images/brothers/2018/Charles/CharlesFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Charles/CharlesHS.jpg"
+  },
   "Jerry Akinsulire": {
     "info": [
-
+      {"infoName": "Pledge Number", "info": "14"}, 
+      {"infoName": "Big Brother", "info": "Moti Ogunsina ('17)"}
     ], 
-    "familyTree": 0, 
-    "jumboSrc": "", 
-    "iconSrc": ""
+    "familyTree": 4, 
+    "jumboSrc": "/images/brothers/2018/Jerry/JerryFull.jpg", 
+    "iconSrc": "/images/brothers/2018/Jerry/JerryHS.jpg"
   }
 }
