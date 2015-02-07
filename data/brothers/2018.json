@@ -75,7 +75,13 @@
   "Fabrice Fils-Aime": {
     "info": [
       {"infoName": "Pledge Number", "info": "7"}, 
-      {"infoName": "Big Brother", "info": "Carlos Henriquez ('17)"}
+      {"infoName": "Major", "info": "Nuclear Engineering"}, 
+      {"infoName": "Hometown", "info": "Coral Springs, Florida"}, 
+      {"infoName": "High School", "info": "Blanche Ely High School"}, 
+      {"infoName": "Big Brother", "info": "Carlos Henriquez ('17)"}, 
+      {"infoName": "Interests", "info": "Rapping, Anime, Pokémon, Video Games"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;I see now that the circumstances of one's birth are irrelevant; it is what you do with the gift of life that determines who you are&quot;"}, 
+      {"infoName": "Employment", "info": "MIT Nuclear Reactor Laboratory"}
     ], 
     "familyTree": 3, 
     "jumboSrc": "/images/brothers/2018/Fabrice/FabriceFull.jpg", 
@@ -140,7 +146,12 @@
   "Jerry Akinsulire": {
     "info": [
       {"infoName": "Pledge Number", "info": "14"}, 
-      {"infoName": "Big Brother", "info": "Moti Ogunsina ('17)"}
+      {"infoName": "Major", "info": "Nuclear Science and Engineering, and Physics"}, 
+      {"infoName": "Hometown", "info": "Jamaica, New York"}, 
+      {"infoName": "High School", "info": "Queens High School for the Sciences"}, 
+      {"infoName": "Big Brother", "info": "Moti Ogunsina ('17)"}, 
+      {"infoName": "Interests", "info": "Anime, Basketball, Games"}, 
+      {"infoName": "Employment", "info": "Nuclear Reactor Operator"}
     ], 
     "familyTree": 4, 
     "jumboSrc": "/images/brothers/2018/Jerry/JerryFull.jpg", 
