@@ -1,101 +1,52 @@
 {
   "events": [
     {
-      "type": "Rush",
-      "name": "Amped UP!",
-      "time": "12:30 PM - 7:00 PM",
-      "dateString": "8/30/14",
-      "location": "",
-      "description": "Challenge the brothers of Nu Delta to videogames, ping pong, pool, foosball, or anything you can think of to win a brand new TV, all while enjoying food from some of our favorite restaurants delivered fresh throughout the day!"
+      "type": "CPW", 
+      "name": "The Smash Brothers of Nu Delta", 
+      "time": "5:00 PM - 8:00 PM", 
+      "dateString": "4/17/15", 
+      "location": "Room 4-163", 
+      "description": "Join in on the chaos of an all-out 8-player Smash on the big screen with the brothers of Nu Delta! Devour a slice of pizza and quench your thirst with soda after the heat of battle."
     }, 
     {
-      "type": "Rush",
-      "name": "Southern Style Chicken & Waffles",
-      "time": "8:00 PM - 11:00 PM",
-      "dateString": "8/30/14",
-      "location": "",
-      "description": "Swing by Nu Delta for some southern style chicken and waffles, and some homemade smoothies to go with them!"
+      "type": "CPW", 
+      "name": "ND Lounging", 
+      "time": "5:00 PM - 12:00 AM", 
+      "dateString": "4/17/15", 
+      "location": "460 Beacon Street, Boston", 
+      "description": "Want to party tonight? We'll be ready to party hop with you. Or maybe you'd just like to take the night off and relax? Either way, come meet and chill with the brothers of Nu Delta at our house. There will be delicious chicken wings, good music, games, and more to go around!"
     }, 
     {
-      "type": "Rush",
-      "name": "Jet Skis",
-      "time": "9:30 AM - 3:00 PM",
-      "dateString": "8/31/14",
-      "location": "",
-      "description": "Drive jet skis with the brothers of Nu Delta! Race and get air off some waves on the open ocean!"
-    },
-    {
-      "type": "Rush",
-      "name": "Paintball",
-      "time": "5:00 PM - 7:30 PM",
-      "dateString": "8/31/14",
-      "location": "",
-      "description": "See if you can keep up with the brothers of Nu Delta in this all out paint war at Boston Paintball!"
-    },  
-    {
-      "type": "Rush",
-      "name": "Monster Jam!",
-      "time": "10:00 PM - 2:00 AM",
-      "dateString": "8/31/14",
-      "location": "",
-      "description": "Stop by Nu Delta's Monster Jam to see why our parties are sponsored by Monster. Grab a few cans to refuel, then get ready to dance all night!"
+      "type": "CPW", 
+      "name": "Nu Smoothies", 
+      "time": "12:00AM - 1:00AM", 
+      "dateString": "4/18/15", 
+      "location": "460 Beacon Street, Boston", 
+      "description": "All partied out tonight? Looking for something to eat? Stop by Nu Delta on your way home to close out the night with snacks and some next level smoothies."
     }, 
     {
-      "type": "Rush",
-      "name": "Firing Range",
-      "time": "10:00 AM - 2:00 PM",
-      "dateString": "9/1/14",
-      "location": "",
-      "description": "Fire some crazy big guns at the firing range with Nu Delta and see if your videogame skills translate to the real deal!"
+      "type": "CPW", 
+      "name": "Tex-Mex Breakfast", 
+      "time": "9:00 AM - 11:00 AM", 
+      "dateString": "4/18/15", 
+      "location": "460 Beacon Street, Boston", 
+      "description": "Swing by Nu Delta for an amazing Tex-Mex style breakfast with chorizo, omelettes, and breakfast burritos. There will be bacon."
     }, 
     {
-      "type": "Rush",
-      "name": "SkyZone",
-      "time": "3:00 PM - 5:30 PM",
-      "dateString": "9/1/14",
-      "location": "",
-      "description": "Join Nu Delta in playing dodgeball and basketball on the trampoline floors at SkyZone! Try to keep up and get your appetite ready for Steak and Lobster!!"
+      "type": "CPW", 
+      "name": "Rock Bed BBQ", 
+      "time": "3:00 PM - 5:30 PM", 
+      "dateString": "4/18/15", 
+      "location": "460 Beacon Street, Boston", 
+      "description": "Nothing beats a good burger on a Saturday afternoon on Nu Delta's iconic Phoenix Rock Garden with great music and the brothers of Nu Delta."
     }, 
     {
-      "type": "Rush",
-      "name": "Steak & Lobster",
-      "time": "6:00 PM - 8:30 PM",
-      "dateString": "9/1/14",
-      "location": "",
-      "description": "Stop by for some delicious steak & lobster at Nu Delta, meet some brothers and see our awesome 4-story Back Bay home!"
-    }, 
-    {
-      "type": "Rush",
-      "name": "LASER TAG!",
-      "time": "8:30 PM - 11:00 PM",
-      "dateString": "9/1/14",
-      "location": "",
-      "description": "Get your adrenaline pumping playing the best laser tag in Boston! The brothers of Nu Delta will show you how it's done!"
-    }, 
-    {
-      "type": "Rush",
-      "name": "Target Runs",
-      "time": "2:00 PM - 4:00 PM",
-      "dateString": "9/2/14",
-      "location": "",
-      "description": "Need some last-minute school supplies, or just want to go shopping? Nu Delta's got you covered. We'll be making runs to target or (almost) anywhere else you need to go for those last-minute supplies."
-    }, 
-    {
-      "type": "Rush",
-      "name": "Rockbed BBQ",
-      "time": "4:00 PM - 8:00 PM",
-      "dateString": "9/2/14",
-      "location": "",
-      "description": "Nothing beats a good burger on Nu Delta's iconic Phoenix Rock Garden with great music and the brothers of Nu Delta! Come see our house and meet some awesome people!"
-    }, 
-    {
-      "type": "Rush",
-      "name": "Dick's Last Resort",
-      "time": "7:00 PM - 10:00 PM",
-      "dateString": "9/3/14",
-      "location": "",
-      "description": "Experience the outrageousness of the Dick's Last Resort restaurant in downtown Boston with Nu Delta while enjoying delicious barbecue and american-style cuisine."
+      "type": "CPW", 
+      "name": "The D is for Dance", 
+      "time": "10:30 PM - 1:00 AM", 
+      "dateString": "4/18/15", 
+      "location": "460 Beacon Street, Boston", 
+      "description": "Are you ready to get your groove on with the brothers of Nu Delta? Cuz it's Saturday night and we're in the spot. Don't believe me? Just watch. Come dance to your hearts content to nothing but the greatest hits. Oh yeah, we have a dog, too."
     }
-
   ]
 }
