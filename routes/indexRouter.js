@@ -44,4 +44,13 @@ module.exports = function(app) {
     res.render('house/house', {title: "N&Delta; House"});
   });
 
+
+    ///////////////////////////////////////////////////////////////////
+  // Summer Jobs
+  ///////////////////////////////////////////////////////////////////
+
+  app.get('/summer', function(req, res) {
+    res.render('mapPage', {title: "N&Delta; Summer"});
+  });
+
 }

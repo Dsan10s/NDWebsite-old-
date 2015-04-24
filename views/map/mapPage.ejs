@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="/stylesheets/errors/pageNotFound.css">
+<script type="text/javascript" src="/javascripts/controllers/mapController.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+<div class="pageNotFoundContainer">
+  <div class="pageContentContainer">
+    <div class="pageContent">
+      <div class="container pageMainContentContainer pageNotFoundMainContentContainer">
+        <div class="pageNotFoundTextContainer">
+      <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script>
+    //TODO Move this into a controller
+    //TODO Create a json with everyones info
+    //TODO Get the lat long of all the locations
+    function initialize() {
+     var centerOfUSA = new google.maps.LatLng(39.50, -98.35);
+     var mikaelSummerLocation = new google.maps.LatLng(47.645674, -122.127071);
+     var mikaelSummer = {location:mikaelSummerLocation, info: "Mikael Mengistu: Microsoft"}
+
+     var davidMCSummerLocation = new google.maps.LatLng(29.762354, -95.361466);
+     var davidMCSummer = {location:davidMCSummerLocation, info: "David McCleland: Exxon Mobile"}
+
+     summerJobs = []
+     summerJobs.push(mikaelSummer)
+     summerJobs.push(davidMCSummer)
+  //39°50' LONG. -98°35  Houston 29.762354, -95.361466
+  var mapOptions = {
+    zoom: 4,
+    center: centerOfUSA
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  for (var i = summerJobs.length - 1; i >= 0; i--) {
+    var brotherSummer = summerJobs[i] 
+    var marker = new google.maps.Marker({
+      position:  brotherSummer.location,
+      map: map,
+      title: brotherSummer.info
+    });
+
+  };
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
