@@ -63,4 +63,5 @@ ndapp.controller('brotherHeaderController', function($scope, ndService) {
     $(".classSelector .2019Link").tooltip({title: "Coming Soon...", 
                                            placement: "bottom"});
   }
+  
 });
