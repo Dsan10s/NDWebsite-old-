@@ -23,46 +23,41 @@ ndapp.controller('HouseController', function($scope, ndService) {
 
   // Private ////////////////////////////////////////////////////////
 
-  var private = (function() {
-    return {
-      scrollAmount: 175, 
-      currentIndex: undefined, 
-      modalShowing: false, 
-      imgScrollInterval: undefined, 
+  var scrollAmount_ = 175, 
+      imgScrollInterval_ = undefined, 
+      imgScrollIntervalTime_ = 1500, 
+      houseImgsContainerWrapper_ = undefined,
+      houseImgsContainer_ = undefined, 
+      houseImgsInnerContainer_ = undefined;
 
-      houseImgsContainerWrapper: undefined,
-      houseImgsContainer: undefined, 
-      houseImgsInnerContainer: undefined
-    }
-  })();
   var setPrivateVars = function() {
-    private.houseImgsContainerWrapper = $(".houseContainer .houseImgsContainerWrapper");
-    private.houseImgsContainer = $(".houseContainer .houseImgsContainer");
-    private.houseImgsInnerContainer = $(".houseContainer .houseImgsInnerContainer");
+    houseImgsContainerWrapper_ = $(".houseContainer .houseImgsContainerWrapper");
+    houseImgsContainer_ = $(".houseContainer .houseImgsContainer");
+    houseImgsInnerContainer_ = $(".houseContainer .houseImgsInnerContainer");
   }
 
   var helpers = (function() {
 
     function hideImgScroll() {
-      var imgScroll = private.houseImgsContainerWrapper;
+      var imgScroll = houseImgsContainerWrapper_;
       var imgScrollHeight = imgScroll.height();
       imgScroll.animate({"bottom": "-" + imgScrollHeight + "px"}, 500);
     }
 
     function revealImgScroll() {
-      var imgScroll = private.houseImgsContainerWrapper;
+      var imgScroll = houseImgsContainerWrapper_;
       imgScroll.animate({"bottom": "0"}, 500);
     }
  
     function staticSizingJS() {
-      var houseImgsContainerHeight = private.houseImgsContainer[0].scrollHeight;
-      private.houseImgsContainerWrapper[0].style.height = houseImgsContainerHeight + "px";
+      var houseImgsContainerHeight = houseImgsContainer_[0].scrollHeight;
+      houseImgsContainerWrapper_[0].style.height = houseImgsContainerHeight + "px";
     }
 
     function sizingJS() {
-      var innerContainer = private.houseImgsInnerContainer;
-      if (innerContainer.width() - private.scrollAmount < $(window).width()) {
-        innerContainer.width($(window).width() + private.scrollAmount);
+      var innerContainer = houseImgsInnerContainer_;
+      if (innerContainer.width() - scrollAmount_ < $(window).width()) {
+        innerContainer.width($(window).width() + scrollAmount_);
       }
     }
 
@@ -96,7 +91,7 @@ ndapp.controller('HouseController', function($scope, ndService) {
       });
 
       eventHandlers();
-      setImgScrollInterval();
+      setImgScrollInterval(imgScrollIntervalTime_);
       fancyboxReady();
     })
   })();
@@ -104,14 +99,14 @@ ndapp.controller('HouseController', function($scope, ndService) {
   var eventHelpers = (function() {
 
     function bindImgScrollEvents() {
-      private.houseImgsContainerWrapper.on({
+      houseImgsContainerWrapper_.on({
         mouseenter: clearImgScrollInterval, 
         mouseleave: setImgScrollInterval
       });
     }
 
     function unbindImgScrollEvents() {
-      private.houseImgsContainerWrapper.off({
+      houseImgsContainerWrapper_.off({
         mouseenter: clearImgScrollInterval, 
         mouseleave: setImgScrollInterval
       });
@@ -123,40 +118,49 @@ ndapp.controller('HouseController', function($scope, ndService) {
     }
   })();
   function eventHandlers() {
+    $(".fancybox-thumb").ready(function() {
+      fancyboxReady();
+    });
 
     eventHelpers.bindImgScrollEvents();
   }
 
+  /**
+   * Called when the fancybox element is ready
+   *
+   */
   function fancyboxReady() {
-    $(".fancybox-thumb").ready(function() {
-      $(".fancybox-thumb").fancybox({
-        prevEffect: "none", 
-        nextEffect: "none", 
-        helpers: {
-          title: {
-            type: "outside"
-          }, 
-          thumbs: {
-            width: 50, 
-            height: 50
-          }
+    $(".fancybox-thumb").fancybox({
+      prevEffect: "none", 
+      nextEffect: "none", 
+      helpers: {
+        title: {
+          type: "outside"
         }, 
-        beforeLoad: function() {
-          helpers.hideImgScroll();
-          eventHelpers.unbindImgScrollEvents();
-          clearImgScrollInterval();
-        }, 
-        beforeClose: function() {
-          helpers.revealImgScroll();
-        }, 
-        afterClose: function() {
-          eventHelpers.bindImgScrollEvents();
-          setImgScrollInterval();
+        thumbs: {
+          width: 50, 
+          height: 50
         }
-      });
+      }, 
+      beforeLoad: function() {
+        helpers.hideImgScroll();
+        eventHelpers.unbindImgScrollEvents();
+        clearImgScrollInterval();
+      }, 
+      beforeClose: function() {
+        helpers.revealImgScroll();
+      }, 
+      afterClose: function() {
+        eventHelpers.bindImgScrollEvents();
+        setImgScrollInterval();
+      }
     });
   }
 
+  /**
+   *
+   *
+   */
   function updateHouseImgs() {
     $scope.$apply(function() {
       var firstImg = public.houseImgs[0];
@@ -165,24 +169,36 @@ ndapp.controller('HouseController', function($scope, ndService) {
     });
   }
 
+  /**
+   *
+   *
+   */
   function scrollHouseImgs() {
-    var container = private.houseImgsContainer;
+    var container = houseImgsContainer_;
 
-    container.animate({"scrollLeft": private.scrollAmount}, 1500, "linear", function() {
+    container.animate({"scrollLeft": scrollAmount_}, 1500, "linear", function() {
       updateHouseImgs();
       container.scrollLeft(0);
     });
   }
 
-  function setImgScrollInterval() {
+  /**
+   *
+   *
+   */
+  function setImgScrollInterval(interval) {
 
-    private.imgScrollInterval = setInterval(scrollHouseImgs, 1500);
+    imgScrollInterval_ = setInterval(scrollHouseImgs, interval);
   }
 
+  /**
+   *
+   *
+   */
   function clearImgScrollInterval() {
-    if (private.imgScrollInterval) {
-      window.clearInterval(private.imgScrollInterval);
-      private.houseImgsContainer.stop();
+    if (imgScrollInterval_) {
+      window.clearInterval(imgScrollInterval_);
+      houseImgsContainer_.stop();
     }
   }
 });

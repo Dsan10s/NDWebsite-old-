@@ -36,6 +36,11 @@ ndapp.controller('navbarController', function($scope, ndService) {
   // Private ////////////////////////////////////////////////////////
 
   var helpers = (function() {
+
+    /**
+     *
+     *
+     */
     function createGmapsAddress(addressString) {
       var gmapsAddressArray = addressString.split(" ");
       var gmapsAddress = "";

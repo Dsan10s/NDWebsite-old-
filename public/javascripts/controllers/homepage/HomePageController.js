@@ -19,20 +19,18 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
   // Private ////////////////////////////////////////////////////////
 
-  var private = (function() {
-    return {
-      datesWithEvents: [], 
-      animate: true, 
-      events: []
-    }
-  })();
+  var events_ = [];
 
   var helpers = (function() {
 
+    /**
+     *
+     *
+     */
     function getFutureEvents() {
       var futureEvents = {};
-      for (var i = 0; i < private.events.length; i++) {
-        var thisEvent = private.events[i];
+      for (var i = 0; i < events_.length; i++) {
+        var thisEvent = events_[i];
         var thisDate = thisEvent.dateString;
         var month = moment(thisDate).format('MMMM');
         
@@ -66,8 +64,16 @@ ndapp.controller('homepageController', function($scope, ndService) {
       return futureEvents;
     }
 
+    /**
+     *
+     *
+     */
     function sizingJS() {}
 
+    /**
+     *
+     *
+     */
     function responsiveJS() {
       sizingJS();
     }
@@ -81,7 +87,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
 
   var init = (function() {
     ndService.ajax.eventsDeferred().done(function(data) {
-      private.events = data.events;
+      events_ = data.events;
 
       setViewModel();
 
@@ -107,6 +113,8 @@ ndapp.controller('homepageController', function($scope, ndService) {
     }, ".monthEvent");
 
     $("body").one("mousemove", function() {
+
+      // A very hacky way of initializing nanoscroller at the right time
       ndService.nanoScrollerInit();
     });
   }

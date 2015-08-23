@@ -1,18 +1,22 @@
 var ndapp = angular.module('ndapp');
 
-ndapp.controller('Controller', function($scope, ndService) {
+ndapp.controller('brotherHeaderController', function($scope, ndService) {
 
   // Public /////////////////////////////////////////////////////////
 
   var public = $scope.viewModel = {
-
+    headerText: "The Brothers of Nu Delta"
   }
 
   var setViewModel = function() {
 
-    $scope.$apply(function() {
+    if (typeof brotherClassViewVars != "undefined") {
+      public.headerText = "Class of " + brotherClassViewVars.classYear;
+    } else {
+      public.headerText = "The Brothers of Nu Delta";
+    }
 
-    });
+    $scope.$apply(function() {});
   }
 
   // Private ////////////////////////////////////////////////////////
@@ -55,5 +59,8 @@ ndapp.controller('Controller', function($scope, ndService) {
    */
   function eventHandlers() {
     
+    // Tooltips
+    $(".classSelector .2019Link").tooltip({title: "Coming Soon...", 
+                                           placement: "bottom"});
   }
 });

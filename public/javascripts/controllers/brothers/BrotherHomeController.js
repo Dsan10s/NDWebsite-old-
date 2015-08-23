@@ -29,21 +29,19 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
 
   // Private ////////////////////////////////////////////////////////
 
-  var private = {
+  var carousel_ = undefined, 
+      aspectRatio_ = 16/9;
 
-    carousel: undefined
-  };
   var setPrivateVars = function() {
     
-    private.carousel = $("#brotherHomeCarousel");
+    carousel_ = $("#brotherHomeCarousel");
   }
 
   var helpers = (function() { 
 
     function sizingJS() {
-      var aspectRatio = 16/9;
-      var carouselWidth = private.carousel.width();
-      private.carousel.height(carouselWidth/aspectRatio);
+      var carouselWidth = carousel_.width();
+      carousel_.height(carouselWidth/aspectRatio_);
     }
 
     function responsiveJS() {
@@ -70,9 +68,5 @@ ndapp.controller('brotherHomeController', function($scope, ndService) {
   })();
 
   function eventHandlers() {
-
-    // Tooltips
-    $(".classSelector .2018Link").tooltip({title: "Coming Soon...", 
-                                           placement: "bottom"});
   }
 });

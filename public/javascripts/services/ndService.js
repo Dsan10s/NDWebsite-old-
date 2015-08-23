@@ -2,12 +2,14 @@ var ndapp = angular.module('ndapp');
 
 ndapp.service('ndService', function() {
 
-  var vars = {
+  var exports = {};
+
+  exports.vars = {
     
     address: "460 Beacon Street, Boston MA, 02115"
   }
 
-  var helpers = {
+  exports.helpers = {
     /** Returns an object with:
      *  - cssProp: The max or min of the width and the height of the image
      *  - cssVal: The value of the default width if cssProp = width
@@ -40,7 +42,7 @@ ndapp.service('ndService', function() {
     }
   }
 
-  var ajax = (function() {
+  exports.ajax = (function() {
 
     function eventsDeferred() {
       return $.getJSON('/data/events', function (data) {
@@ -73,16 +75,11 @@ ndapp.service('ndService', function() {
     }
   })();
 
-  function nanoScrollerInit() {
+  exports.nanoScrollerInit = function() {
     $(".nano").nanoScroller();
   }
 
-  return {
-    vars: vars, 
-    helpers: helpers,
-    ajax: ajax, 
-    nanoScrollerInit: nanoScrollerInit
-  }
+  return exports;
 })
 .directive("ts", function() {
   return {
