@@ -32,7 +32,7 @@ ndapp.controller('Controller', function($scope, ndService) {
      *
      */
     exports.responsiveJS = function() {
-      sizingJS();
+      exports.sizingJS();
     }
 
     return exports;

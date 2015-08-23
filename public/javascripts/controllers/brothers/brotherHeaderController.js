@@ -36,7 +36,7 @@ ndapp.controller('brotherHeaderController', function($scope, ndService) {
      *
      */
     exports.responsiveJS = function() {
-      sizingJS();
+      exports.sizingJS();
     }
 
     return exports;
