@@ -1,52 +1,108 @@
 {
   "events": [
     {
-      "type": "CPW", 
-      "name": "The Smash Brothers of Nu Delta", 
-      "time": "5:00 PM - 8:00 PM", 
-      "dateString": "4/17/15", 
-      "location": "Room 4-163", 
-      "description": "Join in on the chaos of an all-out 8-player Smash on the big screen with the brothers of Nu Delta! Devour a slice of pizza and quench your thirst with soda after the heat of battle."
-    }, 
+      "type": "Rush",
+      "name": "Greek Griller",
+      "time": "12:00 PM - 1:00 PM",
+      "dateString": "9/5/15",
+      "location": "MIT Kresge Oval",
+      "description": ""
+    },
     {
-      "type": "CPW", 
-      "name": "ND Lounging", 
-      "time": "9:00 PM - 12:00 AM", 
-      "dateString": "4/17/15", 
-      "location": "460 Beacon Street, Boston", 
-      "description": "Want to party tonight? We'll be ready to party hop with you. Or maybe you'd just like to take the night off and relax? Either way, come meet and chill with the brothers of Nu Delta at our house. There will be delicious chicken wings, good music, games, and more to go around!"
-    }, 
+      "type": "Rush",
+      "name": "Amp'd Up!",
+      "time": "12:30 PM - 6:00 PM",
+      "dateString": "9/5/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
     {
-      "type": "CPW", 
-      "name": "Nu Smoothies", 
-      "time": "12:00AM - 3:00AM", 
-      "dateString": "4/18/15", 
-      "location": "460 Beacon Street, Boston", 
-      "description": "All partied out tonight? Looking for something to eat? Stop by Nu Delta on your way home to close out the night with snacks and some next level smoothies."
-    }, 
+      "type": "Rush",
+      "name": "A Taste of Nu Delta",
+      "time": "8:00 PM - 11:00 PM",
+      "dateString": "9/5/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
     {
-      "type": "CPW", 
-      "name": "Tex-Mex Breakfast", 
-      "time": "8:00 AM - 11:00 AM", 
-      "dateString": "4/18/15", 
-      "location": "460 Beacon Street, Boston", 
-      "description": "Swing by Nu Delta for an amazing Tex-Mex style breakfast with chorizo, omelettes, and breakfast burritos. There will be bacon."
-    }, 
+      "type": "Rush",
+      "name": "Mission Impossible",
+      "time": "11:00 AM - 4:00 PM",
+      "dateString": "9/6/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
     {
-      "type": "CPW", 
-      "name": "Rock Bed BBQ", 
-      "time": "3:00 PM - 5:30 PM", 
-      "dateString": "4/18/15", 
-      "location": "460 Beacon Street, Boston", 
-      "description": "Nothing beats a good burger on a Saturday afternoon on Nu Delta's iconic Phoenix Rock Garden with great music and the brothers of Nu Delta."
-    }, 
+      "type": "Rush",
+      "name": "Nerf War",
+      "time": "6:00 PM - 8:00 PM",
+      "dateString": "9/6/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
     {
-      "type": "CPW", 
-      "name": "The D is for Dance", 
-      "time": "9:00 PM - 12:00 AM", 
-      "dateString": "4/18/15", 
-      "location": "460 Beacon Street, Boston", 
-      "description": "Are you ready to get your groove on with the brothers of Nu Delta? Cuz it's Saturday night and we're in the spot. Don't believe me? Just watch. Come dance to your hearts content to nothing but the greatest hits. Oh yeah, we have a dog, too."
+      "type": "Rush",
+      "name": "Monster Jam",
+      "time": "10:00 PM - 2:00 AM",
+      "dateString": "9/6/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Firing Range",
+      "time": "10:00 AM - 2:00 PM",
+      "dateString": "9/7/15",
+      "location": "Meet at 460 Beacon Street → Manchester, NH",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Skyzone",
+      "time": "3:00 PM - 5:30 PM",
+      "dateString": "9/7/15",
+      "location": "Meet at 460 Beacon Street → Skyzone Boston",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Steak and Lobster",
+      "time": "6:00 PM - 8:00 PM",
+      "dateString": "9/7/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Laser Tag",
+      "time": "8:00 PM - 12:00 AM",
+      "dateString": "9/7/15",
+      "location": "Meet at 460 Beacon Street → LazerQuest",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Target Runs",
+      "time": "2:00 PM - 4:00 PM",
+      "dateString": "9/8/15",
+      "location": "Meet at 460 Beacon Street → Somerville, MA",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Rockbed BBQ",
+      "time": "4:00 PM - 8:00 PM",
+      "dateString": "9/8/15",
+      "location": "460 Beacon Street",
+      "description": ""
+    },
+    {
+      "type": "Rush",
+      "name": "Dick's Last Resort",
+      "time": "7:00 PM - 10:00 PM",
+      "dateString": "9/9/15",
+      "location": "Meet at 460 Beacon Street → Dick's Last Resort",
+      "description": ""
     }
   ]
 }
