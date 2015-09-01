@@ -22,18 +22,17 @@
               <table>
                 <tr>
                   <td>
-                    <h4 class="eventTitle" ng-bind="event.name"></h4>
-                    <h6 class="eventDate" ng-bind="event.moment"></h6>
-                    <h6 class="eventTime" ng-bind="event.time"></h6>
+                    <h4 class="eventInfo eventTitle" ng-bind="event.name"></h4>
+<!--                <h6 class="eventDate" ng-bind="event.moment"></h6> -->
+                    <h5 class=" eventInfo eventTime" ng-bind="event.time"></h5>
+                    <h6 class=" eventInfo eventLocation" ng-bind="event.location"></h6>
                   </td>
                   <td width="30">
                     <span class="glyphicon glyphicon-chevron-down"></span>
                   </td>
                 </tr>
               </table>
-
-              <h6 class="eventLocation" ng-bind="event.location"></h6>
-              <p class="eventDescription" ng-bind="event.description"></p>
+              <p class="eventInfo eventDescription" ng-bind="event.description"></p>
             </div>
           </div>
         </div>

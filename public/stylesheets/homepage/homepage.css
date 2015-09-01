@@ -1,6 +1,6 @@
 body{
   /*background-image: url("Images/NDPattern2.PNG")*/
-  background: url(/images/homepage/Background.png) no-repeat center center fixed; 
+  /*background: url(/images/homepage/Background.png) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,8 +90,14 @@ body{
   border-color: #a90329;
 }
 
-#homepageContainer .monthEvent h4.eventTitle {
+#homepageContainer .monthEvent .eventTitle, 
+#homepageContainer .monthEvent .eventTime, 
+#homepageContainer .monthEvent .eventLocation {
   margin: 5px 0;
+}
+
+#homepageContainer .monthEvent .eventInfo {
+  font-weight: 400;
 }
 
 #homepageContainer .containerRight {

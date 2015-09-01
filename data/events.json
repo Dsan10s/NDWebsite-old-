@@ -2,14 +2,6 @@
   "events": [
     {
       "type": "Rush",
-      "name": "Greek Griller",
-      "time": "12:00 PM - 1:00 PM",
-      "dateString": "9/5/15",
-      "location": "MIT Kresge Oval",
-      "description": ""
-    },
-    {
-      "type": "Rush",
       "name": "Amp'd Up!",
       "time": "12:30 PM - 6:00 PM",
       "dateString": "9/5/15",
@@ -26,7 +18,7 @@
     },
     {
       "type": "Rush",
-      "name": "Mission Impossible",
+      "name": "Operation Phoenix Ascension",
       "time": "11:00 AM - 4:00 PM",
       "dateString": "9/6/15",
       "location": "460 Beacon Street",
@@ -34,7 +26,7 @@
     },
     {
       "type": "Rush",
-      "name": "Nerf War",
+      "name": "Nu(rf) Delta",
       "time": "6:00 PM - 8:00 PM",
       "dateString": "9/6/15",
       "location": "460 Beacon Street",

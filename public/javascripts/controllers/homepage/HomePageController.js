@@ -39,7 +39,7 @@ ndapp.controller('homepageController', function($scope, ndService) {
         var thisMoment = moment(thisDate, "MM/DD/YY");
         var nowMoment = moment(now);
 
-        var titleDate = moment(thisMoment).format('MMMM Do');
+        var titleDate = moment(thisMoment).format('ddd, MMMM Do');
 
         var isFuture = (thisMoment.diff(nowMoment, 'seconds') >= -(60 * 60 * 24));
 
