@@ -137,17 +137,4 @@
     "jumboSrc": "/images/brothers/2016/Mike/MikeJumbo.jpg", 
     "iconSrc": "/images/brothers/2016/Mike/MikeHS.jpg"
   },
-  "Anish Punjabi": { 
-    "info": [
-      {"infoName": "Pledge Number", "info": "9"}, 
-      {"infoName": "Major", "info": "6-3: Computer Science, and 15: Management"},
-      {"infoName": "Hometown", "info": "Colorado"}, 
-      {"infoName": "High School", "info": "Arapahoe High School"},
-      {"infoName": "Big Brother", "info": "David McClelland ('15)"}, 
-      {"infoName": "Activities", "info": "Class Council (Class of 2016 President)"}
-    ],
-    "familyTree": 4, 
-    "jumboSrc": "/images/brothers/2016/Anish/AnishJumbo.jpg", 
-    "iconSrc": "/images/brothers/2016/Anish/AnishHS.jpg"
-  }
 }

@@ -97,23 +97,4 @@
     "jumboSrc": "/images/brothers/2017/Carlos/CarlosHS.jpg", 
     "iconSrc": "/images/brothers/2017/Carlos/CarlosHS.jpg"
   },
-  "Frederick Odein Daso": {
-    "info": [
-      {"infoName": "Pledge Number", "info": "9"}, 
-      {"infoName": "Major", "info": "16: Aeronautics and Astronautics"},
-      {"infoName": "Minor", "info": "17: Political Science"}, 
-      {"infoName": "Hometown", "info": "Madison, Alabama"},
-      {"infoName": "High School", "info": "Bob Jones High School"},
-      {"infoName": "Big Brother", "info": "Aaron Okello ('16)"},
-      {"infoName": "Little Brother", "info": "Rex Shepherd ('18)"}, 
-      {"infoName": "Offices Held", "info": "Community Service Chair, Summer Housing Manager"},
-      {"infoName": "Activities", "info": "Class Council (Publicity Chair)"}, 
-      {"infoName": "Interests", "info": "Soccer, Video Games, Speechwriting, Politics, Blogging, Fashion, Super Smash Bros Melee"}, 
-      {"infoName": "UROPs", "info": "Carbon Fiber Pullout Research with the NECST Lab Consortium"}, 
-      {"infoName": "Favorite Quote", "info": "'Become not only a man of dreams, but also a man of means'"}
-    ], 
-    "familyTree": 1,  
-    "jumboSrc": "/images/brothers/2017/Fred/FredHS.jpg",
-    "iconSrc": "/images/brothers/2017/Fred/FredHS.jpg"
-  }
 }
