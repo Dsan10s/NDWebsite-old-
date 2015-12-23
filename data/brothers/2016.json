@@ -24,7 +24,7 @@
       {"infoName": "Interests", "info": "Singing, Video Games, Basketball, Anime, Superhero Shows, Public Speaking, Debate, Philospophy, Religion"}, 
       {"infoName": "Activities", "info": "CRU, MIT Logarhythms"},
       {"infoName": "UROPs", "info": "Laboratory for Biomechanics and Human Rehabilitation (Fall 2013)"}, 
-      {"infoName": "Internships", "info": "MISTI Spain (Universidad Polit&eacute;cnica de Catalunya)"}
+      {"infoName": "Employment", "info": "MISTI Spain (Universidad Polit&eacute;cnica de Catalunya)"}
     ], 
     "familyTree": 2, 
     "jumboSrc": "/images/brothers/2016/Brian/BrianJumbo.jpg", 
@@ -60,7 +60,7 @@
       {"infoName": "Interests", "info": "Hip-hop dance and breakdance, motion graphics/VFX, graphic design, origami, tennis, violin, programming "}, 
       {"infoName": "Activities", "info": "MIT Symphony Orchestra, Dance Troupe"}, 
       {"infoName": "UROPs", "info": "Camera Culture Lab, Fluid Interfaces (LuminAR), NB Haystack, MITx (edX)"}, 
-      {"infoName": "Internships", "info": "AT&T (DIRECTV), ClearSlide"}
+      {"infoName": "Employment", "info": "AT&T (DIRECTV), ClearSlide"}
     ], 
     "familyTree": 0, 
     "jumboSrc": "/images/brothers/2016/Me/MeJumbo.jpg", 
@@ -78,7 +78,7 @@
       {"infoName": "Interests", "info": "Volleyball, DJing, Hip-hop dance"}, 
       {"infoName": "Activities", "info": "Dance Troupe, Club Volleyball"}, 
       {"infoName": "UROPs", "info": "Fluid Interfaces (LuminAR), MIT IS&T, Space Systems Lab (REXIS)"}, 
-      {"infoName": "Internships", "info": "AT&T (DIRECTV)"}
+      {"infoName": "Employment", "info": "AT&T (DIRECTV)"}
     ],
     "familyTree": 5, 
     "jumboSrc": "/images/brothers/2016/Eric/EricJumbo.jpg", 
@@ -96,7 +96,7 @@
       {"infoName": "Interests", "info": "Dancing, Basketball"},
       {"infoName": "Activities", "info": "Dance Troupe"},
       {"infoName": "UROPs", "info": "Space Systems Lab (Zero Robotics)"},
-      {"infoName": "Internships", "info": "ClearSlide"}, 
+      {"infoName": "Employment", "info": "Redfin, ClearSlide"}, 
       {"infoName": "Favorite Quote", "info": "'God grant me the serenity to accept the things I can't change, the courage to change the things I can, and the wisdom to know the difference'"}
     ],
     "familyTree": 3, 
@@ -122,16 +122,16 @@
   "Mikael Mengistu": { 
     "info": [
       {"infoName": "Pledge Number", "info": "8"},
-      {"infoName": "Major", "info": "6-2: Electrical Engineering and Computer Science"}, 
+      {"infoName": "Major", "info": "6-3: Computer Science"}, 
       {"infoName": "Hometown", "info": "Portland, Oregon"}, 
       {"infoName": "High School", "info": "Franklin High School"}, 
       {"infoName": "Big Brother", "info": "Nahom Workie ('13)"},
       {"infoName": "Little Brother", "info": "Yoeal Efrem ('18)"}, 
       {"infoName": "Offices Held", "info": "House Manager, Athletic Chair"},
-      {"infoName": "Interests", "info": "Soccer, Coding, Family"},
-      {"infoName": "Activities", "info": "Dance Troupe"},
-      {"infoName": "UROPs", "info": "MIT IS&T, Space Systems Lab (REXIS)"},
-      {"infoName": "Internships", "info": "Redfin"}
+      {"infoName": "Interests", "info": "Coding, Politics, Soccer, Music"},
+      {"infoName": "UROPs", "info": "Space Systems Lab, Computational Perception & Cognition"},
+      {"infoName": "Employment", "info": "GroupMe, Redfin, Microsoft"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;Don't pray for easier lives, pray to be stronger men&quot;"}
     ],
     "familyTree": 1, 
     "jumboSrc": "/images/brothers/2016/Mike/MikeJumbo.jpg", 

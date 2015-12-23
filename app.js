@@ -22,6 +22,7 @@ app.configure(function(){
   });
 
   app.use(function(err, req, res, next) {
+    console.log(err)
     res.render('errors/pageNotFound', {
       status: err.status || 500, 
       error: err, 

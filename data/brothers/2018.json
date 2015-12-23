@@ -6,9 +6,10 @@
       {"infoName": "Hometown", "info": "Albuquerque, New Mexico"}, 
       {"infoName": "High School", "info": "Hope Christian School"}, 
       {"infoName": "Big Brother", "info": "James Rivera ('17)"},
-      {"infoName": "Interests", "info": "Music, Basketball, and every other sport"},
-      {"infoName": "UROPs", "info": "Strano Group (Chemical Engineering Lab)"}, 
-      {"infoName": "Internships", "info": "Yearout Mechanical Inc."}
+      {"infoName": "Offices Held", "info": "Social Chair"}, 
+      {"infoName": "Interests", "info": "Music, Basketball, Sports, Energy, and Chemistry"},
+      {"infoName": "UROPs", "info": "Cleanroom Researcher at the Harvard Center for Nanoscale Systems, <br>Undergraduate Researcher at MIT Strano Research Lab"}, 
+      {"infoName": "Employment/Internships", "info": "Estimating Intern at Yearout Mechanical, Brand Ambassador Co-op At Favor"}
     ], 
     "familyTree": 6, 
     "jumboSrc": "/images/brothers/2018/Brandon/BrandonFull.jpg", 
@@ -17,13 +18,16 @@
   "Jordan Browne": {
     "info": [
       {"infoName": "Pledge Number", "info": "2"}, 
-      {"infoName": "Major", "info": "Mathematics"}, 
+      {"infoName": "Major", "info": "Mathematics and Economics"}, 
       {"infoName": "Minor", "info": "Management Science with a Concentration in Finance"}, 
       {"infoName": "Hometown", "info": "Plymouth, New Hampshire"}, 
       {"infoName": "High School", "info": "Cambridge Rindge and Latin School"}, 
+      {"infoName": "Offices Held", "info": "Treasurer"},
       {"infoName": "Big Brother", "info": "Brian Wilcox ('16)"}, 
-      {"infoName": "Interests", "info": "Derivatives Trading, Algorithmic Trading, Rowing"}, 
-      {"infoName": "Favorite Quote", "info": "&quot;I was born for a storm, and a calm does not suit me.&quot; -President Andrew Jackson"}
+      {"infoName": "Interests", "info": "Algorithmic trading, market speculation, politics"}, 
+      {"infoName": "Employment", "info": "Financial Analyst at Genealogical Search Incorporated Quantitative Analyst Intern at Natixis Global Asset Management"}, 
+      {"infoName": "Activities", "info": "Rowing, squash"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek&quot; -President Barack Obama"}
     ], 
     "familyTree": 2, 
     "jumboSrc": "/images/brothers/2018/Jordan/JordanFull.jpg", 
@@ -93,7 +97,9 @@
       {"infoName": "Major", "info": "Computer Science"}, 
       {"infoName": "Hometown", "info": "Cambridge, MA"}, 
       {"infoName": "High School", "info": "Cambridge Rindge and Latin School"}, 
+      {"infoName": "Offices Held", "info": "House manager"}, 
       {"infoName": "Big Brother", "info": "Mikael Mengistu ('16)"}, 
+      {"infoName": "Employment", "info": "Intern at Rev"}, 
       {"infoName": "Interests", "info": "Soccer, Basketball, Artificial Intelligence"}
     ], 
     "familyTree": 1, 
@@ -103,11 +109,15 @@
   "Rex Shepherd": {
     "info": [
       {"infoName": "Pledge Number", "info": "9"}, 
+      {"infoName": "Major", "info": "16: Aerospace Engineering"},
       {"infoName": "Hometown", "info": "Mandeville, Louisiana"}, 
       {"infoName": "High School", "info": "Lakeshore High School"}, 
       {"infoName": "Big Brother", "info": "Frederick Odein Daso ('17)"}, 
+      {"infoName": "Employment/Internships", "info": "RMC"}, 
+      {"infoName": "Activities", "info": "Foorball"}, 
       {"infoName": "Interests", "info": "Football, Biking, Card games"}, 
-      {"infoName": "Programs", "info": "Interphase 2014"}
+      {"infoName": "Programs", "info": "Interphase 2014"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;If at any time you should have need of my life, come and take it.&quot; -Checkov, &quot;The Sea-Gull&quot;"}
     ], 
     "familyTree": 1, 
     "jumboSrc": "/images/brothers/2018/Rex/RexFull.jpg", 
@@ -119,6 +129,9 @@
       {"infoName": "Major", "info": "Computer Science"}, 
       {"infoName": "Hometown", "info": "San Antonio, Texas"}, 
       {"infoName": "High School", "info": "James Madison High School"}, 
+      {"infoName": "Offices Held", "info": "Community Service and Recycling Chair"}, 
+      {"infoName": "Employment", "info": "CC.110 &quot;Becoming Human: Ancient Greek Perspectives on the Good Life&quot; TA"}, 
+      {"infoName": "Activities", "info": "MIT Leadership Training Institute (LTI) - Program and Activities Mentor, MIT MedLinks, MIT TechCallers"}, 
       {"infoName": "Big Brother", "info": "Aaron Okello ('16)"}
     ], 
     "familyTree": 1, 

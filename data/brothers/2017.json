@@ -4,15 +4,18 @@
       {"infoName": "Pledge Number", "info": "1"}, 
       {"infoName": "Major", "info": "6-3: Computer Science"}, 
       {"infoName": "Hometown", "info": "Jerusalem, Palestine"},
+      {"infoName": "High School", "info": "AISJ"}, 
       {"infoName": "Big Brother", "info": "Kojo Welbeck ('14)"},
       {"infoName": "Little Brother", "info": "Eduardo Orozco ('18)"}, 
       {"infoName": "Offices Held", "info": "Alumni Secretary, Webmaster"},
-      {"infoName": "Interests", "info": "Entrepreneurship, Computer Science, Soccer"},
-      {"infoName": "UROPs", "info": "ECHOES with CSAIL Prof Karger"},
-      {"infoName": "Employed as", "info": "6.01 SLA (2014), MISTI-MEET CS Instructor and Recruiter (Summers 2013,2014), MISTI-GSL Tech Assistant (Summer 2014 @Mexico)"}
+      {"infoName": "Interests", "info": "Entrepreneurship, Computer Science, Hackathons, Violin, Peace, Soccer, Cards, Board games"},
+      {"infoName": "UROPs", "info": "ECHOES with at CSAIL (Prof Karger) REPLACE at Media Lab Changing Places Group (Prof Larson)"},
+      {"infoName": "Employment", "info": "6.01 SLA (Spring 2014), MISTI-GSL Tech Assistant (Summer 2014 @Mexico), MISTI-MEET CS Instructor Y1, Y2, Y3 (Summer 2014 @Jerusalem), 6.01 LA (Fall 2014), 6.S198 TA (Spring 2015), Ab Initio (Summer 2015)"}, 
+      {"infoName": "Activities", "info": "MISTI-MEET VP of Recruitment (2014-2015), MISTI-MEET President (2015-)"}, 
+      {"infoName": "Favorite Quote", "info": "&quot;To become a leader, you must first become a human being&quot;"}
     ], 
     "familyTree": 2,  
-    "jumboSrc": "/images/brothers/2017/Amin/AminHS.jpg", 
+    "jumboSrc": "/images/brothers/2017/Amin/AminFull.jpg", 
     "iconSrc": "/images/brothers/2017/Amin/AminHS.jpg"
   },
   "Moti Ogunsina": {
@@ -41,7 +44,7 @@
       {"infoName": "Little Brother", "info": "Stephen Gaffley ('18)"}, 
       {"infoName": "Offices Held", "info": "Athletic Chair"},
       {"infoName": "Interests", "info": "Math, Family, Anime, Soccer and Other Sports, USA Network"},
-      {"infoName": "Internships", "info": "Audible.com"}
+      {"infoName": "Employment", "info": "Audible.com"}
     ], 
     "familyTree": 4,  
     "jumboSrc": "/images/brothers/2017/Alan/AlanHS.jpg",
@@ -57,7 +60,7 @@
       {"infoName": "Little Brother", "info": "Jeremiah Smith ('18)"}, 
       {"infoName": "Offices Held", "info": "House Manager"},
       {"infoName": "Interests", "info": "Rubik's cubing, video games, volleyball"},
-      {"infoName": "Internships", "info": "Shoobx"}
+      {"infoName": "Employment", "info": "Shoobx"}
     ], 
     "familyTree": 2,  
     "jumboSrc": "/images/brothers/2017/Narindra/NarindraJumbo.jpg", 
@@ -66,7 +69,7 @@
   "James Rivera": {
     "info": [
       {"infoName": "Pledge Number", "info": "6"}, 
-      {"infoName": "Major", "info": "16: Aeronautics and Astronautics"},
+      {"infoName": "Major", "info": "16: Aerospace Engineering"},
       {"infoName": "Hometown", "info": "Las Cruces, New Mexico"},
       {"infoName": "High School", "info": "Mesilla Valley Christian School"},
       {"infoName": "Big Brother", "info": "Alejandro Romero ('16)"},
@@ -90,7 +93,7 @@
       {"infoName": "Offices Held", "info": "Steward, Assistant Rush Chair"},
       {"infoName": "Interests", "info": "Coffee, Video Games, Pokemon, Languages, Robotics, Entrepreneurship"},
       {"infoName": "UROPs", "info": "Visualization of Mathematical Relations using Haptic Feedback (Edgerton Center)"},
-      {"infoName": "Internships", "info": "ShooBx"},
+      {"infoName": "Employment", "info": "ShooBx"},
       {"infoName": "Favorite Quote", "info": "'When 'I' is replaced with 'we', even illness becomes wellness.'"}
     ], 
     "familyTree": 3,  
