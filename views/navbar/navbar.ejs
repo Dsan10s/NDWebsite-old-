@@ -18,8 +18,8 @@
        data-target="{{link.dataTarget}}">
 
       <div class="linkDiv">
-        <span class="glyphicon glyphicon-{{link.icon}}"></span>
-        <span ng-bind="link.text"></span>
+        <span ng-style="link.style.icon" class="glyphicon glyphicon-{{link.icon}}"></span>
+        <span ng-style="link.style.text" ng-bind="link.text"></span>
       </div>
     </a>
   </div>

@@ -1,0 +1,41 @@
+.first-letter {
+	font-size: 450%;
+	font-weight: bold;
+	color: #4A29F3;	
+}
+
+.slide {
+	font-weight: 350%
+}
+
+.text {
+	font-size: 200%;
+}
+
+.left-start{
+	text-align: center;
+	margin-left: -200px;
+	
+
+}
+.tab {
+	padding-left: 4em;
+}
+
+.heart {
+	color: red; 
+}
+
+.footer {
+	vertical-align: text-bottom;
+}
+
+.right-start{
+	text-align: center;
+	margin-left: 200px;
+}
+
+.links {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

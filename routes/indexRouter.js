@@ -44,4 +44,11 @@ module.exports = function(app) {
     res.render('house/house', {title: "N&Delta; House"});
   });
 
+  ///////////////////////////////////////////////////////////////////
+  // RAK
+  ///////////////////////////////////////////////////////////////////
+
+  app.get('/rak', function(req, res) {
+    res.render('rak/rak', {title: "N&Delta; RAK"});
+  });
 }
